@@ -1609,3 +1609,29 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.06-01.51.43:177][787]LogFileHelpers: Loading map 'TutorialLevel' took 0.058
 [2021.10.06-01.51.43:191][787]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileSet
 [2021.10.06-01.51.43:191][787]LogContentValidation: Display: Validating PaperTileSet /Game/Level/craftpix-net-481532-free-medieval-tileset-pixel-art-pack/Medieval_tiles_free2_TileSet.Medieval_tiles_free2_TileSet
+[2021.10.06-02.01.40:538][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.10.06-02.01.50:983][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2021.10.06-02.01.56:368][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.10.06-02.01.58:425][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (dwFloor2)
+[2021.10.06-02.02.32:473][316]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.10.06-02.07.19:268][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (dwFloor2)
+[2021.10.06-02.07.19:961][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.10.06-02.07.32:972][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2021.10.06-02.08.48:757][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (dwFloor2)
+[2021.10.06-02.08.49:383][967]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.10.06-02.11.13:753][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.10.06-02.11.13:766][198]LogSavePackage: Moving '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Saved/TutorialLevelF92EA1284BF14909C5452CB871CB2BBD.tmp' to '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Content/Level/Levels/TutorialLevel.umap'
+[2021.10.06-02.11.13:792][198]LogSavePackage: Moving '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Saved/TutorialLevel_BuiltData53A8268847ABC1F6D4366CAA1A06342F.tmp' to '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Content/Level/Levels/TutorialLevel_BuiltData.uasset'
+[2021.10.06-02.11.13:800][198]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.06-02.11.13:800][198]LogContentValidation: Display: Validating World /Game/Level/Levels/TutorialLevel.TutorialLevel
+[2021.10.06-02.11.13:800][198]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/Levels/TutorialLevel_BuiltData.TutorialLevel_BuiltData
+[2021.10.06-02.11.27:516][634]LogSlate: Window 'Message Log' being destroyed
+[2021.10.06-02.11.27:521][634]LogSlate: Window 'Message Log' being destroyed
+[2021.10.06-02.13.47:709][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2021.10.06-02.13.49:025][679]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.10.06-02.13.49:956][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.10.06-02.13.49:968][787]LogSavePackage: Moving '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Saved/TutorialLevelEF5CAE0F4A0C5B36FB59C3B4986A82BE.tmp' to '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Content/Level/Levels/TutorialLevel.umap'
+[2021.10.06-02.13.49:990][787]LogSavePackage: Moving '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Saved/TutorialLevel_BuiltData24007987438DD567511A16B0400CA40D.tmp' to '../../../../Uni/Documents/Uni/2021/Semester 2/IT Project/PoH/PrisonOfHell/Content/Level/Levels/TutorialLevel_BuiltData.uasset'
+[2021.10.06-02.13.49:998][787]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.06-02.13.49:998][787]LogContentValidation: Display: Validating World /Game/Level/Levels/TutorialLevel.TutorialLevel
+[2021.10.06-02.13.49:998][787]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/Levels/TutorialLevel_BuiltData.TutorialLevel_BuiltData
