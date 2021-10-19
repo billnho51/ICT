@@ -1388,3 +1388,1386 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.19-02.14.03:735][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
 [2021.10.19-02.14.05:589][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
 [2021.10.19-02.14.06:882][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.19-02.14.52:292][139]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-02.14.52:299][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-02.14.52:299][139]PIE: New page: PIE session: POH_1 (19 Oct 2021, 11:14:52 pm)
+[2021.10.19-02.14.52:299][139]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.14.52:302][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003133s)
+[2021.10.19-02.14.52:304][139]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.14.52:304][139]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2021.10.19-02.14.52:304][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.005453s)
+[2021.10.19-02.14.52:315][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.10.19-02.14.52:315][139]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-02.14.52:315][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-02.14.52:315][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-02.14.52:316][139]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-02.14.52:316][139]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-02.14.52:318][139]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-02.14.52:318][139]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-02.14.52:369][139]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-02.14.52:370][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-02.14.52:370][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-02.14.52:370][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-02.14.52:370][139]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-02.14.52:370][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-02.14.52:371][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-02.14.52:392][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-02.14.52:392][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-02.14.52:392][139]LogInit: FAudioDevice initialized.
+[2021.10.19-02.14.52:392][139]LogAudio: Display: Audio Device (ID: 8) registered with world 'POH_1'.
+[2021.10.19-02.14.52:401][139]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.14.52:428][139]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-12.44.52
+[2021.10.19-02.14.52:430][139]LogWorld: Bringing up level for play took: 0.027786
+[2021.10.19-02.14.52:430][139]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.10.19-02.14.52:491][139]PIE: Server logged in
+[2021.10.19-02.14.52:493][139]PIE: Play in editor total start time 0.194 seconds.
+[2021.10.19-02.15.13:458][382]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-02.15.13:458][382]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-02.15.13:458][382]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.15.13:458][382]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.15.13:461][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.15.13:470][382]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-02.15.13:473][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.10.19-02.15.13:481][382]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.15.13:484][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2021.10.19-02.15.13:485][382]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.15.13:485][382]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2021.10.19-02.15.13:485][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004077s)
+[2021.10.19-02.15.13:485][382]LogAudio: Display: Audio Device (ID: 8) registered with world 'POH_1'.
+[2021.10.19-02.15.13:485][382]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.15.13:491][382]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-12.45.13
+[2021.10.19-02.15.13:492][382]LogWorld: Bringing up level for play took: 0.006161
+[2021.10.19-02.15.13:518][382]LogLoad: Took 0.061310 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-02.15.18:700][688]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-02.15.18:700][688]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-02.15.18:700][688]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.15.18:701][688]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.15.18:703][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.15.18:713][688]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-02.15.18:715][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.10.19-02.15.18:722][688]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.15.18:724][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002463s)
+[2021.10.19-02.15.18:725][688]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.15.18:726][688]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2021.10.19-02.15.18:726][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003742s)
+[2021.10.19-02.15.18:726][688]LogAudio: Display: Audio Device (ID: 8) registered with world 'POH_1'.
+[2021.10.19-02.15.18:726][688]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.15.18:731][688]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-12.45.18
+[2021.10.19-02.15.18:732][688]LogWorld: Bringing up level for play took: 0.006089
+[2021.10.19-02.15.18:759][688]LogLoad: Took 0.059260 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-02.15.28:113][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.15.28:113][243]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.15.28:113][243]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.15.28:115][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.15.28:127][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-02.15.28:141][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.15.28:150][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-02.15.28:150][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.15.28:151][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.15.28:174][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.15.28:176][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.10.19-02.15.28:207][244]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.10.19-02.15.34:770][602]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/TestingCharacter.TestingCharacter
+[2021.10.19-02.15.35:944][602]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0097 seconds. Added 126 classes and 0 folders.
+[2021.10.19-02.15.40:254][603]LogSlate: Took 0.031653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.19-02.15.52:446][104]LogEditorTransaction: Undo Set Node Enabled State
+[2021.10.19-02.16.01:098][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.10.19-02.16.01:122][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/TestingCharacter" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Character/TestingCharacter.uasset" SILENT=true
+[2021.10.19-02.16.01:311][398]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/TestingCharacterA0E03BBE4F23080F7E1D0A9C1A7265E8.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Character/TestingCharacter.uasset'
+[2021.10.19-02.16.01:328][398]AssetCheck: New page: Asset Save: TestingCharacter
+[2021.10.19-02.16.01:328][398]LogContentValidation: Display: Validating Blueprint /Game/Character/TestingCharacter.TestingCharacter
+[2021.10.19-02.16.03:349][478]LogSlate: Window 'TestingCharacter' being destroyed
+[2021.10.19-02.16.03:424][478]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.16.03:424][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.16.06:664][649]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-02.16.06:671][649]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.19-02.16.06:704][649]LogPlayLevel: [PlayLevel] Compiling TestingCharacter before play...
+[2021.10.19-02.16.06:810][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.10.19-02.16.06:811][649]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2021.10.19-02.16.06:812][649]PIE: New page: PIE session: POH_1 (19 Oct 2021, 11:16:06 pm)
+[2021.10.19-02.16.06:812][649]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.16.06:814][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2021.10.19-02.16.06:815][649]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.16.06:815][649]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2021.10.19-02.16.06:815][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003712s)
+[2021.10.19-02.16.06:843][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.10.19-02.16.06:844][649]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-02.16.06:844][649]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-02.16.06:844][649]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-02.16.06:844][649]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-02.16.06:846][649]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-02.16.06:846][649]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-02.16.06:898][649]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-02.16.06:898][649]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-02.16.06:898][649]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-02.16.06:898][649]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-02.16.06:899][649]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-02.16.06:899][649]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-02.16.06:899][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-02.16.06:919][649]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-02.16.06:919][649]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-02.16.06:919][649]LogInit: FAudioDevice initialized.
+[2021.10.19-02.16.06:919][649]LogAudio: Display: Audio Device (ID: 9) registered with world 'POH_1'.
+[2021.10.19-02.16.06:929][649]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.16.06:955][649]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-12.46.06
+[2021.10.19-02.16.06:956][649]LogWorld: Bringing up level for play took: 0.027005
+[2021.10.19-02.16.06:957][649]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.10.19-02.16.06:970][649]PIE: Server logged in
+[2021.10.19-02.16.06:971][649]PIE: Play in editor total start time 0.3 seconds.
+[2021.10.19-02.16.08:323][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.16.08:323][710]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.16.08:324][710]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.16.08:325][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.16.08:334][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-02.16.08:348][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.16.08:368][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.16.08:368][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.16.08:368][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.16.08:398][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.10.19-02.16.08:445][711]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.10.19-02.17.20:948][933]LogEditorViewport: Clicking Background
+[2021.10.19-02.17.22:461][ 20]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.10.19-02.17.31:028][403]LogEditorViewport: Clicking Background
+[2021.10.19-02.17.31:986][457]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.10.19-02.20.20:440][782]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.20.37:489][147]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.20.37:548][147]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.20.37:548][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.20.39:546][240]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.21.15:555][252]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.21.15:612][252]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.21.15:612][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.21.22:532][536]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.21.30:919][785]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.21.30:972][785]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.21.30:972][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.21.34:509][904]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.24.05:574][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.10.19-02.24.05:611][578]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1_Auto43EE92FEB40AED0CE1589C5BAF0D12B67.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Autosaves/Game/Level/POH_1_Auto4.umap'
+[2021.10.19-02.24.05:613][578]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/POH_1' took 0.086
+[2021.10.19-02.24.05:613][578]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.086
+[2021.10.19-02.26.35:866][662]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap04B904BE45344C4BC26E3AB9B4F89BD2.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap.uasset'
+[2021.10.19-02.26.35:897][662]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap
+[2021.10.19-02.26.35:897][662]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.26.37:924][727]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.26.37:983][727]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.26.37:983][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.26.42:963][972]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Level/Assets/Medieval_props_free.Medieval_props_free
+[2021.10.19-02.26.43:100][972]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2021.10.19-02.26.46:219][ 71]LogSlate: Window 'Medieval_props_free' being destroyed
+[2021.10.19-02.26.47:434][123]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/Level/Assets/Medieval_props_free_TileSet.Medieval_props_free_TileSet
+[2021.10.19-02.27.01:362][310]LogSlate: Window 'Medieval_props_free_TileSet' being destroyed
+[2021.10.19-02.27.01:382][310]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.27.01:382][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.27.03:186][391]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Level/Assets/Medieval_tiles_free2.Medieval_tiles_free2
+[2021.10.19-02.27.04:916][462]LogSlate: Window 'Medieval_tiles_free2' being destroyed
+[2021.10.19-02.27.06:139][517]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/Level/Assets/Medieval_tiles_free2_TileSet.Medieval_tiles_free2_TileSet
+[2021.10.19-02.27.16:905][538]LogSlate: Window 'Medieval_tiles_free2_TileSet' being destroyed
+[2021.10.19-02.27.16:942][538]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.27.16:942][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.27.18:624][596]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Level/Assets/Modern_Objects_Tileset.Modern_Objects_Tileset
+[2021.10.19-02.27.20:472][671]LogSlate: Window 'Modern_Objects_Tileset' being destroyed
+[2021.10.19-02.27.21:614][720]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/Level/Assets/Modern_Objects_Tileset_TileSet.Modern_Objects_Tileset_TileSet
+[2021.10.19-02.27.25:874][844]LogSlate: Window 'Modern_Objects_Tileset_TileSet' being destroyed
+[2021.10.19-02.27.25:894][844]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.27.25:894][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.27.33:044][182]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Level/Assets/Modern_Tileset.Modern_Tileset
+[2021.10.19-02.27.35:099][265]LogSlate: Window 'Modern_Tileset' being destroyed
+[2021.10.19-02.27.39:596][491]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/Level/Assets/Modern_Tileset_TileSet.Modern_Tileset_TileSet
+[2021.10.19-02.27.44:992][566]LogSlate: Window 'Modern_Tileset_TileSet' being destroyed
+[2021.10.19-02.27.45:016][566]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.27.45:016][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.27.51:080][858]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.27.53:790][924]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.27.53:845][924]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.27.53:845][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.27.55:045][979]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.10.19-02.29.36:590][992]LogSlate: Window 'Medieval_tiles_free2_TileMap' being destroyed
+[2021.10.19-02.29.36:647][992]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.29.36:647][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.29.51:345][565]LogEditorViewport: Clicking Background
+[2021.10.19-02.29.57:828][927]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap2)
+[2021.10.19-02.29.59:864][994]LogEditorViewport: Clicking Background
+[2021.10.19-02.30.04:091][237]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.04:091][237]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-02.30.05:460][273]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.05:460][273]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-02.30.06:416][325]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.06:416][325]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-02.30.07:088][339]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.07:088][339]LogEditorTransaction: Undo Create Actors
+[2021.10.19-02.30.19:827][944]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.30.24:738][144]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.24:738][144]LogEditorTransaction: Undo Scale Actors
+[2021.10.19-02.30.28:819][296]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.28:819][296]LogEditorTransaction: Undo Scale Actors
+[2021.10.19-02.30.30:813][385]LogEditorViewport: Clicking Background
+[2021.10.19-02.30.31:657][433]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.31:657][433]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-02.30.32:973][475]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.32:973][475]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-02.30.34:236][528]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.34:236][528]LogEditorTransaction: Undo Edit Projection Mode
+[2021.10.19-02.30.35:789][583]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.35:789][583]LogEditorTransaction: Undo Set Location
+[2021.10.19-02.30.37:070][631]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.37:070][631]LogEditorTransaction: Undo Move Actors
+[2021.10.19-02.30.37:616][650]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.37:616][650]LogEditorTransaction: Undo Move Actors
+[2021.10.19-02.30.39:022][705]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.39:022][705]LogEditorTransaction: Undo Set Location
+[2021.10.19-02.30.40:240][751]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.40:240][751]LogEditorTransaction: Undo Move Actors
+[2021.10.19-02.30.40:939][777]Cmd: TRANSACTION UNDO
+[2021.10.19-02.30.40:939][777]LogEditorTransaction: Undo Move Actors
+[2021.10.19-02.30.54:849][377]LogEditorViewport: Clicking Background
+[2021.10.19-02.30.57:325][520]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.31.01:774][737]LogEditorViewport: Clicking Background
+[2021.10.19-02.31.07:306][949]LogEditorViewport: Clicking Background
+[2021.10.19-02.31.08:320][996]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap2)
+[2021.10.19-02.31.10:830][ 81]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.31.14:391][203]LogEditorViewport: Clicking Background
+[2021.10.19-02.31.15:407][250]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap2)
+[2021.10.19-02.31.18:678][372]Cmd: DELETE
+[2021.10.19-02.31.18:691][372]Cmd: ACTOR DELETE
+[2021.10.19-02.31.19:129][372]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2021.10.19-02.31.19:253][372]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.10.19-02.31.19:274][372]LogEditorActor: Deleted 1 Actors (0.218 secs)
+[2021.10.19-02.32.35:407][854]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.33.05:238][308]Cmd: TRANSACTION UNDO
+[2021.10.19-02.33.05:238][308]LogEditorTransaction: Undo Set Location
+[2021.10.19-02.33.05:821][315]Cmd: TRANSACTION UNDO
+[2021.10.19-02.33.05:821][315]LogEditorTransaction: Undo Set Location
+[2021.10.19-02.33.06:506][340]Cmd: TRANSACTION UNDO
+[2021.10.19-02.33.06:507][340]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-02.33.07:889][416]LogEditorViewport: Clicking Background
+[2021.10.19-02.33.09:329][499]Cmd: TRANSACTION UNDO
+[2021.10.19-02.33.09:329][499]LogEditorTransaction: Undo Delete Actors
+[2021.10.19-02.33.11:248][575]Cmd: TRANSACTION UNDO
+[2021.10.19-02.33.11:248][575]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-02.33.19:326][962]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap2)
+[2021.10.19-02.33.20:182][975]Cmd: DELETE
+[2021.10.19-02.33.20:182][975]Cmd: ACTOR DELETE
+[2021.10.19-02.33.20:184][975]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2021.10.19-02.33.20:250][975]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.10.19-02.33.20:261][975]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.10.19-02.34.22:365][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.19-02.34.22:380][164]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1_Auto5E04EA28E41B3D27044841780265EE558.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Autosaves/Game/Level/POH_1_Auto5.umap'
+[2021.10.19-02.34.22:382][164]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/POH_1' took 0.039
+[2021.10.19-02.34.22:382][164]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2021.10.19-02.34.55:318][ 75]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.34.58:047][194]LogEditorViewport: Clicking Background
+[2021.10.19-02.34.58:673][229]LogEditorViewport: Clicking Background
+[2021.10.19-02.35.00:077][312]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.35.04:184][514]LogEditorViewport: Clicking Background
+[2021.10.19-02.35.11:478][948]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.35.13:122][ 12]Cmd: DELETE
+[2021.10.19-02.35.13:122][ 12]Cmd: ACTOR DELETE
+[2021.10.19-02.35.13:124][ 12]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2021.10.19-02.35.13:173][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.10.19-02.35.13:185][ 12]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2021.10.19-02.35.28:376][924]Cmd: TRANSACTION UNDO
+[2021.10.19-02.35.28:376][924]LogEditorTransaction: Undo Delete Actors
+[2021.10.19-02.35.29:855][966]LogEditorViewport: Clicking Background
+[2021.10.19-02.35.33:904][202]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.35.48:508][808]LogEditorViewport: Clicking Background
+[2021.10.19-02.35.50:144][901]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.35.51:900][  4]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.35.53:282][ 85]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.35.57:478][269]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.35.59:933][378]LogEditorViewport: Clicking Background
+[2021.10.19-02.36.00:870][431]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.36.09:347][902]LogEditorViewport: Clicking Background
+[2021.10.19-02.36.26:274][910]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.36.50:327][745]LogEditorViewport: Clicking Background
+[2021.10.19-02.36.50:811][773]Cmd: TRANSACTION UNDO
+[2021.10.19-02.36.50:811][773]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-02.36.51:678][790]Cmd: TRANSACTION UNDO
+[2021.10.19-02.36.51:678][790]LogEditorTransaction: Undo Set Location
+[2021.10.19-02.37.18:274][977]LogEditorViewport: Clicking Background
+[2021.10.19-02.37.21:367][157]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.37.42:026][160]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.37.43:890][270]Cmd: DELETE
+[2021.10.19-02.37.43:890][270]Cmd: ACTOR DELETE
+[2021.10.19-02.37.43:892][270]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2021.10.19-02.37.43:925][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.10.19-02.37.43:943][270]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2021.10.19-02.38.59:710][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.39.00:457][444]LogEditorViewport: Clicking Background
+[2021.10.19-02.39.14:540][134]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.39.26:363][673]LogEditorViewport: Clicking Background
+[2021.10.19-02.39.30:053][811]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.39.41:367][214]LogEditorViewport: Clicking Background
+[2021.10.19-02.39.56:673][121]LogEditorViewport: Clicking Background
+[2021.10.19-02.39.57:483][169]Cmd: TRANSACTION UNDO
+[2021.10.19-02.39.57:483][169]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-02.39.58:926][234]Cmd: TRANSACTION UNDO
+[2021.10.19-02.39.58:927][234]LogEditorTransaction: Undo Set Scale
+[2021.10.19-02.40.08:534][701]LogEditorViewport: Clicking Background
+[2021.10.19-02.45.25:692][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.10.19-02.45.25:721][981]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1_Auto6D683A8E1488378741C0C70846E41D491.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Autosaves/Game/Level/POH_1_Auto6.umap'
+[2021.10.19-02.45.25:723][981]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/POH_1' took 0.062
+[2021.10.19-02.45.25:723][981]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2021.10.19-02.45.26:519][ 14]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.45.43:168][961]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.45.48:442][276]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.45.56:630][750]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.47.07:981][862]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.47.37:164][981]LogEditorViewport: Clicking Background
+[2021.10.19-02.48.03:440][473]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.48.40:196][535]LogEditorViewport: Clicking Background
+[2021.10.19-02.48.44:602][793]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.48.49:180][ 56]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.48.50:110][108]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.48.50:945][143]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.48.56:264][421]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.48.59:507][609]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.49.01:436][721]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.49.02:383][774]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.49.03:319][827]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.49.06:767][ 27]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.49.08:800][146]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.49.09:879][195]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.49.10:707][242]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.49.12:643][350]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.49.13:211][370]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.49.15:684][515]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.49.17:968][650]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.49.29:949][343]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.49.36:434][655]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.49.42:695][ 20]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.50.06:564][165]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.50.07:877][219]LogEditorViewport: Clicking Background
+[2021.10.19-02.51.04:442][ 33]LogEditorViewport: Clicking Background
+[2021.10.19-02.52.33:969][685]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.53.22:013][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-02.53.22:050][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.10.19-02.53.22:078][659]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1C636CB7D47DF60C3AE8671850076BFB8.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-02.53.22:099][659]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-02.53.22:099][659]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-02.53.24:823][790]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.10.19-02.53.27:676][930]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-02.53.27:685][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-02.53.27:685][930]PIE: New page: PIE session: POH_1 (19 Oct 2021, 11:53:27 pm)
+[2021.10.19-02.53.27:685][930]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.53.27:689][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003113s)
+[2021.10.19-02.53.27:690][930]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.53.27:690][930]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2021.10.19-02.53.27:690][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004683s)
+[2021.10.19-02.53.27:714][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.10.19-02.53.27:715][930]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-02.53.27:715][930]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-02.53.27:715][930]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-02.53.27:715][930]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-02.53.27:718][930]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-02.53.27:718][930]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-02.53.27:771][930]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-02.53.27:771][930]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-02.53.27:771][930]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-02.53.27:771][930]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-02.53.27:772][930]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-02.53.27:772][930]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-02.53.27:772][930]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-02.53.27:795][930]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-02.53.27:795][930]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-02.53.27:795][930]LogInit: FAudioDevice initialized.
+[2021.10.19-02.53.27:795][930]LogAudio: Display: Audio Device (ID: 10) registered with world 'POH_1'.
+[2021.10.19-02.53.27:805][930]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.53.27:833][930]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.23.27
+[2021.10.19-02.53.27:834][930]LogWorld: Bringing up level for play took: 0.028117
+[2021.10.19-02.53.27:835][930]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.10.19-02.53.27:838][930]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.10.19-02.53.27:840][930]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [TestingCharacter_C]
+[2021.10.19-02.53.27:841][930]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type TestingCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2021.10.19-02.53.27:854][930]PIE: Server logged in
+[2021.10.19-02.53.27:854][930]PIE: Play in editor total start time 0.171 seconds.
+[2021.10.19-02.53.33:023][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.53.33:023][225]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.53.33:023][225]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.53.33:025][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.53.33:035][225]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-02.53.33:082][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.53.33:100][225]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-02.53.33:100][225]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.53.33:101][225]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.53.33:124][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.53.33:127][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.10.19-02.53.33:185][226]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.10.19-02.53.50:948][ 76]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.53.59:650][560]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.54.00:987][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-02.54.01:013][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.10.19-02.54.01:032][637]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_18440103A431D479E19D3FBA52B5CE5BE.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-02.54.01:051][637]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-02.54.01:051][637]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-02.54.03:222][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.10.19-02.54.05:298][879]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-02.54.05:305][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-02.54.05:306][879]PIE: New page: PIE session: POH_1 (19 Oct 2021, 11:54:05 pm)
+[2021.10.19-02.54.05:306][879]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.54.05:308][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002654s)
+[2021.10.19-02.54.05:310][879]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-02.54.05:310][879]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2021.10.19-02.54.05:310][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004838s)
+[2021.10.19-02.54.05:334][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.10.19-02.54.05:335][879]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-02.54.05:335][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-02.54.05:335][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-02.54.05:336][879]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-02.54.05:336][879]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-02.54.05:337][879]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-02.54.05:337][879]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-02.54.05:389][879]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-02.54.05:389][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-02.54.05:389][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-02.54.05:389][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-02.54.05:390][879]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-02.54.05:390][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-02.54.05:390][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-02.54.05:410][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-02.54.05:411][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-02.54.05:411][879]LogInit: FAudioDevice initialized.
+[2021.10.19-02.54.05:411][879]LogAudio: Display: Audio Device (ID: 11) registered with world 'POH_1'.
+[2021.10.19-02.54.05:418][879]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-02.54.05:445][879]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.24.05
+[2021.10.19-02.54.05:447][879]LogWorld: Bringing up level for play took: 0.027967
+[2021.10.19-02.54.05:447][879]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.10.19-02.54.05:461][879]PIE: Server logged in
+[2021.10.19-02.54.05:462][879]PIE: Play in editor total start time 0.159 seconds.
+[2021.10.19-02.54.41:813][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.54.41:813][ 26]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-02.54.41:813][ 26]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-02.54.41:815][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.54.41:824][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-02.54.41:841][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-02.54.41:859][ 26]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-02.54.41:859][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.54.41:860][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-02.54.41:884][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-02.54.41:887][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.10.19-02.54.41:935][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.10.19-02.55.03:596][267]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.55.07:569][496]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.55.09:360][600]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.55.18:310][954]LogEditorViewport: Clicking Background
+[2021.10.19-02.55.19:969][ 52]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.55.22:759][216]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.55.25:719][387]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.55.26:198][414]LogEditorViewport: Clicking Background
+[2021.10.19-02.55.27:649][499]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.55.33:766][793]LogEditorViewport: Clicking Background
+[2021.10.19-02.55.38:141][ 50]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-02.55.44:264][403]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.10.19-02.55.47:063][530]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.55.50:801][744]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.55.52:353][816]LogEditorViewport: Clicking Background
+[2021.10.19-02.57.43:151][497]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.57.59:294][ 71]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.00:368][134]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.01:449][176]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.04:000][320]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-02.58.06:605][474]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-02.58.10:120][676]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-02.58.17:939][125]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.18:735][156]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.21:082][285]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.23:355][415]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.10.19-02.58.28:813][686]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-02.58.37:933][ 99]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.40:476][245]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.45:257][493]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.46:500][565]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.47:925][626]LogEditorViewport: Clicking Background
+[2021.10.19-02.58.49:023][689]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-02.58.50:436][750]LogEditorViewport: Clicking Background
+[2021.10.19-02.59.17:787][828]LogEditorViewport: Clicking Background
+[2021.10.19-02.59.20:193][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.10.19-02.59.20:229][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-02.59.20:249][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.10.19-02.59.20:258][963]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1AEB5487148366E9D6DB6BB95E294E743.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-02.59.20:263][963]LogFileHelpers: Saving map 'POH_1' took 0.034
+[2021.10.19-02.59.20:278][963]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-02.59.20:278][963]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.00.43:415][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.10.19-03.00.43:472][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.00.43:498][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.10.19-03.00.43:507][241]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1C42A80A44A034528A39E59ADE2CF2007.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.00.43:512][241]LogFileHelpers: Saving map 'POH_1' took 0.042
+[2021.10.19-03.00.43:526][241]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.00.43:526][241]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.00.46:357][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.10.19-03.01.15:144][311]LogEditorViewport: Clicking Background
+[2021.10.19-03.01.15:677][339]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.01.28:212][791]LogEditorViewport: Clicking Background
+[2021.10.19-03.01.28:709][818]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.01.38:912][365]LogEditorViewport: Clicking Background
+[2021.10.19-03.01.40:125][435]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.01.42:523][548]LogEditorViewport: Clicking Background
+[2021.10.19-03.01.45:651][731]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.01.48:188][867]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.01.48:839][904]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-03.01.59:983][570]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-03.02.06:594][949]LogEditorViewport: Clicking on Actor (LMB): Lever_Norm_C (Lever_Norm)
+[2021.10.19-03.02.16:318][498]LogEditorViewport: Clicking on Actor (LMB): Gate_closed_C (Gate_closed)
+[2021.10.19-03.02.21:959][829]LogEditorViewport: Clicking on Actor (LMB): testingEnemy_C (testingEnemy)
+[2021.10.19-03.02.29:092][150]LogEditorViewport: Clicking Background
+[2021.10.19-03.02.50:721][376]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Medieval_tiles_free2_TileMap)
+[2021.10.19-03.03.24:744][286]LogEditorViewport: Clicking Background
+[2021.10.19-03.04.38:769][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.10.19-03.04.38:817][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.04.38:838][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.10.19-03.04.38:847][318]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_18FDDC8544E984594C3AA9E80922F4E8A.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.04.38:852][318]LogFileHelpers: Saving map 'POH_1' took 0.035
+[2021.10.19-03.04.38:864][318]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.04.38:865][318]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.05.37:417][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.10.19-03.05.37:481][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.05.37:503][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.10.19-03.05.37:512][668]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1E0B37F6647200A16AB503ABA71B45D04.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.05.37:517][668]LogFileHelpers: Saving map 'POH_1' took 0.038
+[2021.10.19-03.05.37:528][668]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.05.37:528][668]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.05.40:205][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.10.19-03.06.30:391][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.10.19-03.06.32:272][235]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.06.32:278][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.06.32:278][235]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:06:32 am)
+[2021.10.19-03.06.32:278][235]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.06.32:284][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005505s)
+[2021.10.19-03.06.32:285][235]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.06.32:285][235]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2021.10.19-03.06.32:285][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.007014s)
+[2021.10.19-03.06.32:308][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.10.19-03.06.32:308][235]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.10.19-03.06.32:308][235]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.06.32:308][235]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.06.32:308][235]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.06.32:308][235]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.06.32:308][235]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.06.32:309][235]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.06.32:309][235]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.06.32:309][235]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.06.32:309][235]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.06.32:309][235]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.06.32:311][235]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.06.32:311][235]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.06.32:365][235]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.06.32:365][235]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.06.32:365][235]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.06.32:365][235]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.06.32:366][235]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.06.32:366][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.06.32:366][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.06.32:367][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.06.32:367][235]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.06.32:367][235]LogInit: FAudioDevice initialized.
+[2021.10.19-03.06.32:367][235]LogAudio: Display: Audio Device (ID: 12) registered with world 'POH_1'.
+[2021.10.19-03.06.32:395][235]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.06.32:423][235]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.36.32
+[2021.10.19-03.06.32:425][235]LogWorld: Bringing up level for play took: 0.029873
+[2021.10.19-03.06.32:426][235]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.10.19-03.06.32:430][235]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.10.19-03.06.32:433][235]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [TestingCharacter_C]
+[2021.10.19-03.06.32:433][235]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type TestingCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2021.10.19-03.06.32:441][235]PIE: Server logged in
+[2021.10.19-03.06.32:443][235]PIE: Play in editor total start time 0.166 seconds.
+[2021.10.19-03.06.37:702][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.06.37:702][535]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.06.37:703][535]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.06.37:704][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.06.37:712][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.06.37:760][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.06.37:778][535]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.06.37:778][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.06.37:779][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.06.37:803][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.06.37:807][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.10.19-03.06.37:862][536]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.10.19-03.06.41:256][678]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.19-03.06.47:199][ 27]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.19-03.06.49:332][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.10.19-03.06.49:394][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.06.49:420][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.19-03.06.49:430][145]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_12297CE0A45162EF7031495BD71C98651.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.06.49:435][145]LogFileHelpers: Saving map 'POH_1' took 0.044
+[2021.10.19-03.06.49:448][145]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.06.49:448][145]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.06.51:563][253]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.06.51:571][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.06.51:571][253]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:06:51 am)
+[2021.10.19-03.06.51:571][253]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.06.51:574][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003553s)
+[2021.10.19-03.06.51:576][253]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.06.51:576][253]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2021.10.19-03.06.51:576][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.005582s)
+[2021.10.19-03.06.51:600][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.10.19-03.06.51:601][253]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.10.19-03.06.51:601][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.06.51:602][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.06.51:602][253]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.06.51:602][253]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.06.51:604][253]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.06.51:604][253]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.06.51:655][253]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.06.51:655][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.06.51:655][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.06.51:655][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.06.51:656][253]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.06.51:656][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.06.51:656][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.06.51:677][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.06.51:677][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.06.51:677][253]LogInit: FAudioDevice initialized.
+[2021.10.19-03.06.51:677][253]LogAudio: Display: Audio Device (ID: 13) registered with world 'POH_1'.
+[2021.10.19-03.06.51:688][253]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.06.51:715][253]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.36.51
+[2021.10.19-03.06.51:716][253]LogWorld: Bringing up level for play took: 0.027796
+[2021.10.19-03.06.51:717][253]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.10.19-03.06.51:732][253]PIE: Server logged in
+[2021.10.19-03.06.51:733][253]PIE: Play in editor total start time 0.163 seconds.
+[2021.10.19-03.07.42:432][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.07.42:432][209]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.07.42:433][209]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.07.42:435][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.07.42:444][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.07.42:460][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.07.42:481][209]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.07.42:481][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.07.42:482][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.07.42:506][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.07.42:511][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.10.19-03.07.42:557][210]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.10.19-03.08.35:284][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.10.19-03.08.35:332][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.08.35:358][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.10.19-03.08.35:367][921]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1711DC8DE4ADFE0904611CF8F6A200379.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.08.35:372][921]LogFileHelpers: Saving map 'POH_1' took 0.041
+[2021.10.19-03.08.35:384][921]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.08.35:384][921]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.08.38:286][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.08.38:293][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.08.38:293][ 53]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:08:38 am)
+[2021.10.19-03.08.38:293][ 53]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.08.38:297][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003813s)
+[2021.10.19-03.08.38:298][ 53]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.08.38:298][ 53]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2021.10.19-03.08.38:298][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.005212s)
+[2021.10.19-03.08.38:321][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.10.19-03.08.38:322][ 53]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.08.38:322][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.08.38:322][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.08.38:323][ 53]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.08.38:323][ 53]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.08.38:324][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.08.38:324][ 53]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.08.38:376][ 53]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.08.38:377][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.08.38:377][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.08.38:377][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.08.38:379][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.08.38:379][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.08.38:379][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.08.38:399][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.08.38:399][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.08.38:399][ 53]LogInit: FAudioDevice initialized.
+[2021.10.19-03.08.38:399][ 53]LogAudio: Display: Audio Device (ID: 14) registered with world 'POH_1'.
+[2021.10.19-03.08.38:411][ 53]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.08.38:438][ 53]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.38.38
+[2021.10.19-03.08.38:439][ 53]LogWorld: Bringing up level for play took: 0.028346
+[2021.10.19-03.08.38:439][ 53]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.10.19-03.08.38:451][ 53]PIE: Server logged in
+[2021.10.19-03.08.38:452][ 53]PIE: Play in editor total start time 0.16 seconds.
+[2021.10.19-03.08.53:652][912]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.08.53:652][912]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.08.53:652][912]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.08.53:652][912]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.08.53:654][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.08.53:675][912]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.08.53:679][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.10.19-03.08.53:687][912]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.08.53:689][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
+[2021.10.19-03.08.53:690][912]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.08.53:690][912]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2021.10.19-03.08.53:690][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003795s)
+[2021.10.19-03.08.53:690][912]LogAudio: Display: Audio Device (ID: 14) registered with world 'POH_1'.
+[2021.10.19-03.08.53:690][912]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.08.53:697][912]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.38.53
+[2021.10.19-03.08.53:698][912]LogWorld: Bringing up level for play took: 0.006189
+[2021.10.19-03.08.53:729][912]LogLoad: Took 0.077107 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.09.03:722][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.09.03:723][502]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.09.03:723][502]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.09.03:725][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.09.03:736][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.09.03:786][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.09.03:804][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.09.03:804][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.09.03:805][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.09.03:832][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.10.19-03.09.03:883][503]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.10.19-03.09.22:974][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.10.19-03.09.23:004][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.09.23:025][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.10.19-03.09.23:034][415]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_107C2826741B21D4433403AB6344BB720.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.09.23:039][415]LogFileHelpers: Saving map 'POH_1' took 0.035
+[2021.10.19-03.09.23:051][415]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.09.23:051][415]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.09.24:814][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.10.19-03.09.50:356][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.10.19-03.09.50:380][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.09.50:398][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.10.19-03.09.50:408][655]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_19110B0BC47A27660146C20B6FB47065A.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.09.50:412][655]LogFileHelpers: Saving map 'POH_1' took 0.033
+[2021.10.19-03.09.50:426][655]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.09.50:426][655]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.09.53:012][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.10.19-03.09.55:043][849]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.09.55:048][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.09.55:048][849]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:09:55 am)
+[2021.10.19-03.09.55:048][849]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.09.55:051][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002571s)
+[2021.10.19-03.09.55:052][849]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.09.55:052][849]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2021.10.19-03.09.55:052][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003844s)
+[2021.10.19-03.09.55:078][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.10.19-03.09.55:079][849]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.09.55:079][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.09.55:079][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.09.55:079][849]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.09.55:080][849]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.09.55:081][849]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.09.55:081][849]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.09.55:134][849]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.09.55:134][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.09.55:134][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.09.55:135][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.09.55:135][849]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.09.55:135][849]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.09.55:135][849]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.09.55:136][849]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.09.55:136][849]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.09.55:136][849]LogInit: FAudioDevice initialized.
+[2021.10.19-03.09.55:136][849]LogAudio: Display: Audio Device (ID: 15) registered with world 'POH_1'.
+[2021.10.19-03.09.55:163][849]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.09.55:190][849]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.39.55
+[2021.10.19-03.09.55:191][849]LogWorld: Bringing up level for play took: 0.027886
+[2021.10.19-03.09.55:192][849]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.10.19-03.09.55:206][849]PIE: Server logged in
+[2021.10.19-03.09.55:207][849]PIE: Play in editor total start time 0.16 seconds.
+[2021.10.19-03.10.00:893][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.00:893][177]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.10.00:894][177]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.10.00:896][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.00:908][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.10.00:956][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.00:974][177]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.10.00:974][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.00:974][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.00:998][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.01:002][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.10.19-03.10.01:056][178]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.10.19-03.10.08:359][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.10.19-03.10.08:416][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.10.08:441][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.10.19-03.10.08:450][497]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1FEDD420741A7224CC338A59B9ECFA202.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.10.08:455][497]LogFileHelpers: Saving map 'POH_1' took 0.039
+[2021.10.19-03.10.08:468][497]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.10.08:468][497]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.10.10:535][583]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.10.10:541][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.10.10:541][583]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:10:10 am)
+[2021.10.19-03.10.10:541][583]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.10.10:545][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003664s)
+[2021.10.19-03.10.10:546][583]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.10.10:546][583]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2021.10.19-03.10.10:546][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.005375s)
+[2021.10.19-03.10.10:570][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.10.19-03.10.10:570][583]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.10.10:571][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.10.10:571][583]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.10.10:571][583]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.10.10:573][583]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.10.10:573][583]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.10.10:624][583]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.10.10:625][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.10.10:625][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.10.10:625][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.10.10:625][583]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.10.10:625][583]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.10.10:625][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.10.10:646][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.10.10:646][583]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.10.10:646][583]LogInit: FAudioDevice initialized.
+[2021.10.19-03.10.10:646][583]LogAudio: Display: Audio Device (ID: 16) registered with world 'POH_1'.
+[2021.10.19-03.10.10:657][583]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.10.10:685][583]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.40.10
+[2021.10.19-03.10.10:686][583]LogWorld: Bringing up level for play took: 0.028331
+[2021.10.19-03.10.10:686][583]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.10.19-03.10.10:701][583]PIE: Server logged in
+[2021.10.19-03.10.10:702][583]PIE: Play in editor total start time 0.162 seconds.
+[2021.10.19-03.10.15:043][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.15:043][827]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.10.15:044][827]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.10.15:046][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.15:054][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.10.15:103][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.15:123][827]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.10.15:123][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.15:124][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.15:148][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.15:151][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.10.19-03.10.15:209][828]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.10.19-03.10.21:522][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.10.19-03.10.21:545][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.10.21:567][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.10.19-03.10.21:576][ 99]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1A8F3BF18426B4526A1069990BD857AB1.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.10.21:581][ 99]LogFileHelpers: Saving map 'POH_1' took 0.036
+[2021.10.19-03.10.21:593][ 99]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.10.21:593][ 99]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.10.23:623][186]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.10.23:632][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.10.23:632][186]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:10:23 am)
+[2021.10.19-03.10.23:632][186]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.10.23:635][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003168s)
+[2021.10.19-03.10.23:637][186]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.10.23:638][186]LogPlayLevel: PIE: World Init took: (0.002479s)
+[2021.10.19-03.10.23:638][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.005848s)
+[2021.10.19-03.10.23:659][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.10.19-03.10.23:660][186]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.10.19-03.10.23:660][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.10.23:661][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.10.23:661][186]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.10.23:661][186]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.10.23:662][186]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.10.23:663][186]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.10.23:713][186]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.10.23:713][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.10.23:713][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.10.23:713][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.10.23:714][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.10.23:714][186]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.10.23:714][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.10.23:736][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.10.23:736][186]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.10.23:736][186]LogInit: FAudioDevice initialized.
+[2021.10.19-03.10.23:736][186]LogAudio: Display: Audio Device (ID: 17) registered with world 'POH_1'.
+[2021.10.19-03.10.23:744][186]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.10.23:775][186]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.40.23
+[2021.10.19-03.10.23:777][186]LogWorld: Bringing up level for play took: 0.033020
+[2021.10.19-03.10.23:778][186]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.10.19-03.10.23:789][186]PIE: Server logged in
+[2021.10.19-03.10.23:791][186]PIE: Play in editor total start time 0.162 seconds.
+[2021.10.19-03.10.28:048][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.28:048][418]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.10.28:050][418]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.10.28:058][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.28:085][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.10.28:160][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.10.28:178][418]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.10.28:178][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.28:179][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.10.28:202][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.10.28:206][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.10.19-03.10.28:269][419]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.10.19-03.10.58:290][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.10.19-03.10.58:313][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.10.58:339][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.10.19-03.10.58:348][827]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1FDB7995D46C0357B9F768CB1FBF11E98.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.10.58:353][827]LogFileHelpers: Saving map 'POH_1' took 0.040
+[2021.10.19-03.10.58:366][827]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.10.58:366][827]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.11.00:768][927]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.11.00:776][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.11.00:776][927]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:11:00 am)
+[2021.10.19-03.11.00:776][927]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.00:779][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2021.10.19-03.11.00:780][927]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.11.00:780][927]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2021.10.19-03.11.00:780][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003782s)
+[2021.10.19-03.11.00:806][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.10.19-03.11.00:806][927]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.10.19-03.11.00:806][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.11.00:806][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.11.00:806][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.11.00:807][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.11.00:807][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.11.00:807][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.11.00:807][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.11.00:807][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.11.00:807][927]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.11.00:807][927]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.11.00:808][927]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.11.00:809][927]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.11.00:858][927]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.11.00:858][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.11.00:859][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.11.00:859][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.11.00:859][927]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.11.00:859][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.11.00:860][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.11.00:882][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.11.00:882][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.11.00:882][927]LogInit: FAudioDevice initialized.
+[2021.10.19-03.11.00:882][927]LogAudio: Display: Audio Device (ID: 18) registered with world 'POH_1'.
+[2021.10.19-03.11.00:893][927]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.11.00:920][927]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.41.00
+[2021.10.19-03.11.00:922][927]LogWorld: Bringing up level for play took: 0.028136
+[2021.10.19-03.11.00:923][927]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.10.19-03.11.00:937][927]PIE: Server logged in
+[2021.10.19-03.11.00:939][927]PIE: Play in editor total start time 0.163 seconds.
+[2021.10.19-03.11.05:262][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.11.05:262][170]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.05:262][170]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.11.05:264][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.05:273][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.11.05:322][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.05:341][170]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.11.05:341][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.11.05:342][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.11.05:365][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.11.05:369][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.10.19-03.11.05:427][171]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.10.19-03.11.12:963][501]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.11.12:970][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.11.12:970][501]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:11:12 am)
+[2021.10.19-03.11.12:970][501]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.12:974][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003731s)
+[2021.10.19-03.11.12:976][501]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.11.12:976][501]LogPlayLevel: PIE: World Init took: (0.002169s)
+[2021.10.19-03.11.12:977][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.006278s)
+[2021.10.19-03.11.13:000][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.10.19-03.11.13:001][501]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.10.19-03.11.13:001][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.11.13:001][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.11.13:001][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.11.13:001][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.11.13:002][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.11.13:002][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.11.13:002][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.11.13:002][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.11.13:002][501]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.11.13:002][501]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.11.13:003][501]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.11.13:003][501]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.11.13:053][501]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.11.13:054][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.11.13:054][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.11.13:054][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.11.13:054][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.11.13:054][501]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.11.13:054][501]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.11.13:076][501]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.11.13:076][501]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.11.13:076][501]LogInit: FAudioDevice initialized.
+[2021.10.19-03.11.13:076][501]LogAudio: Display: Audio Device (ID: 19) registered with world 'POH_1'.
+[2021.10.19-03.11.13:084][501]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.11.13:114][501]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.41.13
+[2021.10.19-03.11.13:115][501]LogWorld: Bringing up level for play took: 0.029999
+[2021.10.19-03.11.13:115][501]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.10.19-03.11.13:126][501]PIE: Server logged in
+[2021.10.19-03.11.13:127][501]PIE: Play in editor total start time 0.158 seconds.
+[2021.10.19-03.11.14:997][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.11.14:997][595]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.14:999][595]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.11.15:005][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.15:034][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.11.15:106][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.15:124][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.11.15:125][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.11.15:126][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.11.15:152][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.10.19-03.11.15:206][596]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.10.19-03.11.23:592][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.10.19-03.11.23:642][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.11.23:669][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.10.19-03.11.23:678][974]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1A63149734F5C904258E8B1A3F119FCB1.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.11.23:683][974]LogFileHelpers: Saving map 'POH_1' took 0.042
+[2021.10.19-03.11.23:694][974]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.11.23:694][974]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.11.25:189][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.10.19-03.11.26:689][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.10.19-03.11.29:333][208]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.11.29:339][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.11.29:339][208]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:11:29 am)
+[2021.10.19-03.11.29:339][208]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.29:342][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2021.10.19-03.11.29:343][208]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.11.29:343][208]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2021.10.19-03.11.29:343][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004078s)
+[2021.10.19-03.11.29:369][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.10.19-03.11.29:370][208]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.11.29:370][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.11.29:370][208]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.11.29:370][208]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.11.29:372][208]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.11.29:372][208]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.11.29:423][208]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.11.29:424][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.11.29:424][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.11.29:424][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.11.29:424][208]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.11.29:424][208]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.11.29:424][208]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.11.29:444][208]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.11.29:444][208]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.11.29:444][208]LogInit: FAudioDevice initialized.
+[2021.10.19-03.11.29:444][208]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.11.29:451][208]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.11.29:478][208]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.41.29
+[2021.10.19-03.11.29:479][208]LogWorld: Bringing up level for play took: 0.027015
+[2021.10.19-03.11.29:480][208]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.10.19-03.11.29:493][208]PIE: Server logged in
+[2021.10.19-03.11.29:494][208]PIE: Play in editor total start time 0.156 seconds.
+[2021.10.19-03.11.52:729][587]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.11.52:729][587]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.11.52:729][587]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.52:730][587]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.11.52:732][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.52:754][587]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.11.52:757][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.10.19-03.11.52:765][587]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.52:768][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2021.10.19-03.11.52:769][587]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.11.52:769][587]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2021.10.19-03.11.52:769][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004002s)
+[2021.10.19-03.11.52:769][587]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.11.52:769][587]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.11.52:775][587]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.41.52
+[2021.10.19-03.11.52:776][587]LogWorld: Bringing up level for play took: 0.006482
+[2021.10.19-03.11.52:808][587]LogLoad: Took 0.078180 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.11.57:117][839]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.11.57:117][839]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.11.57:117][839]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.57:118][839]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.11.57:120][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.11.57:143][839]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.11.57:146][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.10.19-03.11.57:154][839]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.11.57:157][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003117s)
+[2021.10.19-03.11.57:158][839]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.11.57:158][839]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2021.10.19-03.11.57:158][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004698s)
+[2021.10.19-03.11.57:158][839]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.11.57:158][839]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.11.57:166][839]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.41.57
+[2021.10.19-03.11.57:167][839]LogWorld: Bringing up level for play took: 0.007549
+[2021.10.19-03.11.57:198][839]LogLoad: Took 0.080765 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.12.05:055][302]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.12.05:055][302]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.12.05:055][302]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.05:055][302]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.12.05:058][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.05:079][302]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.12.05:082][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.10.19-03.12.05:085][302]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.05:088][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002549s)
+[2021.10.19-03.12.05:089][302]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.12.05:089][302]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2021.10.19-03.12.05:089][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003847s)
+[2021.10.19-03.12.05:089][302]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.12.05:089][302]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.12.05:095][302]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.42.05
+[2021.10.19-03.12.05:096][302]LogWorld: Bringing up level for play took: 0.006498
+[2021.10.19-03.12.05:127][302]LogLoad: Took 0.073380 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.12.10:401][612]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.12.10:401][612]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.12.10:401][612]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.10:403][612]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.12.10:404][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.10:425][612]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.12.10:428][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.10.19-03.12.10:436][612]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.10:438][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002530s)
+[2021.10.19-03.12.10:439][612]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.12.10:440][612]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2021.10.19-03.12.10:440][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.003796s)
+[2021.10.19-03.12.10:440][612]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.12.10:440][612]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.12.10:446][612]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.42.10
+[2021.10.19-03.12.10:447][612]LogWorld: Bringing up level for play took: 0.006327
+[2021.10.19-03.12.10:474][612]LogLoad: Took 0.072751 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.12.15:762][923]LogNet: Browse: /Game/Level/POH_1
+[2021.10.19-03.12.15:762][923]LogLoad: LoadMap: /Game/Level/POH_1
+[2021.10.19-03.12.15:762][923]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.15:762][923]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.12.15:764][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.15:786][923]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.12.15:788][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.10.19-03.12.15:796][923]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.15:799][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002497s)
+[2021.10.19-03.12.15:800][923]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.12.15:800][923]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2021.10.19-03.12.15:800][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004114s)
+[2021.10.19-03.12.15:801][923]LogAudio: Display: Audio Device (ID: 20) registered with world 'POH_1'.
+[2021.10.19-03.12.15:801][923]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.12.15:807][923]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.42.15
+[2021.10.19-03.12.15:808][923]LogWorld: Bringing up level for play took: 0.006182
+[2021.10.19-03.12.15:835][923]LogLoad: Took 0.072846 seconds to LoadMap(/Game/Level/UEDPIE_0_POH_1)
+[2021.10.19-03.12.19:152][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.12.19:152][114]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.19:152][114]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.12.19:154][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.19:163][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.12.19:211][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.19:229][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.12.19:229][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.12.19:230][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.12.19:256][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.10.19-03.12.19:293][115]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.10.19-03.12.28:004][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.10.19-03.12.29:781][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.10.19-03.12.31:871][660]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.12.31:877][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.12.31:877][660]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:12:31 am)
+[2021.10.19-03.12.31:877][660]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.31:882][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004829s)
+[2021.10.19-03.12.31:883][660]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.12.31:883][660]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2021.10.19-03.12.31:883][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.006162s)
+[2021.10.19-03.12.31:906][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.10.19-03.12.31:907][660]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.12.31:907][660]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.12.31:907][660]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.12.31:908][660]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.12.31:908][660]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.12.31:909][660]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.12.31:909][660]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.12.31:959][660]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.12.31:960][660]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.12.31:960][660]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.12.31:960][660]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.12.31:960][660]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.12.31:960][660]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.12.31:960][660]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.12.31:982][660]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.12.31:982][660]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.12.31:982][660]LogInit: FAudioDevice initialized.
+[2021.10.19-03.12.31:982][660]LogAudio: Display: Audio Device (ID: 21) registered with world 'POH_1'.
+[2021.10.19-03.12.31:996][660]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.12.32:027][660]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.42.32
+[2021.10.19-03.12.32:029][660]LogWorld: Bringing up level for play took: 0.031278
+[2021.10.19-03.12.32:029][660]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.10.19-03.12.32:043][660]PIE: Server logged in
+[2021.10.19-03.12.32:046][660]PIE: Play in editor total start time 0.17 seconds.
+[2021.10.19-03.12.38:283][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.12.38:283][ 22]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.12.38:283][ 22]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.12.38:285][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.38:292][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.12.38:339][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.12.38:357][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.12.38:358][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.12.38:359][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.12.38:382][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.12.38:385][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.10.19-03.12.38:443][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.10.19-03.13.08:277][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.10.19-03.13.08:304][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.13.08:324][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.10.19-03.13.08:334][633]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_12675771D481CE51A4774B79B8870116A.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.13.08:338][633]LogFileHelpers: Saving map 'POH_1' took 0.035
+[2021.10.19-03.13.08:350][633]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.13.08:350][633]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.13.15:908][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.10.19-03.13.15:942][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.13.15:964][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.10.19-03.13.15:973][  2]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1EDC8BD024137EBBF96494DAE95CE6224.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.13.15:976][  2]LogFileHelpers: Saving map 'POH_1' took 0.036
+[2021.10.19-03.13.15:989][  2]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.13.15:989][  2]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.13.18:079][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.10.19-03.13.20:275][239]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.13.20:282][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.13.20:282][239]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:13:20 am)
+[2021.10.19-03.13.20:283][239]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.13.20:286][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003302s)
+[2021.10.19-03.13.20:287][239]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.13.20:287][239]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2021.10.19-03.13.20:287][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004730s)
+[2021.10.19-03.13.20:312][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.10.19-03.13.20:312][239]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.13.20:312][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.13.20:312][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.13.20:313][239]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.13.20:313][239]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.13.20:315][239]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.13.20:315][239]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.13.20:369][239]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.13.20:369][239]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.13.20:369][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.13.20:369][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.13.20:370][239]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.13.20:370][239]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.13.20:370][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.13.20:371][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.13.20:371][239]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.13.20:371][239]LogInit: FAudioDevice initialized.
+[2021.10.19-03.13.20:371][239]LogAudio: Display: Audio Device (ID: 22) registered with world 'POH_1'.
+[2021.10.19-03.13.20:398][239]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.13.20:427][239]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.43.20
+[2021.10.19-03.13.20:429][239]LogWorld: Bringing up level for play took: 0.030147
+[2021.10.19-03.13.20:429][239]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.10.19-03.13.20:444][239]PIE: Server logged in
+[2021.10.19-03.13.20:446][239]PIE: Play in editor total start time 0.164 seconds.
+[2021.10.19-03.13.27:142][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.13.27:143][615]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.13.27:144][615]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.13.27:146][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.13.27:154][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.13.27:157][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.13.27:175][615]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.13.27:175][615]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.13.27:177][615]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.13.27:203][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.13.27:207][615]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.10.19-03.13.27:253][616]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.10.19-03.13.49:056][833]LogEditorViewport: Clicking Background
+[2021.10.19-03.13.49:553][861]Cmd: TRANSACTION UNDO
+[2021.10.19-03.13.49:553][861]LogEditorTransaction: Undo Clicking Background
+[2021.10.19-03.13.50:994][925]Cmd: TRANSACTION UNDO
+[2021.10.19-03.13.50:994][925]LogEditorTransaction: Undo Set Location
+[2021.10.19-03.14.27:712][  1]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.19-03.14.27:720][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.19-03.14.27:720][  1]PIE: New page: PIE session: POH_1 (20 Oct 2021, 12:14:27 am)
+[2021.10.19-03.14.27:721][  1]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.14.27:724][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2021.10.19-03.14.27:725][  1]LogAIModule: Creating AISystem for world POH_1
+[2021.10.19-03.14.27:725][  1]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2021.10.19-03.14.27:725][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/POH_1.POH_1 to /Game/Level/UEDPIE_0_POH_1.POH_1 (0.004339s)
+[2021.10.19-03.14.27:751][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.10.19-03.14.27:756][  1]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-03.14.27:757][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-03.14.27:757][  1]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-03.14.27:757][  1]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-03.14.27:759][  1]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-03.14.27:759][  1]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-03.14.27:810][  1]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.19-03.14.27:810][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-03.14.27:810][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-03.14.27:810][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-03.14.27:811][  1]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-03.14.27:811][  1]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.19-03.14.27:811][  1]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.19-03.14.27:832][  1]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.19-03.14.27:832][  1]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.19-03.14.27:832][  1]LogInit: FAudioDevice initialized.
+[2021.10.19-03.14.27:832][  1]LogAudio: Display: Audio Device (ID: 23) registered with world 'POH_1'.
+[2021.10.19-03.14.27:845][  1]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.19-03.14.27:872][  1]LogWorld: Bringing World /Game/Level/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.19-13.44.27
+[2021.10.19-03.14.27:874][  1]LogWorld: Bringing up level for play took: 0.028401
+[2021.10.19-03.14.27:874][  1]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.10.19-03.14.27:887][  1]PIE: Server logged in
+[2021.10.19-03.14.27:889][  1]PIE: Play in editor total start time 0.169 seconds.
+[2021.10.19-03.14.31:892][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.14.31:892][226]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_POH_1
+[2021.10.19-03.14.31:893][226]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-03.14.31:894][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.14.31:904][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.19-03.14.31:914][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-03.14.31:933][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.19-03.14.31:933][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.14.31:935][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.19-03.14.31:958][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-03.14.31:961][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.10.19-03.14.31:999][227]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.10.19-03.14.33:509][316]LogEditorViewport: Clicking Background
+[2021.10.19-03.14.39:454][622]LogEditorViewport: Clicking Background
+[2021.10.19-03.15.00:708][778]LogEditorViewport: Clicking Background
+[2021.10.19-03.15.21:942][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.10.19-03.15.22:003][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/POH_1" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.19-03.15.22:027][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.10.19-03.15.22:036][913]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_1137DC75144F01000934F9C810DEFB717.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/POH_1.umap'
+[2021.10.19-03.15.22:041][913]LogFileHelpers: Saving map 'POH_1' took 0.039
+[2021.10.19-03.15.22:054][913]AssetCheck: New page: Asset Save: POH_1
+[2021.10.19-03.15.22:054][913]LogContentValidation: Display: Validating World /Game/Level/POH_1.POH_1
+[2021.10.19-03.15.23:611][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.10.19-03.15.25:052][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
