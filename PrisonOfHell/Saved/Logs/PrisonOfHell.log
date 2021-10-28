@@ -1,10 +1,10 @@
-﻿Log file open, 10/27/21 16:44:50
+﻿Log file open, 10/28/21 11:29:55
 LogInit: LLM is enabled
 LogInit: LLM CsvWriter: off TraceWriter: off
 LogInit: Display: Running engine for game: PrisonOfHell
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.441821
+LogStats: Stats thread started at 0.530680
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:30, Platform Override: ''
 LogPluginManager: Mounting plugin MeshPainting
@@ -13,7 +13,6 @@ LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin EnvironmentQueryEditor
 LogPluginManager: Mounting plugin LightPropagationVolume
-LogPluginManager: Mounting plugin CameraShakePreviewer
 LogPluginManager: Mounting plugin AnimationSharing
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -21,21 +20,22 @@ LogPluginManager: Mounting plugin GitSourceControl
 LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin NullSourceCodeAccess
 LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CameraShakePreviewer
 LogPluginManager: Mounting plugin PlasticSourceControl
 LogPluginManager: Mounting plugin PluginUtils
 LogPluginManager: Mounting plugin PropertyAccessNode
-LogPluginManager: Mounting plugin SubversionSourceControl
 LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
 LogPluginManager: Mounting plugin UObjectPlugin
 LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
-LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin DataValidation
-LogPluginManager: Mounting plugin CurveEditorTools
-LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GeometryMode
 LogPluginManager: Mounting plugin MacGraphicsSwitching
 LogPluginManager: Mounting plugin MaterialAnalyzer
@@ -78,8 +78,8 @@ LogPluginManager: Mounting plugin WmfMedia
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
-LogPluginManager: Mounting plugin MatineeToLevelSequence
 LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
 LogPluginManager: Mounting plugin TemplateSequence
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
@@ -208,688 +208,986 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:650][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.10.27-06.14.51:650][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2021.10.27-06.14.51:651][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:651][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:716][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.10.27-06.14.51:716][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.10.27-06.14.51:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.10.27-06.14.51:718][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.10.27-06.14.51:719][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:719][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.10.27-06.14.51:720][  0]LogInit: Selected Device Profile: [Windows]
-[2021.10.27-06.14.51:720][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.10.27-06.14.51:720][  0]LogHAL: Display: Platform has ~ 16 GB [17095008256 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.10.27-06.14.51:720][  0]LogInit: Going up to parent DeviceProfile []
-[2021.10.27-06.14.51:720][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.10.27-06.14.51:720][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.10.27-06.14.51:721][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.10.27-06.14.51:722][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.10.27-06.14.51:723][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.10.27-06.14.51:724][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.10.27-06.14.51:724][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.10.27-06.14.51:724][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.10.27-06.14.51:724][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.10.27-06.14.51:724][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.10.27-06.14.51:725][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
-[2021.10.27-06.14.51:725][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Editor.ini]
-[2021.10.27-06.14.51:725][  0]LogInit: Computer: TPC-AWESOME
-[2021.10.27-06.14.51:725][  0]LogInit: User: Brodie
-[2021.10.27-06.14.51:725][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.10.27-06.14.51:725][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.10.27-06.14.51:725][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.10.27-06.14.51:725][  0]LogMemory: Platform Memory Stats for Windows
-[2021.10.27-06.14.51:725][  0]LogMemory: Process Physical Memory: 134.77 MB used, 134.77 MB peak
-[2021.10.27-06.14.51:725][  0]LogMemory: Process Virtual Memory: 117.51 MB used, 117.51 MB peak
-[2021.10.27-06.14.51:725][  0]LogMemory: Physical Memory: 7904.02 MB used,  8399.05 MB free, 16303.07 MB total
-[2021.10.27-06.14.51:725][  0]LogMemory: Virtual Memory: 134199904.00 MB used,  17820.03 MB free, 134217728.00 MB total
-[2021.10.27-06.14.51:741][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.10.27-06.14.51:964][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.10.27-06.14.51:968][  0]LogInit: Using OS detected language (en-US).
-[2021.10.27-06.14.51:968][  0]LogInit: Using OS detected locale (en-AU).
-[2021.10.27-06.14.51:980][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.10.27-06.14.52:323][  0]LogInit: Setting process to per monitor DPI aware
-[2021.10.27-06.14.52:347][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2021.10.27-06.14.52:387][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.10.27-06.14.52:388][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.10.27-06.14.52:843][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2021.10.27-06.14.52:843][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.10.27-06.14.52:843][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.10.27-06.14.52:843][  0]LogD3D11RHI: D3D11 adapters:
-[2021.10.27-06.14.53:124][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2021.10.27-06.14.53:124][  0]LogD3D11RHI:       6052/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.10.27-06.14.53:128][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.10.27-06.14.53:128][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.10.27-06.14.53:128][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.10.27-06.14.53:143][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.10.27-06.14.53:143][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2021.10.27-06.14.53:143][  0]LogWindows: EnumDisplayDevices:
-[2021.10.27-06.14.53:143][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2021.10.27-06.14.53:144][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2021.10.27-06.14.53:145][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.10.27-06.14.53:146][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.10.27-06.14.53:146][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.10.27-06.14.53:146][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2021.10.27-06.14.53:146][  0]LogD3D11RHI:   Driver Version: 471.11 (internal:30.0.14.7111, unified:471.11)
-[2021.10.27-06.14.53:146][  0]LogD3D11RHI:      Driver Date: 6-21-2021
-[2021.10.27-06.14.53:146][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2021.10.27-06.14.53:300][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.10.27-06.14.53:300][  0]LogD3D11RHI: Async texture creation enabled
-[2021.10.27-06.14.53:300][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.10.27-06.14.53:342][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.10.27-06.14.53:347][  0]LogRHI: GeForceNow SDK initialized: 1
-[2021.10.27-06.14.54:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.10.27-06.14.54:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.10.27-06.14.54:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.10.27-06.14.54:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.10.27-06.14.54:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.10.27-06.14.54:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.10.27-06.14.54:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.10.27-06.14.54:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.10.27-06.14.54:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.10.27-06.14.54:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.10.27-06.14.54:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.10.27-06.14.54:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.10.27-06.14.54:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.10.27-06.14.54:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
-[2021.10.27-06.14.54:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
-[2021.10.27-06.14.54:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
-[2021.10.27-06.14.54:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
-[2021.10.27-06.14.54:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.10.27-06.14.54:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.10.27-06.14.54:528][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.10.27-06.14.54:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.10.27-06.14.54:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.10.27-06.14.54:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.10.27-06.14.54:571][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.10.27-06.14.54:585][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.10.27-06.14.54:689][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2021.10.27-06.14.54:689][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Intermediate/Shaders/WorkingDirectory/77512/).
-[2021.10.27-06.14.54:690][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brodie/AppData/Local/Temp/UnrealShaderWorkingDir/CE3FB1B14431286E29F976B5D05F19B6/'.
-[2021.10.27-06.14.54:690][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.10.27-06.14.54:690][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.10.27-06.14.56:554][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: Loaded boot cache 0.09s 77MB C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.10.27-06.14.56:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.10.27-06.14.56:673][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.10.27-06.14.56:674][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.10.27-06.14.56:674][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.10.27-06.14.56:700][  0]LogDerivedDataCache: Speed tests for C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
-[2021.10.27-06.14.56:700][  0]LogDerivedDataCache: Display: Performance to C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.10ms. RandomReadSpeed=328.55MBs, RandomWriteSpeed=42.69MBs. Assigned SpeedClass 'Local'
-[2021.10.27-06.14.56:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.10.27-06.14.56:701][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.10.27-06.14.56:701][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.10.27-06.14.56:847][  0]LogSlate: Using FreeType 2.10.0
-[2021.10.27-06.14.56:848][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.10.27-06.14.56:930][  0]LogAssetRegistry: FAssetRegistry took 0.0062 seconds to start up
-[2021.10.27-06.14.57:549][  0]LogInit: Selected Device Profile: [Windows]
-[2021.10.27-06.14.57:549][  0]LogInit: Active device profile: [000001E1EDFAA300][000001E1EC8F5500 49] Windows
-[2021.10.27-06.14.57:549][  0]LogInit: Profiles: [000001E1EDFAA300][000001E1EC8F5500 49] Windows, [000001E1EDF3DF00][000001E1EC8FD680 49] WindowsNoEditor, [000001E1EDFAAE00][000001E1EC8F97C0 49] WindowsServer, [000001E1EDF3D200][000001E1EC901900 49] WindowsClient, [000001E1EDFAA100][000001E1EC905A40 49] IOS, [000001E1EDF3F200][000001E1EC909B80 49] iPadAir, [000001E1EDFA8500][000001E1EC911D00 49] iPadAir2, [000001E1EDEDDE00][000001E1EC918300 49] IPadPro, [000001E1EDEDDF00][000001E1EC914340 49] iPadAir3, [000001E1EDF3EB00][000001E1EC91C4C0 49] iPadAir4, [000001E1EDEDF600][000001E1EC920640 49] iPadMini2, [000001E1EDF3C900][000001E1EC9247C0 49] iPadMini3, [000001E1EDEDD700][000001E1EC928940 49] iPadMini4, [000001E1EDF3FA00][000001E1EC92CAC0 49] iPadMini5, [000001E1EDF1D400][000001E1EC934D80 49] iPhone6, [000001E1EDF1D500][000001E1EC930DC0 49] iPodTouch6, [000001E1EDFAAF00][000001E1EC93D080 49] iPhone7, [000001E1EDFA9500][000001E1EC9390C0 49] iPodTouch7, [000001E1EDF1DE00][000001E1EDB09240 49] iPhone5S, [000001E1EDFA8F00][000001E1EDB113C0 49] iPhone6Plus, [000001E1EDF1F800][000001E1EDB15540 49] iPhone6S, [000001E1EDFAA700][000001E1EDB196C0 49] iPhone6SPlus, [000001E1EDF1E400][000001E1EC90D800 49] iPhone7Plus, [000001E1EDF3E100][000001E1EDB1D940 49] iPhoneSE, [000001E1EDF1C600][000001E1EDB21A80 49] iPhone8, [000001E1EDF3D900][000001E1EDB25BC0 49] iPhone8Plus, [000001E1EDF1D900][000001E1EDB2DD40 49] iPhoneX, [000001E1EDF3DC00][000001E1EDB30200 49] iPhoneXS, [000001E1EDF1C800][000001E1EDB34380 49] iPhoneXSMax, [000001E1EDF3DD00][000001E1EDB38500 49] iPhoneXR, [000001E1EDF1E100][000001E1EDB3C680 49] iPhone11, [000001E1EDF3C600][000001E1EDB40800 49] iPhone11Pro, [000001E1EDF1D200][000001E1EDB44980 49] iPhone11ProMax, [000001E1EDF3D700][000001E1EDB48B00 49] iPhoneSE2, [000001E1EDF1E900][000001E1EDB6CC80 49] iPhone12Mini, [000001E1EDF3E500][000001E1EDB70E00 49] iPhone12, [000001E1EDF1EF00][000001E1EDB74F80 49] iPhone12Pro, [000001E1EDF3D400][000001E1EDB79100 49] iPhone12ProMax, [000001E1EDF1C100][000001E1EDB7D280 49] iPadPro105, [000001E1EDF3DA00][000001E1EDB81400 49] iPadPro129, [000001E1EDF1DB00][000001E1EDB85580 49] iPadPro97, [000001E1EDF3CE00][000001E1EDB89700 49] iPadPro2_129, [000001E1EDF1EC00][000001E1EDB8D880 49] iPad5, [000001E1EDF3D300][000001E1EDB299C0 49] iPad6, [000001E1EDF1C700][000001E1EDBBDB00 49] iPad7, [000001E1EDF3C800][000001E1EDBC1C40 49] iPad8, [000001E1EDF1DA00][000001E1EDBC8100 49] iPadPro11, [000001E1EDF3C700][000001E1EDBCC280 49] iPadPro2_11, [000001E1EDF1D300][000001E1EDBD0400 49] iPadPro3_129, [000001E1EDF3CB00][000001E1EDBD4580 49] iPadPro4_129, [000001E1EDF1D700][000001E1EDBD8700 49] AppleTV, [000001E1EDF3C500][000001E1EDBDC880 49] AppleTV4K, [000001E1EDF1FB00][000001E1EDBE0A00 49] TVOS, [000001E1EDF3E300][000001E1EDBE4B80 49] Mac, [000001E1EDF1D100][000001E1EDBE8D00 49] MacClient, [000001E1EDF3E000][000001E1EDBECE80 49] MacNoEditor, [000001E1EDF1CD00][000001E1EDBF1000 49] MacServer, [000001E1EDF3D500][000001E1EDBF5180 49] Linux, [000001E1EDF1DD00][000001E1EDBF9300 49] LinuxAArch64, [000001E1EDF3E200][000001E1EDBFD480 49] LinuxNoEditor, [000001E1EDF1C300][000001E1EDC01600 49] LinuxAArch64NoEditor, [000001E1EDF3E800][000001E1EDC05780 49] LinuxClient, [000001E1EDF1C500][000001E1EDC09900 49] LinuxAArch64Client, [000001E1EDF3D000][000001E1EDBC5A40 49] LinuxServer, [000001E1EDF1CA00][000001E1EDC0DB80 49] LinuxAArch64Server, [000001E1EDF3FE00][000001E1EDC11CC0 49] Android, [000001E1EDF1D000][000001E1EDC18180 49] Android_Low, [000001E1EDF3EC00][000001E1EDC1C300 49] Android_Mid, [000001E1EDF1D800][000001E1EDC20480 49] Android_High, [000001E1EDF3F400][000001E1EDC24600 49] Android_Default, [000001E1EDF1F500][000001E1EDC28780 49] Android_Adreno4xx, [000001E1EDF3C400][000001E1EDC2C900 49] Android_Adreno5xx_Low, [000001E1EDF1F400][000001E1EDC30A80 49] Android_Adreno5xx, [000001E1EDF3FF00][000001E1EDC34C00 49] Android_Adreno6xx, [000001E1EDEDE500][000001E1EDC38D80 49] Android_Adreno6xx_Vulkan, [000001E1EDFAA900][000001E1EDC3CF00 49] Android_Mali_T6xx, [000001E1EDEDDB00][000001E1EDC41080 49] Android_Mali_T7xx, [000001E1EDFAA600][000001E1EDC45200 49] Android_Mali_T8xx, [000001E1EDEDC800][000001E1EDC49380 49] Android_Mali_G71, [000001E1EDFA9B00][000001E1EDC4D500 49] Android_Mali_G72, [000001E1EDEDDD00][000001E1EDC51680 49] Android_Mali_G72_Vulkan, [000001E1EDFA9E00][000001E1EDC55800 49] Android_Mali_G76, [000001E1EDEDFF00][000001E1EDC59980 49] Android_Mali_G76_Vulkan, [000001E1EDFAA500][000001E1EDC15AC0 49] Android_Mali_G77, [000001E1EDEDF700][000001E1EDC5DC00 49] Android_Mali_G77_Vulkan, [000001E1EDFA9300][000001E1EDC61D40 49] Android_Vulkan_SM5, [000001E1EDEDCA00][000001E1EDC641C0 49] Android_PowerVR_G6xxx, [000001E1EDFAA000][000001E1EDC6C340 49] Android_PowerVR_GT7xxx, [000001E1EDEDFE00][000001E1EDC704C0 49] Android_PowerVR_GE8xxx, [000001E1EDFA9A00][000001E1EDC74640 49] Android_PowerVR_GM9xxx, [000001E1EDEDE200][000001E1EDC787C0 49] Android_PowerVR_GM9xxx_Vulkan, [000001E1EDFA8600][000001E1EDC7C940 49] Android_TegraK1, [000001E1EDEDE900][000001E1EDC80AC0 49] Android_Unknown_Vulkan, [000001E1EDFA9400][000001E1EDC84C40 49] Lumin, [000001E1EDEDCF00][000001E1EDC88DC0 49] Lumin_Desktop, [000001E1EDFA8300][000001E1EDC8CF40 49] HoloLens, 
-[2021.10.27-06.14.57:845][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.10.27-06.14.57:845][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.10.27-06.14.57:845][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.10.27-06.14.57:845][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.10.27-06.14.57:845][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.10.27-06.14.57:897][  0]LogNetVersion: PrisonOfHell 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1446835089)
-[2021.10.27-06.14.59:104][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2021.10.27-06.14.59:233][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.128223 seconds
-[2021.10.27-06.14.59:240][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
-[2021.10.27-06.14.59:240][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
-[2021.10.27-06.14.59:240][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.10.27-06.15.00:089][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.10.27-06.15.00:100][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.10.27-06.15.00:257][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.00:257][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.00:263][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.00:268][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.00:277][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.00:297][  0]LogUProjectInfo: Found projects:
-[2021.10.27-06.15.00:661][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.10.27-06.15.00:695][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.10.27-06.15.00:695][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.10.27-06.15.00:854][  0]LogCollectionManager: Loaded 0 collections in 0.005045 seconds
-[2021.10.27-06.15.00:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Collections/' took 0.00s
-[2021.10.27-06.15.00:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Developers/Brodie/Collections/' took 0.00s
-[2021.10.27-06.15.00:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Collections/' took 0.00s
-[2021.10.27-06.15.00:923][  0]LogOcInput: OculusInput pre-init called
-[2021.10.27-06.15.00:962][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.10.27-06.15.00:963][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.10.27-06.15.01:104][  0]LogEngine: Initializing Engine...
-[2021.10.27-06.15.01:117][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2021.10.27-06.15.01:118][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.10.27-06.15.01:120][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.10.27-06.15.01:310][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.10.27-06.15.01:324][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.10.27-06.15.01:364][  0]LogAudio: Display: Initializing Audio Device Manager...
-[2021.10.27-06.15.01:374][  0]LogAudio: Display: Audio Device Manager Initialized
-[2021.10.27-06.15.01:374][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.10.27-06.15.01:374][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.10.27-06.15.01:375][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.10.27-06.15.01:375][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.10.27-06.15.01:375][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.10.27-06.15.01:444][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.10.27-06.15.01:445][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.10.27-06.15.01:520][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
-[2021.10.27-06.15.01:530][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.10.27-06.15.01:535][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.10.27-06.15.01:535][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.10.27-06.15.01:538][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.10.27-06.15.01:538][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.10.27-06.15.01:538][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.10.27-06.15.01:539][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.10.27-06.15.01:540][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.10.27-06.15.01:540][  0]LogInit: FAudioDevice initialized.
-[2021.10.27-06.15.01:540][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
-[2021.10.27-06.15.01:540][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.10.27-06.15.01:795][  0]LogDerivedDataCache: Saved boot cache 0.25s 77MB C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.10.27-06.15.01:795][  0]LogInit: Texture streaming: Enabled
-[2021.10.27-06.15.01:831][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
-[2021.10.27-06.15.01:845][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.10.27-06.15.01:846][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.10.27-06.15.01:864][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.10.27-06.15.01:979][  0]LogInit: Transaction tracking system initialized
-[2021.10.27-06.15.02:051][  0]BlueprintLog: New page: Editor Load
-[2021.10.27-06.15.02:243][  0]LocalizationService: Localization service is disabled
-[2021.10.27-06.15.02:298][  0]TimingProfiler: Initialize
-[2021.10.27-06.15.02:299][  0]TimingProfiler: OnSessionChanged
-[2021.10.27-06.15.02:299][  0]LoadingProfiler: Initialize
-[2021.10.27-06.15.02:299][  0]LoadingProfiler: OnSessionChanged
-[2021.10.27-06.15.02:299][  0]NetworkingProfiler: Initialize
-[2021.10.27-06.15.02:299][  0]NetworkingProfiler: OnSessionChanged
-[2021.10.27-06.15.02:299][  0]MemoryProfiler: Initialize
-[2021.10.27-06.15.02:299][  0]MemoryProfiler: OnSessionChanged
-[2021.10.27-06.15.02:620][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/ as it will conflict with another watching ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/.
-[2021.10.27-06.15.02:622][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
-[2021.10.27-06.15.02:622][  0]LogCook: Display: Mobile HDR setting 1
-[2021.10.27-06.15.02:995][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/' took 0.05s
-[2021.10.27-06.15.03:705][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
-[2021.10.27-06.15.03:722][  0]SourceControl: Source control is disabled
-[2021.10.27-06.15.03:723][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.787
-[2021.10.27-06.15.03:723][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.10.27-06.15.03:724][  0]LightingResults: New page: Lighting Build
-[2021.10.27-06.15.03:726][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.10.27-06.15.03:726][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.10.27-06.15.03:726][  0]MapCheck: New page: Map Check
-[2021.10.27-06.15.03:726][  0]LightingResults: New page: Lighting Build
-[2021.10.27-06.15.03:751][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2021.10.27-06.15.04:031][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Enemy\Guard\testingGuard1.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.04:032][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Enemy\Guard\testingGuard1.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.04:033][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Enemy\Guard\testingGuard1.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.04:041][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Enemy\Guard\testingGuard1.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.04:041][  0]LoadErrors: Failed to load /Game/Sound_Design/Concrete_Heel_Run.Concrete_Heel_Run Referenced by K2Node_CallFunction_30
-[2021.10.27-06.15.04:297][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Character\TestingCharacter.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.04:298][  0]LogLinker: Warning: [AssetLog] C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Character\TestingCharacter.uasset: Failed to load '/Game/Sound_Design/Concrete_Heel_Run': Can't find file.
-[2021.10.27-06.15.06:535][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_1'.
-[2021.10.27-06.15.06:536][  0]LogAIModule: Creating AISystem for world POH_1
-[2021.10.27-06.15.06:602][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.10.27-06.15.06:770][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2021.10.27-06.15.06:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.10.27-06.15.06:771][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.435ms to complete.
-[2021.10.27-06.15.06:771][  0]LogFileHelpers: Loading map 'POH_1' took 3.049
-[2021.10.27-06.15.06:776][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.841
-[2021.10.27-06.15.07:151][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.10.27-06.15.07:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.10.27-06.15.07:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.10.27-06.15.07:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.10.27-06.15.07:233][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0196 seconds. Added 3601 classes and 859 folders.
-[2021.10.27-06.15.07:246][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.10.27-06.15.07:251][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.10.27-06.15.07:251][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:251][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.10.27-06.15.07:251][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
-[2021.10.27-06.15.07:253][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.10.27-06.15.07:253][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:253][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.10.27-06.15.07:253][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
-[2021.10.27-06.15.07:255][  0]LogPakFile: PakFile PrimaryIndexSize=191
-[2021.10.27-06.15.07:255][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
-[2021.10.27-06.15.07:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
-[2021.10.27-06.15.07:256][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.10.27-06.15.07:256][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:257][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.10.27-06.15.07:257][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
-[2021.10.27-06.15.07:258][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.10.27-06.15.07:258][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:258][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.10.27-06.15.07:258][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
-[2021.10.27-06.15.07:260][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.10.27-06.15.07:260][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:260][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.10.27-06.15.07:260][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
-[2021.10.27-06.15.07:262][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.10.27-06.15.07:262][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:262][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.10.27-06.15.07:262][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
-[2021.10.27-06.15.07:263][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.10.27-06.15.07:263][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:263][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.10.27-06.15.07:263][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
-[2021.10.27-06.15.07:265][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.10.27-06.15.07:265][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:265][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.10.27-06.15.07:265][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
-[2021.10.27-06.15.07:267][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.10.27-06.15.07:267][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:267][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.10.27-06.15.07:267][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
-[2021.10.27-06.15.07:269][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.10.27-06.15.07:269][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:269][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.10.27-06.15.07:269][  0]LogPakFile: OnPakFileMounted2Time == 0.000054
-[2021.10.27-06.15.07:271][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.10.27-06.15.07:271][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:271][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.10.27-06.15.07:271][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
-[2021.10.27-06.15.07:273][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.10.27-06.15.07:273][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:273][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.10.27-06.15.07:273][  0]LogPakFile: OnPakFileMounted2Time == 0.000061
-[2021.10.27-06.15.07:275][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.10.27-06.15.07:275][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:275][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.10.27-06.15.07:275][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
-[2021.10.27-06.15.07:276][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.10.27-06.15.07:277][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:277][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.10.27-06.15.07:277][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
-[2021.10.27-06.15.07:278][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.10.27-06.15.07:279][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:279][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.10.27-06.15.07:279][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
-[2021.10.27-06.15.07:280][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.10.27-06.15.07:280][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:280][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.10.27-06.15.07:280][  0]LogPakFile: OnPakFileMounted2Time == 0.000078
-[2021.10.27-06.15.07:282][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.10.27-06.15.07:282][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:282][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.10.27-06.15.07:282][  0]LogPakFile: OnPakFileMounted2Time == 0.000081
-[2021.10.27-06.15.07:284][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.10.27-06.15.07:284][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:284][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.10.27-06.15.07:284][  0]LogPakFile: OnPakFileMounted2Time == 0.000086
-[2021.10.27-06.15.07:286][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.10.27-06.15.07:286][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:286][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.10.27-06.15.07:286][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
-[2021.10.27-06.15.07:288][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.10.27-06.15.07:289][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:289][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.10.27-06.15.07:289][  0]LogPakFile: OnPakFileMounted2Time == 0.000096
-[2021.10.27-06.15.07:290][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.10.27-06.15.07:290][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:290][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.10.27-06.15.07:291][  0]LogPakFile: OnPakFileMounted2Time == 0.000099
-[2021.10.27-06.15.07:292][  0]LogPakFile: PakFile PrimaryIndexSize=186
-[2021.10.27-06.15.07:292][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:292][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
-[2021.10.27-06.15.07:292][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
-[2021.10.27-06.15.07:294][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.10.27-06.15.07:294][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:294][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.10.27-06.15.07:294][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
-[2021.10.27-06.15.07:296][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.10.27-06.15.07:296][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:296][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.10.27-06.15.07:296][  0]LogPakFile: OnPakFileMounted2Time == 0.000110
-[2021.10.27-06.15.07:298][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.10.27-06.15.07:298][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.10.27-06.15.07:298][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.10.27-06.15.07:298][  0]LogPakFile: OnPakFileMounted2Time == 0.000114
-[2021.10.27-06.15.07:414][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.10.27-06.15.07:416][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.10.27-06.15.07:469][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.10.27-06.15.07:470][  0]LogLoad: (Engine Initialization) Total time: 18.53 seconds
-[2021.10.27-06.15.07:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.10.27-06.15.07:470][  0]LogInit: First time updating LLM stats...
-[2021.10.27-06.15.07:651][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.10.27-06.15.07:759][  0]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.10.27-06.15.07:764][  0]LogSlate: Took 0.000535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.10.27-06.15.07:776][  0]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.10.27-06.15.07:931][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.10.27-06.15.07:963][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.10.27-06.15.07:999][  0]LogSlate: Took 0.000979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.10.27-06.15.08:126][  1]LogRenderer: Reallocating scene render targets to support 1264x440 Format 10 NumSamples 1 (Frame:1).
-[2021.10.27-06.15.08:144][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/' took 0.63s
-[2021.10.27-06.15.08:180][  1]LogAssetRegistry: Asset discovery search completed in 11.2524 seconds
-[2021.10.27-06.15.08:184][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2021.10.27-06.15.17:200][362]LogSlate: Window 'Message Log' being destroyed
-[2021.10.27-06.15.17:212][362]LogSlate: Window 'Message Log' being destroyed
-[2021.10.27-06.15.26:786][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Background/Ambient Sound Effect.wav)
-[2021.10.27-06.15.26:861][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Background/Demon Ambient Noise.wav)
-[2021.10.27-06.15.26:975][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Demon Monster Sound.wav)
-[2021.10.27-06.15.27:066][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Demon Noises.wav)
-[2021.10.27-06.15.27:158][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Demon Sound.wav)
-[2021.10.27-06.15.27:171][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Detected Sound.wav)
-[2021.10.27-06.15.27:181][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Dog Bark.wav)
-[2021.10.27-06.15.27:242][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Eyeball Moving Sound.wav)
-[2021.10.27-06.15.27:322][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Enemies/Searching Sound.wav)
-[2021.10.27-06.15.27:335][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Interactions/LeverDoor Sound.wav)
-[2021.10.27-06.15.27:340][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Concrete Heel Run.wav)
-[2021.10.27-06.15.27:344][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Concrete Run.wav)
-[2021.10.27-06.15.27:354][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Concrete Running.wav)
-[2021.10.27-06.15.27:379][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Concrete Walking.wav)
-[2021.10.27-06.15.27:401][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Hell Running.wav)
-[2021.10.27-06.15.27:410][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Movement/Hell Walking.wav)
-[2021.10.27-06.15.27:642][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Music/Early Levels Ambient Music.wav)
-[2021.10.27-06.15.28:099][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Music/Later Level Music.wav)
-[2021.10.27-06.15.28:570][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Music/Mid Level Music.wav)
-[2021.10.27-06.15.29:402][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Music/Puzzle Music (If needed).wav)
-[2021.10.27-06.15.30:151][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Alert Sound Effects All Sounds.wav)
-[2021.10.27-06.15.30:507][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Anime Sound Effects.wav)
-[2021.10.27-06.15.30:889][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Demon Sound Effects All Sounds.wav)
-[2021.10.27-06.15.31:825][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Flying Sound FX.wav)
-[2021.10.27-06.15.31:935][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Gears sounds.wav)
-[2021.10.27-06.15.31:997][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Ghost Sound Effects.wav)
-[2021.10.27-06.15.32:091][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Other/Typing Sound Effect (no copyright).wav)
-[2021.10.27-06.15.32:128][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Soul/Possess Sound.wav)
-[2021.10.27-06.15.32:137][616]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Brodie\Documents\GitHub\ICT\PrisonOfHell\Content\Sound Design/Speech/Text Sound.wav)
-[2021.10.27-06.16.27:033][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
-[2021.10.27-06.16.27:114][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Ambient_Sound_Effect4282EDD84A93B73D54FB2ABB088AA350.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Background/Ambient_Sound_Effect.uasset'
-[2021.10.27-06.16.27:212][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Demon_Ambient_Noise6A3AEDAD48041584280D2EB08E64EC93.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Background/Demon_Ambient_Noise.uasset'
-[2021.10.27-06.16.27:252][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Demon_Monster_Sound71F97CC6433E69553A06A98AADCF574C.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Demon_Monster_Sound.uasset'
-[2021.10.27-06.16.27:292][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Enemies/Demon_Noises" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Demon_Noises.uasset" SILENT=true
-[2021.10.27-06.16.27:340][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Demon_Noises1123AF174A14A05A94F835B8F0CECBCD.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Demon_Noises.uasset'
-[2021.10.27-06.16.27:355][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Enemies/Demon_Sound" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Demon_Sound.uasset" SILENT=true
-[2021.10.27-06.16.27:363][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Demon_SoundE7352F4E443AE763BD3445AACF0BE68B.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Demon_Sound.uasset'
-[2021.10.27-06.16.27:385][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Detected_SoundB6D0CC944D202BA9646EA89BC0A9CC85.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Detected_Sound.uasset'
-[2021.10.27-06.16.27:400][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Enemies/Dog_Bark" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Dog_Bark.uasset" SILENT=true
-[2021.10.27-06.16.27:408][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Dog_Bark9F7C4924450944D030FC54A169A7D178.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Dog_Bark.uasset'
-[2021.10.27-06.16.27:474][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Eyeball_Moving_Sound46E2FEF3409D7AA95802FCBA56161C73.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Eyeball_Moving_Sound.uasset'
-[2021.10.27-06.16.27:503][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Searching_Sound103E3A844B8E38EEA26A978314575F59.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Enemies/Searching_Sound.uasset'
-[2021.10.27-06.16.27:525][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/LeverDoor_SoundDE2125824412E31A2159D49B6C0B86B8.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Interactions/LeverDoor_Sound.uasset'
-[2021.10.27-06.16.27:548][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Heel_RunA864E5A04A0516FA914393B8A8FBCD9E.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Heel_Run.uasset'
-[2021.10.27-06.16.27:569][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_RunE47A8FED4A3CE95004C9078DE40C5333.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Run.uasset'
-[2021.10.27-06.16.27:615][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Running3177888A412CE90ED326399A2FC9C0A6.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Running.uasset'
-[2021.10.27-06.16.27:673][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_WalkingBD9856CC4692D47FA0B8898B006E48F7.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Walking.uasset'
-[2021.10.27-06.16.27:698][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Hell_Running579D93FF41E5C8AF362DFF887863A4C3.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Hell_Running.uasset'
-[2021.10.27-06.16.27:721][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Hell_WalkingC090E92849FE3A5EDCDBEE86D38C4BC9.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Hell_Walking.uasset'
-[2021.10.27-06.16.28:095][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Early_Levels_Ambient_Music69C7564747D9EEE9EFF112B00E364C11.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/Early_Levels_Ambient_Music.uasset'
-[2021.10.27-06.16.28:836][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Later_Level_MusicEB9F31D44DCA8E9BF7B29286EF6EF1B3.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/Later_Level_Music.uasset'
-[2021.10.27-06.16.29:395][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Mid_Level_Music5629A320474437FF67EBA9847AD4CE6D.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/Mid_Level_Music.uasset'
-[2021.10.27-06.16.30:016][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Puzzle_Music__If_needed_2D60912B4AC03700C28A7694A8F7C65F.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/Puzzle_Music__If_needed_.uasset'
-[2021.10.27-06.16.30:634][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Alert_Sound_Effects_All_SoundsF0E76F0945D47A62DFD446A4DCF6DE78.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Alert_Sound_Effects_All_Sounds.uasset'
-[2021.10.27-06.16.30:673][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Anime_Sound_Effects07FD8131413F36205146F7B486CA9DCC.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Anime_Sound_Effects.uasset'
-[2021.10.27-06.16.31:325][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Demon_Sound_Effects_All_Sounds399B03B54C821A886B4C308BF10DC573.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Demon_Sound_Effects_All_Sounds.uasset'
-[2021.10.27-06.16.31:354][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Flying_Sound_FXAD461FCC441107B4B48F918A68FCFFD0.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Flying_Sound_FX.uasset'
-[2021.10.27-06.16.31:367][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Other/Gears_sounds" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Gears_sounds.uasset" SILENT=true
-[2021.10.27-06.16.31:374][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Gears_soundsA6DD78E4496BE6F40470CAA53B0C1783.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Gears_sounds.uasset'
-[2021.10.27-06.16.31:400][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Ghost_Sound_EffectsB6964372494FE7D43DB531AC8F338C93.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Ghost_Sound_Effects.uasset'
-[2021.10.27-06.16.31:422][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Typing_Sound_Effect__no_copyrigh5EDD95F141F84548EA67D7A0F0F3DDA5.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Other/Typing_Sound_Effect__no_copyright_.uasset'
-[2021.10.27-06.16.31:432][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Soul/Possess_Sound" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Soul/Possess_Sound.uasset" SILENT=true
-[2021.10.27-06.16.31:437][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Possess_SoundB32C92914C3437236A68D697C8E8E2A6.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Soul/Possess_Sound.uasset'
-[2021.10.27-06.16.31:446][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound_Design/Speech/Text_Sound" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Speech/Text_Sound.uasset" SILENT=true
-[2021.10.27-06.16.31:450][636]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Text_Sound8C3408624B3FFE8C34EDE091B0E3F474.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Speech/Text_Sound.uasset'
-[2021.10.27-06.16.31:510][636]AssetCheck: New page: Asset Save: multiple assets
-[2021.10.27-06.16.31:510][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Speech/Text_Sound.Text_Sound
-[2021.10.27-06.16.31:510][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Soul/Possess_Sound.Possess_Sound
-[2021.10.27-06.16.31:510][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Typing_Sound_Effect__no_copyright_.Typing_Sound_Effect__no_copyright_
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Ghost_Sound_Effects.Ghost_Sound_Effects
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Gears_sounds.Gears_sounds
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Flying_Sound_FX.Flying_Sound_FX
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Demon_Sound_Effects_All_Sounds.Demon_Sound_Effects_All_Sounds
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Anime_Sound_Effects.Anime_Sound_Effects
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Other/Alert_Sound_Effects_All_Sounds.Alert_Sound_Effects_All_Sounds
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Music/Puzzle_Music__If_needed_.Puzzle_Music__If_needed_
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Music/Mid_Level_Music.Mid_Level_Music
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Music/Later_Level_Music.Later_Level_Music
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Music/Early_Levels_Ambient_Music.Early_Levels_Ambient_Music
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Hell_Walking.Hell_Walking
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Hell_Running.Hell_Running
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Walking.Concrete_Walking
-[2021.10.27-06.16.31:511][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Running.Concrete_Running
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Run.Concrete_Run
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Heel_Run.Concrete_Heel_Run
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Interactions/LeverDoor_Sound.LeverDoor_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Searching_Sound.Searching_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Eyeball_Moving_Sound.Eyeball_Moving_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Dog_Bark.Dog_Bark
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Detected_Sound.Detected_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Demon_Sound.Demon_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Demon_Noises.Demon_Noises
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Enemies/Demon_Monster_Sound.Demon_Monster_Sound
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Background/Demon_Ambient_Noise.Demon_Ambient_Noise
-[2021.10.27-06.16.31:512][636]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Background/Ambient_Sound_Effect.Ambient_Sound_Effect
+[2021.10.28-00.59.56:794][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.28-00.59.56:794][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.28-00.59.56:795][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.28-00.59.56:796][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.10.28-00.59.56:796][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:796][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:851][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.28-00.59.56:851][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.28-00.59.56:852][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.28-00.59.56:853][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.28-00.59.56:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.28-00.59.56:853][  0]LogHAL: Display: Platform has ~ 16 GB [17095008256 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.28-00.59.56:853][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.28-00.59.56:853][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:853][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.28-00.59.56:854][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:854][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.28-00.59.56:855][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.28-00.59.56:856][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.28-00.59.56:856][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.28-00.59.56:856][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.28-00.59.56:856][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.10.28-00.59.56:856][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Config/Windows/Editor.ini]
+[2021.10.28-00.59.56:856][  0]LogInit: Computer: TPC-AWESOME
+[2021.10.28-00.59.56:856][  0]LogInit: User: Brodie
+[2021.10.28-00.59.56:856][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.10.28-00.59.56:856][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.28-00.59.56:856][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.10.28-00.59.56:856][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.28-00.59.56:856][  0]LogMemory: Process Physical Memory: 134.46 MB used, 134.46 MB peak
+[2021.10.28-00.59.56:856][  0]LogMemory: Process Virtual Memory: 117.45 MB used, 117.45 MB peak
+[2021.10.28-00.59.56:856][  0]LogMemory: Physical Memory: 8569.33 MB used,  7733.74 MB free, 16303.07 MB total
+[2021.10.28-00.59.56:856][  0]LogMemory: Virtual Memory: 134197640.00 MB used,  20089.06 MB free, 134217728.00 MB total
+[2021.10.28-00.59.56:864][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.28-00.59.56:989][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.28-00.59.56:992][  0]LogInit: Using OS detected language (en-US).
+[2021.10.28-00.59.56:992][  0]LogInit: Using OS detected locale (en-AU).
+[2021.10.28-00.59.57:001][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.10.28-00.59.57:420][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.28-00.59.57:443][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.28-00.59.57:496][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.28-00.59.57:496][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.28-00.59.57:912][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2021.10.28-00.59.57:912][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.28-00.59.57:912][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.28-00.59.57:912][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.28-00.59.58:201][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.10.28-00.59.58:201][  0]LogD3D11RHI:       6052/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.10.28-00.59.58:207][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.28-00.59.58:207][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.28-00.59.58:207][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.10.28-00.59.58:228][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.28-00.59.58:228][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.10.28-00.59.58:228][  0]LogWindows: EnumDisplayDevices:
+[2021.10.28-00.59.58:229][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.10.28-00.59.58:230][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2021.10.28-00.59.58:231][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.10.28-00.59.58:233][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.10.28-00.59.58:234][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.10.28-00.59.58:234][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.10.28-00.59.58:234][  0]LogD3D11RHI:   Driver Version: 471.11 (internal:30.0.14.7111, unified:471.11)
+[2021.10.28-00.59.58:234][  0]LogD3D11RHI:      Driver Date: 6-21-2021
+[2021.10.28-00.59.58:234][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.10.28-00.59.58:590][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.28-00.59.58:590][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.28-00.59.58:590][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.28-00.59.58:644][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.10.28-00.59.58:649][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.10.28-00.59.59:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.28-00.59.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.28-00.59.59:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.28-00.59.59:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.28-00.59.59:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.28-00.59.59:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.28-00.59.59:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.28-00.59.59:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.28-00.59.59:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.28-00.59.59:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.28-00.59.59:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.28-00.59.59:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.28-00.59.59:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.28-00.59.59:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.10.28-00.59.59:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.10.28-00.59.59:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.10.28-00.59.59:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.10.28-01.00.00:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.28-01.00.00:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.28-01.00.00:034][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.28-01.00.00:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.28-01.00.00:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.28-01.00.00:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.28-01.00.00:100][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.28-01.00.00:120][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.28-01.00.00:321][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.10.28-01.00.00:321][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Intermediate/Shaders/WorkingDirectory/78688/).
+[2021.10.28-01.00.00:322][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brodie/AppData/Local/Temp/UnrealShaderWorkingDir/C82223C44D7CE232864E1294D7ABA85F/'.
+[2021.10.28-01.00.00:323][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.28-01.00.00:323][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.28-01.00.02:197][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: Loaded boot cache 0.11s 77MB C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.28-01.00.02:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.28-01.00.02:340][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.28-01.00.02:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.28-01.00.02:340][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.28-01.00.02:376][  0]LogDerivedDataCache: Speed tests for C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2021.10.28-01.00.02:376][  0]LogDerivedDataCache: Display: Performance to C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.13ms. RandomReadSpeed=305.60MBs, RandomWriteSpeed=29.88MBs. Assigned SpeedClass 'Local'
+[2021.10.28-01.00.02:377][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brodie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.28-01.00.02:377][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.28-01.00.02:377][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.28-01.00.02:510][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.28-01.00.02:511][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.28-01.00.02:587][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
+[2021.10.28-01.00.03:057][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.28-01.00.03:057][  0]LogInit: Active device profile: [00000260FD992300][00000260FC2CD340 49] Windows
+[2021.10.28-01.00.03:057][  0]LogInit: Profiles: [00000260FD992300][00000260FC2CD340 49] Windows, [00000260FD92DF00][00000260FC2D54C0 49] WindowsNoEditor, [00000260FD992E00][00000260FC2D9640 49] WindowsServer, [00000260FD92D200][00000260FC2D1780 49] WindowsClient, [00000260FD992100][00000260FC2DD8C0 49] IOS, [00000260FD92F200][00000260FC2E1A00 49] iPadAir, [00000260FD990500][00000260FC2E5B40 49] iPadAir2, [00000260FD8D1E00][00000260FC2F0140 49] IPadPro, [00000260FD8D1F00][00000260FC2EC180 49] iPadAir3, [00000260FD92EB00][00000260FC2F4300 49] iPadAir4, [00000260FD8D3600][00000260FC2F8480 49] iPadMini2, [00000260FD92C900][00000260FC2FC600 49] iPadMini3, [00000260FD8D1700][00000260FC300780 49] iPadMini4, [00000260FD92FA00][00000260FC304900 49] iPadMini5, [00000260FD909400][00000260FC30CBC0 49] iPhone6, [00000260FD909500][00000260FC308C00 49] iPodTouch6, [00000260FD992F00][00000260FD4BAEC0 49] iPhone7, [00000260FD991500][00000260FD4B6F00 49] iPodTouch7, [00000260FD909E00][00000260FD4BF080 49] iPhone5S, [00000260FD990F00][00000260FD4C3200 49] iPhone6Plus, [00000260FD90B800][00000260FD4C7380 49] iPhone6S, [00000260FD992700][00000260FD4CB500 49] iPhone6SPlus, [00000260FD90A400][00000260FD4CF680 49] iPhone7Plus, [00000260FD92E100][00000260FC2E97C0 49] iPhoneSE, [00000260FD908600][00000260FD4D3900 49] iPhone8, [00000260FD92D900][00000260FD4D7A40 49] iPhone8Plus, [00000260FD909900][00000260FD4DBB80 49] iPhoneX, [00000260FD92DC00][00000260FD4E3D00 49] iPhoneXS, [00000260FD908800][00000260FD4E61C0 49] iPhoneXSMax, [00000260FD92DD00][00000260FD4EA340 49] iPhoneXR, [00000260FD90A100][00000260FD4EE4C0 49] iPhone11, [00000260FD92C600][00000260FD4F2640 49] iPhone11Pro, [00000260FD909200][00000260FD4F67C0 49] iPhone11ProMax, [00000260FD92D700][00000260FD4FA940 49] iPhoneSE2, [00000260FD90A900][00000260FD4FEAC0 49] iPhone12Mini, [00000260FD92E500][00000260FD502C40 49] iPhone12, [00000260FD90AF00][00000260FD506DC0 49] iPhone12Pro, [00000260FD92D400][00000260FD50AF40 49] iPhone12ProMax, [00000260FD908100][00000260FD50F0C0 49] iPadPro105, [00000260FD92DA00][00000260FD513240 49] iPadPro129, [00000260FD909B00][00000260FD5173C0 49] iPadPro97, [00000260FD92CE00][00000260FD51B540 49] iPadPro2_129, [00000260FD90AC00][00000260FD51F6C0 49] iPad5, [00000260FD92D300][00000260FD523840 49] iPad6, [00000260FD908700][00000260FD4DF980 49] iPad7, [00000260FD92C800][00000260FD527AC0 49] iPad8, [00000260FD909A00][00000260FD52BC00 49] iPadPro11, [00000260FD92C700][00000260FD5320C0 49] iPadPro2_11, [00000260FD909300][00000260FD536240 49] iPadPro3_129, [00000260FD92CB00][00000260FD53A3C0 49] iPadPro4_129, [00000260FD909700][00000260FD53E540 49] AppleTV, [00000260FD92C500][00000260FD5426C0 49] AppleTV4K, [00000260FD90BB00][00000260FD546840 49] TVOS, [00000260FD92E300][00000260FD54A9C0 49] Mac, [00000260FD909100][00000260FD54EB40 49] MacClient, [00000260FD92E000][00000260FD552CC0 49] MacNoEditor, [00000260FD908D00][00000260FD556E40 49] MacServer, [00000260FD92D500][00000260FD55AFC0 49] Linux, [00000260FD909D00][00000260FD55F140 49] LinuxAArch64, [00000260FD92E200][00000260FD5632C0 49] LinuxNoEditor, [00000260FD908300][00000260FD567440 49] LinuxAArch64NoEditor, [00000260FD92E800][00000260FD56B5C0 49] LinuxClient, [00000260FD908500][00000260FD56F740 49] LinuxAArch64Client, [00000260FD92D000][00000260FD5738C0 49] LinuxServer, [00000260FD908A00][00000260FD52FA00 49] LinuxAArch64Server, [00000260FD92FE00][00000260FD577B40 49] Android, [00000260FD909000][00000260FD57BC80 49] Android_Low, [00000260FD92EC00][00000260FD57E100 49] Android_Mid, [00000260FD909800][00000260FD586280 49] Android_High, [00000260FD92F400][00000260FD58A400 49] Android_Default, [00000260FD90B500][00000260FD58E580 49] Android_Adreno4xx, [00000260FD92C400][00000260FD592700 49] Android_Adreno5xx_Low, [00000260FD90B400][00000260FD596880 49] Android_Adreno5xx, [00000260FD92FF00][00000260FD59AA00 49] Android_Adreno6xx, [00000260FD8D2500][00000260FD59EB80 49] Android_Adreno6xx_Vulkan, [00000260FD992900][00000260FD5A2D00 49] Android_Mali_T6xx, [00000260FD8D1B00][00000260FD5A6E80 49] Android_Mali_T7xx, [00000260FD992600][00000260FD5AB000 49] Android_Mali_T8xx, [00000260FD8D0800][00000260FD5AF180 49] Android_Mali_G71, [00000260FD991B00][00000260FD5B3300 49] Android_Mali_G72, [00000260FD8D1D00][00000260FD5B7480 49] Android_Mali_G72_Vulkan, [00000260FD991E00][00000260FD5BB600 49] Android_Mali_G76, [00000260FD8D3F00][00000260FD5BF780 49] Android_Mali_G76_Vulkan, [00000260FD992500][00000260FD5C3900 49] Android_Mali_G77, [00000260FD8D3700][00000260FD583A40 49] Android_Mali_G77_Vulkan, [00000260FD991300][00000260FD5C7B80 49] Android_Vulkan_SM5, [00000260FD8D0A00][00000260FD5CBCC0 49] Android_PowerVR_G6xxx, [00000260FD992000][00000260FD5CE140 49] Android_PowerVR_GT7xxx, [00000260FD8D3E00][00000260FD5D62C0 49] Android_PowerVR_GE8xxx, [00000260FD991A00][00000260FD5DA440 49] Android_PowerVR_GM9xxx, [00000260FD8D2200][00000260FD5DE5C0 49] Android_PowerVR_GM9xxx_Vulkan, [00000260FD990600][00000260FD5E2740 49] Android_TegraK1, [00000260FD8D2900][00000260FD5E68C0 49] Android_Unknown_Vulkan, [00000260FD991400][00000260FD5EAA40 49] Lumin, [00000260FD8D0F00][00000260FD5EEBC0 49] Lumin_Desktop, [00000260FD990300][00000260FD5F2D40 49] HoloLens, 
+[2021.10.28-01.00.03:328][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.28-01.00.03:328][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.28-01.00.03:328][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.28-01.00.03:328][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.28-01.00.03:329][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.28-01.00.03:379][  0]LogNetVersion: PrisonOfHell 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1446835089)
+[2021.10.28-01.00.04:447][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.10.28-01.00.04:600][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.152333 seconds
+[2021.10.28-01.00.04:607][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.10.28-01.00.04:607][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.10.28-01.00.04:607][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.28-01.00.05:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.28-01.00.05:388][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.28-01.00.05:592][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.05:592][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.05:597][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.05:602][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.05:620][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.05:629][  0]LogUProjectInfo: Found projects:
+[2021.10.28-01.00.06:073][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.28-01.00.06:116][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.28-01.00.06:116][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.28-01.00.06:258][  0]LogCollectionManager: Loaded 0 collections in 0.004373 seconds
+[2021.10.28-01.00.06:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Collections/' took 0.00s
+[2021.10.28-01.00.06:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Developers/Brodie/Collections/' took 0.00s
+[2021.10.28-01.00.06:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Collections/' took 0.00s
+[2021.10.28-01.00.06:334][  0]LogOcInput: OculusInput pre-init called
+[2021.10.28-01.00.06:403][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.10.28-01.00.06:404][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.10.28-01.00.06:567][  0]LogEngine: Initializing Engine...
+[2021.10.28-01.00.06:601][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2021.10.28-01.00.06:601][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.28-01.00.06:604][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.10.28-01.00.06:897][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.28-01.00.06:912][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.28-01.00.06:913][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.10.28-01.00.06:921][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.10.28-01.00.06:921][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.00.06:921][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.00.06:922][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.00.06:922][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.00.06:922][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.00.06:922][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.00.06:974][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.00.06:974][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.00.07:070][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.00.07:071][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.00.07:074][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.00.07:075][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.00.07:077][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.00.07:077][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.00.07:077][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.00.07:078][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.00.07:078][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.00.07:078][  0]LogInit: FAudioDevice initialized.
+[2021.10.28-01.00.07:078][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.10.28-01.00.07:078][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.28-01.00.07:791][  0]LogDerivedDataCache: Saved boot cache 0.71s 77MB C:/Users/Brodie/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.28-01.00.07:792][  0]LogInit: Texture streaming: Enabled
+[2021.10.28-01.00.07:813][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.10.28-01.00.07:823][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.28-01.00.07:823][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.28-01.00.07:836][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.28-01.00.07:907][  0]LogInit: Transaction tracking system initialized
+[2021.10.28-01.00.07:945][  0]BlueprintLog: New page: Editor Load
+[2021.10.28-01.00.08:078][  0]LocalizationService: Localization service is disabled
+[2021.10.28-01.00.08:127][  0]TimingProfiler: Initialize
+[2021.10.28-01.00.08:134][  0]TimingProfiler: OnSessionChanged
+[2021.10.28-01.00.08:134][  0]LoadingProfiler: Initialize
+[2021.10.28-01.00.08:134][  0]LoadingProfiler: OnSessionChanged
+[2021.10.28-01.00.08:134][  0]NetworkingProfiler: Initialize
+[2021.10.28-01.00.08:134][  0]NetworkingProfiler: OnSessionChanged
+[2021.10.28-01.00.08:134][  0]MemoryProfiler: Initialize
+[2021.10.28-01.00.08:134][  0]MemoryProfiler: OnSessionChanged
+[2021.10.28-01.00.08:522][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/ as it will conflict with another watching ../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/.
+[2021.10.28-01.00.08:572][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.10.28-01.00.08:572][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.28-01.00.08:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/' took 0.11s
+[2021.10.28-01.00.09:564][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.10.28-01.00.09:578][  0]SourceControl: Source control is disabled
+[2021.10.28-01.00.09:578][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.495
+[2021.10.28-01.00.09:578][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.28-01.00.09:612][  0]LightingResults: New page: Lighting Build
+[2021.10.28-01.00.09:613][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.00.09:614][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.00.09:614][  0]MapCheck: New page: Map Check
+[2021.10.28-01.00.09:614][  0]LightingResults: New page: Lighting Build
+[2021.10.28-01.00.09:631][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.10.28-01.00.14:779][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_1'.
+[2021.10.28-01.00.14:780][  0]LogAIModule: Creating AISystem for world POH_1
+[2021.10.28-01.00.14:851][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.28-01.00.14:991][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.10.28-01.00.14:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.28-01.00.14:993][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.377ms to complete.
+[2021.10.28-01.00.14:993][  0]LogFileHelpers: Loading map 'POH_1' took 5.414
+[2021.10.28-01.00.14:996][  0]LogUnrealEdMisc: Total Editor Startup Time, took 21.912
+[2021.10.28-01.00.15:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.00.15:204][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.00.15:213][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.00.15:220][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.00.15:237][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3601 classes and 859 folders.
+[2021.10.28-01.00.15:245][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-01.00.15:395][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-01.00.15:395][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:395][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-01.00.15:395][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.10.28-01.00.15:419][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.28-01.00.15:419][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:419][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.28-01.00.15:419][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.10.28-01.00.15:440][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.10.28-01.00.15:440][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:440][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.10.28-01.00.15:440][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.10.28-01.00.15:463][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-01.00.15:463][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:463][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-01.00.15:463][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.10.28-01.00.15:487][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.28-01.00.15:487][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:487][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.28-01.00.15:487][  0]LogPakFile: OnPakFileMounted2Time == 0.000055
+[2021.10.28-01.00.15:507][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.28-01.00.15:507][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:507][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.28-01.00.15:507][  0]LogPakFile: OnPakFileMounted2Time == 0.000060
+[2021.10.28-01.00.15:522][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.28-01.00.15:522][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:522][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.28-01.00.15:522][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2021.10.28-01.00.15:537][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.28-01.00.15:538][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:538][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.28-01.00.15:538][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
+[2021.10.28-01.00.15:543][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-01.00.15:543][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:543][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-01.00.15:543][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2021.10.28-01.00.15:566][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.28-01.00.15:566][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:566][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.28-01.00.15:566][  0]LogPakFile: OnPakFileMounted2Time == 0.000079
+[2021.10.28-01.00.15:638][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.28-01.00.15:638][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:638][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.28-01.00.15:638][  0]LogPakFile: OnPakFileMounted2Time == 0.000084
+[2021.10.28-01.00.15:661][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-01.00.15:661][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:661][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-01.00.15:661][  0]LogPakFile: OnPakFileMounted2Time == 0.000089
+[2021.10.28-01.00.15:677][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-01.00.15:678][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:678][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-01.00.15:678][  0]LogPakFile: OnPakFileMounted2Time == 0.000094
+[2021.10.28-01.00.15:692][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-01.00.15:692][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:692][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-01.00.15:692][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2021.10.28-01.00.15:714][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.28-01.00.15:714][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:714][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.28-01.00.15:714][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
+[2021.10.28-01.00.15:736][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-01.00.15:736][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:736][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-01.00.15:736][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2021.10.28-01.00.15:757][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.28-01.00.15:757][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:757][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.28-01.00.15:757][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
+[2021.10.28-01.00.15:779][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-01.00.15:779][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:779][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-01.00.15:779][  0]LogPakFile: OnPakFileMounted2Time == 0.000118
+[2021.10.28-01.00.15:799][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-01.00.15:799][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:799][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-01.00.15:799][  0]LogPakFile: OnPakFileMounted2Time == 0.000123
+[2021.10.28-01.00.15:818][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-01.00.15:818][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:818][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-01.00.15:818][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2021.10.28-01.00.15:883][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-01.00.15:883][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:883][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-01.00.15:883][  0]LogPakFile: OnPakFileMounted2Time == 0.000134
+[2021.10.28-01.00.15:902][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-01.00.15:902][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:902][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-01.00.15:902][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2021.10.28-01.00.15:925][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.10.28-01.00.15:925][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:925][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.10.28-01.00.15:925][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2021.10.28-01.00.15:949][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-01.00.15:949][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:949][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-01.00.15:949][  0]LogPakFile: OnPakFileMounted2Time == 0.000151
+[2021.10.28-01.00.15:963][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-01.00.15:963][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:963][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-01.00.15:963][  0]LogPakFile: OnPakFileMounted2Time == 0.000156
+[2021.10.28-01.00.15:977][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.28-01.00.15:977][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-01.00.15:977][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.28-01.00.15:977][  0]LogPakFile: OnPakFileMounted2Time == 0.000161
+[2021.10.28-01.00.19:583][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-01.00.19:584][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.10.28-01.00.19:619][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-01.00.19:619][  0]LogLoad: (Engine Initialization) Total time: 26.54 seconds
+[2021.10.28-01.00.19:619][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.28-01.00.19:619][  0]LogInit: First time updating LLM stats...
+[2021.10.28-01.00.19:751][  0]LogAssetRegistry: Asset discovery search completed in 17.1657 seconds
+[2021.10.28-01.00.19:752][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.10.28-01.00.19:807][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.28-01.00.19:817][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.28-01.00.19:819][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.28-01.00.19:839][  0]LogSlate: Took 0.013670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.28-01.00.20:030][  0]LogSlate: Took 0.022963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.28-01.00.20:879][  0]LogRenderer: Reallocating scene render targets to support 1264x440 Format 10 NumSamples 1 (Frame:1).
+[2021.10.28-01.00.20:879][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.28-01.00.21:191][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/' took 1.55s
+[2021.10.28-01.01.02:768][718]LogMetaData: Removing '/Game/Sound_Design/Movement/Concrete_Heel_Run_Cue.Concrete_Heel_Run_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sound_Design/Concrete_Heel_Run_Cue.PackageMetaData'
+[2021.10.28-01.01.02:856][718]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Heel_Run_CueD98FB1A14E10B1EDBB57BDA2A97F0E43.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Heel_Run_Cue.uasset'
+[2021.10.28-01.01.03:030][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.10.28-01.01.03:053][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.10.28-01.01.03:067][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.10.28-01.01.03:339][718]AssetCheck: New page: Asset Save: Concrete_Heel_Run_Cue
+[2021.10.28-01.01.03:339][718]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Movement/Concrete_Heel_Run_Cue.Concrete_Heel_Run_Cue
+[2021.10.28-01.01.20:922][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.10.28-01.01.25:746][920]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.28-01.01.30:133][257]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Concrete_Run...
+[2021.10.28-01.01.30:134][257]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Movement/Concrete_Run.Concrete_Run will be modified from 40 to 40.
+[2021.10.28-01.01.30:267][257]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 78312 while cooking SoundWave /Game/Sound_Design/Movement/Concrete_Run.Concrete_Run.
+[2021.10.28-01.01.34:192][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.10.28-01.01.39:668][484]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.28-01.01.48:032][148]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Concrete_Heel_Run...
+[2021.10.28-01.01.48:045][148]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Movement/Concrete_Heel_Run.Concrete_Heel_Run will be modified from 40 to 40.
+[2021.10.28-01.01.48:149][148]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 131400 while cooking SoundWave /Game/Sound_Design/Movement/Concrete_Heel_Run.Concrete_Heel_Run.
+[2021.10.28-01.01.50:957][341]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Concrete_Running...
+[2021.10.28-01.01.50:987][341]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Movement/Concrete_Running.Concrete_Running will be modified from 40 to 40.
+[2021.10.28-01.01.51:397][341]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1625568 while cooking SoundWave /Game/Sound_Design/Movement/Concrete_Running.Concrete_Running.
+[2021.10.28-01.01.52:747][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.10.28-01.01.55:084][425]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.28-01.01.55:180][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.10.28-01.01.55:199][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.10.28-01.01.55:232][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.10.28-01.01.55:247][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.28-01.01.58:947][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.10.28-01.02.00:051][665]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.28-01.02.00:160][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.10.28-01.02.00:182][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.10.28-01.02.00:195][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.10.28-01.02.07:095][114]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Running583F28AD4C79C1664DC04593173E4932.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Running.uasset'
+[2021.10.28-01.02.07:117][114]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Heel_Run028088A344FA8D9B5A3BE6A66323FFF9.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Heel_Run.uasset'
+[2021.10.28-01.02.07:135][114]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_RunA64012894485C4FA732971B4931D0E24.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Run.uasset'
+[2021.10.28-01.02.07:233][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.10.28-01.02.07:244][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.28-01.02.07:257][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.28-01.02.07:286][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.10.28-01.02.07:301][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.28-01.02.07:341][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/TestingCharacter" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Character/TestingCharacter.uasset" SILENT=true
+[2021.10.28-01.02.07:486][114]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/TestingCharacterB7FF2DC44257D91E6EED47BC4EEFCFF6.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Character/TestingCharacter.uasset'
+[2021.10.28-01.02.07:501][114]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Concrete_Heel_Run_Cue9C61A44144D9AB703A06FE8CA58FDA9B.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Movement/Concrete_Heel_Run_Cue.uasset'
+[2021.10.28-01.02.07:697][114]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.28-01.02.07:697][114]LogContentValidation: Display: Validating Blueprint /Game/Character/TestingCharacter.TestingCharacter
+[2021.10.28-01.02.07:697][114]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Heel_Run.Concrete_Heel_Run
+[2021.10.28-01.02.07:697][114]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Movement/Concrete_Heel_Run_Cue.Concrete_Heel_Run_Cue
+[2021.10.28-01.02.07:698][114]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Running.Concrete_Running
+[2021.10.28-01.02.07:698][114]LogContentValidation: Display: Validating SoundWave /Game/Sound_Design/Movement/Concrete_Run.Concrete_Run
+[2021.10.28-01.02.20:161][871]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Early_Levels_Ambient_Music...
+[2021.10.28-01.02.20:613][871]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Music/Early_Levels_Ambient_Music.Early_Levels_Ambient_Music will be modified from 40 to 40.
+[2021.10.28-01.02.29:270][871]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 44792252 while cooking SoundWave /Game/Sound_Design/Music/Early_Levels_Ambient_Music.Early_Levels_Ambient_Music.
+[2021.10.28-01.02.34:975][156]LogContentBrowser: Deferred new asset file creation: Early_Levels_Ambient_Music_Cue
+[2021.10.28-01.02.35:024][156]LogContentBrowser: Creating deferred item: Early_Levels_Ambient_Music_Cue
+[2021.10.28-01.02.45:977][892]LogContentBrowser: Attempting asset rename: Early_Levels_Ambient_Music_Cue -> EarlyLevelMusicCue
+[2021.10.28-01.02.45:994][892]LogContentBrowser: End creating deferred item Early_Levels_Ambient_Music_Cue
+[2021.10.28-01.02.49:453][135]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue
+[2021.10.28-01.02.49:951][135]LogSlate: Took 0.000893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.28-01.03.04:116][400]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue was zero and has changed. Consider manually Re-saving the asset
+[2021.10.28-01.03.10:842][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.10.28-01.03.10:885][121]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/EarlyLevelMusicCue9175874940A7B3604066DAB1984FEFA3.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/EarlyLevelMusicCue.uasset'
+[2021.10.28-01.03.10:904][121]AssetCheck: New page: Asset Save: EarlyLevelMusicCue
+[2021.10.28-01.03.10:904][121]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue
+[2021.10.28-01.03.19:671][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.10.28-01.03.19:700][ 38]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/EarlyLevelMusicCueE72CCCC94DFBDE6E0056DF92B1C1D85C.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/EarlyLevelMusicCue.uasset'
+[2021.10.28-01.03.19:717][ 38]AssetCheck: New page: Asset Save: EarlyLevelMusicCue
+[2021.10.28-01.03.19:717][ 38]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue
+[2021.10.28-01.03.20:277][ 95]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/EarlyLevelMusicCue9DB442F44931EA960F580FA91C9FB6CC.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/EarlyLevelMusicCue.uasset'
+[2021.10.28-01.03.20:304][ 95]AssetCheck: New page: Asset Save: EarlyLevelMusicCue
+[2021.10.28-01.03.20:304][ 95]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue
+[2021.10.28-01.03.26:470][470]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (EarlyLevelMusicCue)
+[2021.10.28-01.03.28:961][597]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-01.03.28:982][597]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.28-01.03.28:987][597]LogPlayLevel: [PlayLevel] Compiling TestingCharacter before play...
+[2021.10.28-01.03.29:037][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.10.28-01.03.29:038][597]LogPlayLevel: PlayLevel: Blueprint regeneration took 55 ms (1 blueprints)
+[2021.10.28-01.03.29:066][597]PIE: New page: PIE session: POH_1 (28 Oct 2021, 10:03:29 pm)
+[2021.10.28-01.03.29:068][597]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.28-01.03.29:070][597]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.28-01.03.29:070][597]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.28-01.03.29:081][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010466s)
+[2021.10.28-01.03.29:096][597]LogAIModule: Creating AISystem for world POH_1
+[2021.10.28-01.03.29:097][597]LogPlayLevel: PIE: World Init took: (0.015794s)
+[2021.10.28-01.03.29:097][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.026480s)
+[2021.10.28-01.03.29:108][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.10.28-01.03.29:109][597]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.03.29:109][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.03.29:109][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.03.29:110][597]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.03.29:110][597]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.03.29:129][597]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.03.29:129][597]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.03.29:155][597]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.03.29:156][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.03.29:156][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.03.29:156][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.03.29:157][597]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.03.29:157][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.03.29:157][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.03.29:179][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.03.29:179][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.03.29:179][597]LogInit: FAudioDevice initialized.
+[2021.10.28-01.03.29:179][597]LogAudio: Display: Audio Device (ID: 2) registered with world 'POH_1'.
+[2021.10.28-01.03.29:346][597]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.03.29:399][597]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.28-11.33.29
+[2021.10.28-01.03.29:402][597]LogWorld: Bringing up level for play took: 0.054133
+[2021.10.28-01.03.29:403][597]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.10.28-01.03.29:430][597]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2021.10.28-01.03.29:453][597]PIE: Server logged in
+[2021.10.28-01.03.29:467][597]PIE: Play in editor total start time 0.491 seconds.
+[2021.10.28-01.03.46:254][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.03.46:254][435]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.28-01.03.46:256][435]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.03.46:333][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.03.46:345][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-01.03.46:401][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.03.46:414][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.03.46:415][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.03.46:416][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.03.46:458][435]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.10.28-01.03.46:535][436]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.10.28-01.03.49:062][552]LogRenderer: Reallocating scene render targets to support 1372x440 Format 10 NumSamples 1 (Frame:6497).
+[2021.10.28-01.03.52:389][677]LogRenderer: Reallocating scene render targets to support 1372x484 Format 10 NumSamples 1 (Frame:6627).
+[2021.10.28-01.03.52:625][678]LogRenderer: Reallocating scene render targets to support 1372x520 Format 10 NumSamples 1 (Frame:6629).
+[2021.10.28-01.03.52:733][679]LogRenderer: Reallocating scene render targets to support 1372x576 Format 10 NumSamples 1 (Frame:6631).
+[2021.10.28-01.03.52:858][680]LogRenderer: Reallocating scene render targets to support 1372x588 Format 10 NumSamples 1 (Frame:6633).
+[2021.10.28-01.03.52:981][681]LogRenderer: Reallocating scene render targets to support 1372x640 Format 10 NumSamples 1 (Frame:6635).
+[2021.10.28-01.03.53:149][682]LogRenderer: Reallocating scene render targets to support 1372x680 Format 10 NumSamples 1 (Frame:6637).
+[2021.10.28-01.03.53:273][683]LogRenderer: Reallocating scene render targets to support 1372x684 Format 10 NumSamples 1 (Frame:6639).
+[2021.10.28-01.03.58:864][884]LogRenderer: Reallocating scene render targets to support 1400x684 Format 10 NumSamples 1 (Frame:6850).
+[2021.10.28-01.03.59:215][884]LogRenderer: Reallocating scene render targets to support 1408x684 Format 10 NumSamples 1 (Frame:6852).
+[2021.10.28-01.04.01:069][973]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-01.04.01:098][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-01.04.01:099][973]PIE: New page: PIE session: POH_1 (28 Oct 2021, 10:04:01 pm)
+[2021.10.28-01.04.01:099][973]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.28-01.04.01:115][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015537s)
+[2021.10.28-01.04.01:117][973]LogAIModule: Creating AISystem for world POH_1
+[2021.10.28-01.04.01:117][973]LogPlayLevel: PIE: World Init took: (0.002597s)
+[2021.10.28-01.04.01:117][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.018412s)
+[2021.10.28-01.04.01:135][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.10.28-01.04.01:137][973]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.04.01:137][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.04.01:137][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.04.01:138][973]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.04.01:138][973]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.04.01:168][973]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.04.01:168][973]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.04.01:206][973]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.04.01:206][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.04.01:206][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.04.01:206][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.04.01:207][973]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.04.01:207][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.04.01:207][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.04.01:238][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.04.01:238][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.04.01:238][973]LogInit: FAudioDevice initialized.
+[2021.10.28-01.04.01:238][973]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_1'.
+[2021.10.28-01.04.01:249][973]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.04.01:304][973]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.28-11.34.01
+[2021.10.28-01.04.01:307][973]LogWorld: Bringing up level for play took: 0.056846
+[2021.10.28-01.04.01:307][973]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.10.28-01.04.01:337][973]PIE: Server logged in
+[2021.10.28-01.04.01:340][973]PIE: Play in editor total start time 0.25 seconds.
+[2021.10.28-01.05.46:575][255]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.10.28-01.05.46:575][255]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.10.28-01.05.46:575][255]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.28-01.05.46:587][255]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.05.46:673][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.05.46:726][255]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.05.46:731][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.10.28-01.05.48:282][255]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_2'.
+[2021.10.28-01.05.48:287][255]LogAIModule: Creating AISystem for world POH_2
+[2021.10.28-01.05.48:288][255]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.05.48:382][255]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.28-11.35.48
+[2021.10.28-01.05.48:384][255]LogWorld: Bringing up level for play took: 0.092046
+[2021.10.28-01.05.48:407][255]LogLoad: Took 1.832308 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.10.28-01.05.52:991][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.05.52:991][461]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.05.52:992][461]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.05.52:997][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.05.53:080][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-01.05.53:145][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.05.53:163][461]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.05.53:163][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.05.53:165][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.05.53:197][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.05.53:200][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.10.28-01.05.53:267][462]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.10.28-01.06.02:882][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.10.28-01.06.05:275][907]LogSlate: Window 'Save Content' being destroyed
+[2021.10.28-01.06.05:328][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Maps/POH_1" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.28-01.06.05:375][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.10.28-01.06.05:481][907]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/POH_1F3A2892F4E8568C34B7EF4B03EDE24AD.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap'
+[2021.10.28-01.06.05:517][907]LogFileHelpers: Saving map 'POH_1' took 0.191
+[2021.10.28-01.06.05:590][907]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Maps/POH_2.POH_2
+[2021.10.28-01.06.05:598][907]Cmd: MAP LOAD FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.28-01.06.05:598][907]LightingResults: New page: Lighting Build
+[2021.10.28-01.06.05:599][907]LoadErrors: New page: Loading map: POH_2.umap
+[2021.10.28-01.06.05:627][907]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.06.05:627][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.06.05:628][907]MapCheck: New page: Map Check
+[2021.10.28-01.06.05:628][907]LightingResults: New page: Lighting Build
+[2021.10.28-01.06.05:645][907]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.06.05:650][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.10.28-01.06.05:656][907]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_2'.
+[2021.10.28-01.06.05:722][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.28-01.06.05:722][907]LogAIModule: Creating AISystem for world POH_2
+[2021.10.28-01.06.05:844][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.10.28-01.06.05:904][907]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.28-01.06.05:904][907]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.273ms to complete.
+[2021.10.28-01.06.05:904][907]LogFileHelpers: Loading map 'POH_2' took 0.306
+[2021.10.28-01.06.05:929][907]AssetCheck: New page: Asset Save: POH_1
+[2021.10.28-01.06.05:929][907]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_1.POH_1
+[2021.10.28-01.06.08:893][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-01.06.08:922][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-01.06.08:923][ 70]PIE: New page: PIE session: POH_2 (28 Oct 2021, 10:06:08 pm)
+[2021.10.28-01.06.08:923][ 70]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.06.08:931][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008130s)
+[2021.10.28-01.06.08:935][ 70]LogAIModule: Creating AISystem for world POH_2
+[2021.10.28-01.06.08:937][ 70]LogPlayLevel: PIE: World Init took: (0.004674s)
+[2021.10.28-01.06.08:937][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.013281s)
+[2021.10.28-01.06.09:044][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2021.10.28-01.06.09:046][ 70]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.28-01.06.09:046][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.06.09:046][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.06.09:047][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.06.09:047][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.06.09:047][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.06.09:047][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.06.09:047][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.06.09:047][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.06.09:048][ 70]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.06.09:048][ 70]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.06.09:087][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.06.09:087][ 70]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.06.09:126][ 70]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.06.09:126][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.06.09:126][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.06.09:126][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.06.09:127][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.06.09:127][ 70]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.06.09:127][ 70]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.06.09:157][ 70]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.06.09:157][ 70]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.06.09:157][ 70]LogInit: FAudioDevice initialized.
+[2021.10.28-01.06.09:157][ 70]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_2'.
+[2021.10.28-01.06.09:173][ 70]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.06.09:232][ 70]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.28-11.36.09
+[2021.10.28-01.06.09:234][ 70]LogWorld: Bringing up level for play took: 0.060143
+[2021.10.28-01.06.09:235][ 70]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.10.28-01.06.09:266][ 70]PIE: Server logged in
+[2021.10.28-01.06.09:269][ 70]PIE: Play in editor total start time 0.355 seconds.
+[2021.10.28-01.06.10:727][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.06.10:727][122]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.06.10:728][122]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.06.10:732][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.06.10:744][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-01.06.10:747][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.06.10:765][122]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.06.10:765][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.06.10:767][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.06.10:805][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.06.10:809][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.10.28-01.06.10:884][123]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.10.28-01.06.18:399][449]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Mid_Level_Music...
+[2021.10.28-01.06.19:090][449]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Music/Mid_Level_Music.Mid_Level_Music will be modified from 40 to 40.
+[2021.10.28-01.06.30:349][449]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 56146364 while cooking SoundWave /Game/Sound_Design/Music/Mid_Level_Music.Mid_Level_Music.
+[2021.10.28-01.06.33:909][675]LogContentBrowser: Deferred new asset file creation: Mid_Level_Music_Cue
+[2021.10.28-01.06.33:994][675]LogContentBrowser: Creating deferred item: Mid_Level_Music_Cue
+[2021.10.28-01.06.43:579][158]LogContentBrowser: Attempting asset rename: Mid_Level_Music_Cue -> MidLevelMusicCue
+[2021.10.28-01.06.43:580][158]LogContentBrowser: End creating deferred item Mid_Level_Music_Cue
+[2021.10.28-01.06.49:620][423]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue was zero and has changed. Consider manually Re-saving the asset
+[2021.10.28-01.06.52:462][550]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-01.06.52:490][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-01.06.52:490][550]PIE: New page: PIE session: POH_2 (28 Oct 2021, 10:06:52 pm)
+[2021.10.28-01.06.52:491][550]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.06.52:500][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008052s)
+[2021.10.28-01.06.52:502][550]LogAIModule: Creating AISystem for world POH_2
+[2021.10.28-01.06.52:503][550]LogPlayLevel: PIE: World Init took: (0.002890s)
+[2021.10.28-01.06.52:503][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.011313s)
+[2021.10.28-01.06.52:524][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.10.28-01.06.52:525][550]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.06.52:526][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.06.52:526][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.06.52:527][550]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.06.52:527][550]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.06.52:559][550]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.06.52:559][550]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.06.52:599][550]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.06.52:600][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.06.52:600][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.06.52:600][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.06.52:601][550]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.06.52:601][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.06.52:601][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.06.52:639][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.06.52:639][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.06.52:639][550]LogInit: FAudioDevice initialized.
+[2021.10.28-01.06.52:639][550]LogAudio: Display: Audio Device (ID: 5) registered with world 'POH_2'.
+[2021.10.28-01.06.52:668][550]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.06.52:952][550]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.28-11.36.52
+[2021.10.28-01.06.52:957][550]LogWorld: Bringing up level for play took: 0.281193
+[2021.10.28-01.06.52:958][550]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.10.28-01.06.53:008][550]PIE: Server logged in
+[2021.10.28-01.06.53:012][550]PIE: Play in editor total start time 0.531 seconds.
+[2021.10.28-01.07.02:553][929]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.10.28-01.07.09:761][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.07.09:761][227]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.07.09:763][227]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.07.09:775][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.07.09:802][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-01.07.09:871][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.07.09:888][227]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.07.09:888][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.07.09:890][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.07.09:923][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.07.09:926][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.10.28-01.07.10:004][228]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.10.28-01.07.13:223][333]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue
+[2021.10.28-01.07.21:634][153]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue was zero and has changed. Consider manually Re-saving the asset
+[2021.10.28-01.07.39:397][955]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/MidLevelMusicCue73ED1B0C438AD0D9F7715F9C4AA209E1.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/MidLevelMusicCue.uasset'
+[2021.10.28-01.07.39:424][955]AssetCheck: New page: Asset Save: MidLevelMusicCue
+[2021.10.28-01.07.39:424][955]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue
+[2021.10.28-01.07.42:102][155]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-01.07.42:182][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-01.07.42:182][155]PIE: New page: PIE session: POH_2 (28 Oct 2021, 10:07:42 pm)
+[2021.10.28-01.07.42:182][155]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.07.42:192][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009529s)
+[2021.10.28-01.07.42:195][155]LogAIModule: Creating AISystem for world POH_2
+[2021.10.28-01.07.42:195][155]LogPlayLevel: PIE: World Init took: (0.003069s)
+[2021.10.28-01.07.42:195][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.012928s)
+[2021.10.28-01.07.42:219][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.10.28-01.07.42:221][155]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.28-01.07.42:221][155]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-01.07.42:221][155]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-01.07.42:221][155]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-01.07.42:221][155]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-01.07.42:221][155]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-01.07.42:222][155]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-01.07.42:222][155]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-01.07.42:222][155]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-01.07.42:222][155]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-01.07.42:223][155]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-01.07.42:253][155]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-01.07.42:253][155]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-01.07.42:304][155]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.28-01.07.42:305][155]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-01.07.42:305][155]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-01.07.42:305][155]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-01.07.42:306][155]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-01.07.42:306][155]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-01.07.42:306][155]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-01.07.42:352][155]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-01.07.42:352][155]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-01.07.42:352][155]LogInit: FAudioDevice initialized.
+[2021.10.28-01.07.42:352][155]LogAudio: Display: Audio Device (ID: 6) registered with world 'POH_2'.
+[2021.10.28-01.07.42:372][155]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.28-01.07.42:448][155]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.28-11.37.42
+[2021.10.28-01.07.42:451][155]LogWorld: Bringing up level for play took: 0.077284
+[2021.10.28-01.07.42:451][155]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.10.28-01.07.42:482][155]PIE: Server logged in
+[2021.10.28-01.07.42:484][155]PIE: Play in editor total start time 0.315 seconds.
+[2021.10.28-01.08.04:340][156]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.10.28-01.08.57:119][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.08.57:119][734]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.28-01.08.57:120][734]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-01.08.57:124][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.08.57:139][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-01.08.57:191][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-01.08.57:209][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-01.08.57:209][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.08.57:212][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-01.08.57:255][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-01.08.57:259][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.10.28-01.08.57:334][735]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.10.28-01.09.33:322][264]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Later_Level_Music...
+[2021.10.28-01.09.33:573][264]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Music/Later_Level_Music.Later_Level_Music will be modified from 40 to 40.
+[2021.10.28-01.09.40:339][264]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 28599740 while cooking SoundWave /Game/Sound_Design/Music/Later_Level_Music.Later_Level_Music.
+[2021.10.28-01.09.56:532][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.10.28-01.09.56:560][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Maps/POH_2" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.28-01.09.56:583][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.10.28-01.09.56:622][ 16]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/POH_2648933A04561E331CD84059B3B5CE165.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.28-01.09.56:658][ 16]LogFileHelpers: Saving map 'POH_2' took 0.099
+[2021.10.28-01.09.56:674][ 16]AssetCheck: New page: Asset Save: POH_2
+[2021.10.28-01.09.56:674][ 16]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
