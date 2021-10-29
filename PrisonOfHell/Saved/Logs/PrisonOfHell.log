@@ -2697,3 +2697,629 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.29-07.56.00:052][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
 [2021.10.29-07.56.01:538][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
 [2021.10.29-07.56.03:002][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.10.29-07.58.36:732][917]LogEditorViewport: Clicking on Actor (LMB): Box_C (Box)
+[2021.10.29-07.58.38:175][996]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Level/Objects/Box/Box.Box
+[2021.10.29-07.58.43:515][286]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-07.58.43:516][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-07.58.47:633][507]Cmd: DELETE
+[2021.10.29-07.58.47:633][507]Cmd: ACTOR DELETE
+[2021.10.29-07.58.47:636][507]LogEditorActor: Deleted Actor: Box_C
+[2021.10.29-07.58.47:687][507]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.10.29-07.58.47:689][507]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2021.10.29-07.58.56:187][932]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.10.29-07.58.56:564][932]LogRenderer: Reallocating scene render targets to support 808x608 Format 10 NumSamples 1 (Frame:1).
+[2021.10.29-08.01.00:038][943]Cmd: TRANSACTION UNDO
+[2021.10.29-08.01.00:038][943]LogEditorTransaction: Undo Tile Painting
+[2021.10.29-08.01.55:335][812]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap2B569798944BE38C2D45DBA9951DD6881.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap2.uasset'
+[2021.10.29-08.01.55:409][812]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap2
+[2021.10.29-08.01.55:409][812]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.10.29-08.02.08:525][309]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap2B4C10FD74CDB8C60A32A50934F20845E.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap2.uasset'
+[2021.10.29-08.02.08:619][309]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap2
+[2021.10.29-08.02.08:619][309]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.10.29-08.02.17:214][766]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/Level/Assets/Mid-Level_Tileset_TileSet.Mid-Level_Tileset_TileSet
+[2021.10.29-08.02.44:958][827]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.10.29-08.02.45:030][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.10.29-08.02.45:050][827]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_24DF8021247D594E972AAFB8BA07F26FE.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.02.45:177][827]LogFileHelpers: Saving map 'POH_2' took 0.189
+[2021.10.29-08.02.49:085][827]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap2FDFA9DE64D750A0364A3119CE756BFD3.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap2.uasset'
+[2021.10.29-08.02.49:113][827]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.29-08.02.49:113][827]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.10.29-08.02.49:113][827]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.03.04:754][698]Cmd: TRANSACTION UNDO
+[2021.10.29-08.03.04:754][698]LogEditorTransaction: Undo Tile Painting
+[2021.10.29-08.03.45:737][627]Cmd: TRANSACTION UNDO
+[2021.10.29-08.03.45:737][627]LogEditorTransaction: Undo Tile Painting
+[2021.10.29-08.04.36:039][132]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap25B79F37D451683420E6685B5B07D6153.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap2.uasset'
+[2021.10.29-08.04.36:063][132]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap2
+[2021.10.29-08.04.36:063][132]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.10.29-08.04.40:760][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.10.29-08.04.40:792][391]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2372CAEF84C3AC1D818938BABB1F2BCC4.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.04.40:821][391]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.04.40:821][391]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.04.44:709][618]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.29-08.04.46:073][691]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.29-08.04.46:948][731]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.29-08.04.48:631][829]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.10.29-08.04.53:099][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.29-08.04.53:099][ 77]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.04.53:099][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.04.54:846][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.29-08.04.54:846][159]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.04.54:846][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.04.56:515][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.29-08.04.56:515][242]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.04.56:515][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.04.57:895][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.29-08.04.57:895][303]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.04.57:895][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.05.04:020][545]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.05.04:031][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.05.04:031][545]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:05:04 am)
+[2021.10.29-08.05.04:031][545]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.05.04:037][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005931s)
+[2021.10.29-08.05.04:038][545]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.05.04:039][545]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2021.10.29-08.05.04:039][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.007331s)
+[2021.10.29-08.05.04:140][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.10.29-08.05.04:158][545]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.05.04:158][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.05.04:158][545]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.05.04:158][545]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.05.04:161][545]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.05.04:161][545]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.05.04:215][545]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.05.04:215][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.05.04:215][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.05.04:216][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.05.04:217][545]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.05.04:217][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.05.04:217][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.05.04:237][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.05.04:237][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.05.04:237][545]LogInit: FAudioDevice initialized.
+[2021.10.29-08.05.04:237][545]LogAudio: Display: Audio Device (ID: 30) registered with world 'POH_2'.
+[2021.10.29-08.05.04:245][545]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.05.04:272][545]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.35.04
+[2021.10.29-08.05.04:274][545]LogWorld: Bringing up level for play took: 0.029140
+[2021.10.29-08.05.04:275][545]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.10.29-08.05.04:284][545]PIE: Server logged in
+[2021.10.29-08.05.04:286][545]PIE: Play in editor total start time 0.256 seconds.
+[2021.10.29-08.05.32:724][205]LogNet: Browse: /Game/Level/Maps/POH_1
+[2021.10.29-08.05.32:724][205]LogLoad: LoadMap: /Game/Level/Maps/POH_1
+[2021.10.29-08.05.32:724][205]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.05.32:725][205]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.05.32:728][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.05.32:751][205]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.05.32:756][205]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.10.29-08.05.33:009][205]LogAudio: Display: Audio Device (ID: 30) registered with world 'POH_1'.
+[2021.10.29-08.05.33:010][205]LogAIModule: Creating AISystem for world POH_1
+[2021.10.29-08.05.33:010][205]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.05.33:048][205]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.10.29-18.35.33
+[2021.10.29-08.05.33:051][205]LogWorld: Bringing up level for play took: 0.039786
+[2021.10.29-08.05.33:065][205]LogLoad: Took 0.341524 seconds to LoadMap(/Game/Level/Maps/POH_1)
+[2021.10.29-08.05.34:400][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.05.34:400][267]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.29-08.05.34:404][267]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.05.34:458][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.05.34:465][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.05.34:481][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.05.34:505][267]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.05.34:505][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.05.34:506][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.05.34:531][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.05.34:534][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.10.29-08.05.34:566][268]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.10.29-08.05.36:238][350]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.05.36:251][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.05.36:251][350]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:05:36 am)
+[2021.10.29-08.05.36:251][350]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.05.36:259][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007157s)
+[2021.10.29-08.05.36:260][350]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.05.36:260][350]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.10.29-08.05.36:260][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.008557s)
+[2021.10.29-08.05.36:284][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.10.29-08.05.36:285][350]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2021.10.29-08.05.36:285][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.05.36:285][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.05.36:285][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.05.36:286][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.05.36:286][350]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.05.36:286][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.05.36:286][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.05.36:286][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.05.36:286][350]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.05.36:286][350]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.05.36:288][350]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.05.36:288][350]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.05.36:338][350]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.05.36:338][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.05.36:339][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.05.36:339][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.05.36:339][350]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.05.36:339][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.05.36:339][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.05.36:359][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.05.36:359][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.05.36:359][350]LogInit: FAudioDevice initialized.
+[2021.10.29-08.05.36:359][350]LogAudio: Display: Audio Device (ID: 31) registered with world 'POH_2'.
+[2021.10.29-08.05.36:378][350]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.05.36:406][350]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.35.36
+[2021.10.29-08.05.36:408][350]LogWorld: Bringing up level for play took: 0.028990
+[2021.10.29-08.05.36:408][350]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.10.29-08.05.36:420][350]PIE: Server logged in
+[2021.10.29-08.05.36:422][350]PIE: Play in editor total start time 0.172 seconds.
+[2021.10.29-08.06.29:662][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.06.29:662][417]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.06.29:665][417]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.06.29:672][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.06.29:703][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.06.29:737][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.06.29:757][417]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.06.29:757][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.06.29:758][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.06.29:781][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.06.29:784][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.10.29-08.06.29:841][418]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.10.29-08.06.31:335][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.10.29-08.06.31:355][497]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_24C501D3F46FAD3E8C2A3DE9B49A1DB54.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.06.31:424][497]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.06.31:424][497]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.06.32:065][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.29-08.06.32:085][533]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2C9D45EC2482ACBB31637F19F2EA0B904.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.06.32:128][533]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.06.32:128][533]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.06.39:685][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.10.29-08.06.39:707][972]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2A38A0B394828C0E9BFBFA29942BAF6A5.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.06.39:731][972]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.06.39:731][972]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.06.41:279][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.06.41:293][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.06.41:293][ 52]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:06:41 am)
+[2021.10.29-08.06.41:293][ 52]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.06.41:300][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006806s)
+[2021.10.29-08.06.41:301][ 52]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.06.41:301][ 52]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2021.10.29-08.06.41:301][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.008366s)
+[2021.10.29-08.06.41:328][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.10.29-08.06.41:329][ 52]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.06.41:329][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.06.41:329][ 52]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.06.41:329][ 52]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.06.41:331][ 52]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.06.41:331][ 52]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.06.41:383][ 52]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.06.41:383][ 52]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.06.41:383][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.06.41:383][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.06.41:384][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.06.41:384][ 52]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.06.41:384][ 52]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.06.41:405][ 52]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.06.41:405][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.06.41:405][ 52]LogInit: FAudioDevice initialized.
+[2021.10.29-08.06.41:405][ 52]LogAudio: Display: Audio Device (ID: 32) registered with world 'POH_2'.
+[2021.10.29-08.06.41:421][ 52]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.06.41:454][ 52]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.36.41
+[2021.10.29-08.06.41:457][ 52]LogWorld: Bringing up level for play took: 0.034752
+[2021.10.29-08.06.41:457][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.10.29-08.06.41:468][ 52]PIE: Server logged in
+[2021.10.29-08.06.41:469][ 52]PIE: Play in editor total start time 0.178 seconds.
+[2021.10.29-08.06.49:871][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.06.49:872][516]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.06.49:874][516]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.06.49:882][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.06.49:910][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.06.49:951][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.06.49:973][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.06.49:973][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.06.49:974][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.06.49:998][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.06.50:001][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.10.29-08.06.50:050][517]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.10.29-08.07.11:143][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.10.29-08.07.11:284][686]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Maps/POH_1.POH_1
+[2021.10.29-08.07.11:285][686]Cmd: MAP LOAD FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.29-08.07.11:285][686]LightingResults: New page: Lighting Build
+[2021.10.29-08.07.11:285][686]LoadErrors: New page: Loading map: POH_1.umap
+[2021.10.29-08.07.11:289][686]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.07.11:289][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.07.11:289][686]MapCheck: New page: Map Check
+[2021.10.29-08.07.11:289][686]LightingResults: New page: Lighting Build
+[2021.10.29-08.07.11:326][686]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.07.11:333][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.10.29-08.07.11:341][686]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_1'.
+[2021.10.29-08.07.11:407][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.29-08.07.11:407][686]LogAIModule: Creating AISystem for world POH_1
+[2021.10.29-08.07.11:467][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.10.29-08.07.11:480][686]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.29-08.07.11:480][686]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2021.10.29-08.07.11:480][686]LogFileHelpers: Loading map 'POH_1' took 0.196
+[2021.10.29-08.07.14:507][853]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.10.29-08.07.17:584][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.29-08.07.17:671][ 29]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.07.17:671][ 29]Cmd: MAP LOAD FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.29-08.07.17:671][ 29]LightingResults: New page: Lighting Build
+[2021.10.29-08.07.17:671][ 29]LoadErrors: New page: Loading map: POH_2.umap
+[2021.10.29-08.07.17:677][ 29]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.07.17:677][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.07.17:677][ 29]MapCheck: New page: Map Check
+[2021.10.29-08.07.17:677][ 29]LightingResults: New page: Lighting Build
+[2021.10.29-08.07.17:707][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.07.17:710][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.10.29-08.07.17:716][ 29]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_2'.
+[2021.10.29-08.07.17:763][ 29]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.29-08.07.17:763][ 29]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.07.17:823][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.10.29-08.07.17:849][ 29]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.29-08.07.17:849][ 29]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
+[2021.10.29-08.07.17:849][ 29]LogFileHelpers: Loading map 'POH_2' took 0.178
+[2021.10.29-08.07.30:980][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.29-08.07.31:004][757]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_292125747474FDC2E437912833F411E78.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.07.31:028][757]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.07.31:028][757]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.07.31:580][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.29-08.07.31:600][786]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_22CF8E6DD40208636058AA8938AB6C6D0.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.07.31:624][786]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.07.31:624][786]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.07.42:919][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.29-08.07.42:940][424]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_20474349E43626ABE3D0B5EA91DEF3F54.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.07.42:994][424]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.07.42:994][424]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.07.52:588][963]LogEditorViewport: Clicking on Actor (LMB): buttonBP_C (buttonBP)
+[2021.10.29-08.07.54:695][ 73]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Level/Assets/Button/buttonBP.buttonBP
+[2021.10.29-08.08.04:488][463]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.08.04:488][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.08.05:761][530]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.08.05:761][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.08.36:429][318]BlueprintLog: New page: Compile buttonBP
+[2021.10.29-08.08.36:499][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.10.29-08.08.37:815][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Assets/Button/buttonBP" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset" SILENT=true
+[2021.10.29-08.08.37:828][392]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/buttonBPC2FE138E4FD41524490E79876C18DBB3.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset'
+[2021.10.29-08.08.37:849][392]AssetCheck: New page: Asset Save: buttonBP
+[2021.10.29-08.08.37:849][392]LogContentValidation: Display: Validating Blueprint /Game/Level/Assets/Button/buttonBP.buttonBP
+[2021.10.29-08.08.45:816][865]BlueprintLog: New page: Compile buttonBP
+[2021.10.29-08.08.45:882][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.10.29-08.08.46:469][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Assets/Button/buttonBP" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset" SILENT=true
+[2021.10.29-08.08.46:483][897]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/buttonBPFD3338954756A2D82D85268AB5492584.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset'
+[2021.10.29-08.08.46:497][897]AssetCheck: New page: Asset Save: buttonBP
+[2021.10.29-08.08.46:497][897]LogContentValidation: Display: Validating Blueprint /Game/Level/Assets/Button/buttonBP.buttonBP
+[2021.10.29-08.08.48:216][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.10.29-08.08.48:238][998]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2021CEC064B5E1E9A0CD861AB7A9DEED3.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.08.48:259][998]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.08.48:259][998]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.08.50:383][106]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.08.50:393][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.08.50:393][106]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:08:50 am)
+[2021.10.29-08.08.50:393][106]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.08.50:400][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007633s)
+[2021.10.29-08.08.50:401][106]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.08.50:402][106]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2021.10.29-08.08.50:402][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.009057s)
+[2021.10.29-08.08.50:431][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.10.29-08.08.50:431][106]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.08.50:432][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.08.50:432][106]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.08.50:432][106]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.08.50:434][106]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.08.50:434][106]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.08.50:486][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.08.50:486][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.08.50:486][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.08.50:486][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.08.50:487][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.08.50:487][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.08.50:487][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.08.50:508][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.08.50:508][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.08.50:508][106]LogInit: FAudioDevice initialized.
+[2021.10.29-08.08.50:508][106]LogAudio: Display: Audio Device (ID: 33) registered with world 'POH_2'.
+[2021.10.29-08.08.50:532][106]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.08.50:566][106]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.38.50
+[2021.10.29-08.08.50:569][106]LogWorld: Bringing up level for play took: 0.035824
+[2021.10.29-08.08.50:569][106]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.10.29-08.08.50:583][106]PIE: Server logged in
+[2021.10.29-08.08.50:585][106]PIE: Play in editor total start time 0.193 seconds.
+[2021.10.29-08.08.54:952][356]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.08.55:852][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.08.57:285][496]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.09.12:430][391]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.09.15:455][562]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.09.17:615][683]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.09.24:162][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.09.24:162][ 47]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.09.24:164][ 47]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.09.24:172][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.09.24:208][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.09.24:236][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.09.24:263][ 47]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.09.24:263][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.09.24:264][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.09.24:288][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.09.24:292][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.10.29-08.09.24:341][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.10.29-08.09.56:113][900]BlueprintLog: New page: Compile buttonBP
+[2021.10.29-08.09.56:175][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.10.29-08.09.56:670][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Assets/Button/buttonBP" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset" SILENT=true
+[2021.10.29-08.09.56:683][922]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/buttonBP289EED3243679F381F3B7B9C0594FF1F.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset'
+[2021.10.29-08.09.56:726][922]AssetCheck: New page: Asset Save: buttonBP
+[2021.10.29-08.09.56:726][922]LogContentValidation: Display: Validating Blueprint /Game/Level/Assets/Button/buttonBP.buttonBP
+[2021.10.29-08.09.57:199][951]BlueprintLog: New page: Compile buttonBP
+[2021.10.29-08.09.57:261][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.10.29-08.09.57:837][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Assets/Button/buttonBP" FILE="../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset" SILENT=true
+[2021.10.29-08.09.57:851][980]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/buttonBP52DF49964B67D8FCCF1F07BB4429250D.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Button/buttonBP.uasset'
+[2021.10.29-08.09.57:865][980]AssetCheck: New page: Asset Save: buttonBP
+[2021.10.29-08.09.57:865][980]LogContentValidation: Display: Validating Blueprint /Game/Level/Assets/Button/buttonBP.buttonBP
+[2021.10.29-08.09.59:066][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.10.29-08.09.59:087][ 48]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2274CBAB143735898636BB89F21058885.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.09.59:114][ 48]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.09.59:114][ 48]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.10.01:133][152]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.10.01:144][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.10.01:144][152]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:10:01 am)
+[2021.10.29-08.10.01:144][152]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.10.01:151][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006767s)
+[2021.10.29-08.10.01:152][152]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.10.01:153][152]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2021.10.29-08.10.01:153][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.008364s)
+[2021.10.29-08.10.01:180][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.10.29-08.10.01:181][152]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.10.01:181][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.10.01:181][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.10.01:182][152]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.10.01:182][152]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.10.01:183][152]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.10.01:183][152]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.10.01:236][152]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.10.01:237][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.10.01:237][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.10.01:237][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.10.01:238][152]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.10.01:238][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.10.01:238][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.10.01:258][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.10.01:258][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.10.01:258][152]LogInit: FAudioDevice initialized.
+[2021.10.29-08.10.01:258][152]LogAudio: Display: Audio Device (ID: 34) registered with world 'POH_2'.
+[2021.10.29-08.10.01:266][152]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.10.01:296][152]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.40.01
+[2021.10.29-08.10.01:298][152]LogWorld: Bringing up level for play took: 0.032202
+[2021.10.29-08.10.01:299][152]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.10.29-08.10.01:310][152]PIE: Server logged in
+[2021.10.29-08.10.01:312][152]PIE: Play in editor total start time 0.169 seconds.
+[2021.10.29-08.10.05:503][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.06:186][435]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.06:654][463]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.11:587][759]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.25:613][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.10.25:613][592]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.10.25:616][592]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.10.25:623][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.10.25:660][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.10.25:688][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.10.25:716][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.10.25:716][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.10.25:717][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.10.25:740][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.10.25:743][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.10.29-08.10.25:798][593]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.10.29-08.10.28:629][752]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.10.29-08.10.30:419][857]LogEditorViewport: Clicking on Actor (LMB): buttonBP_C (buttonBP)
+[2021.10.29-08.10.37:211][256]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.10.29-08.10.43:278][609]LogEditorViewport: Clicking on Actor (LMB): buttonBP_C (buttonBP)
+[2021.10.29-08.10.48:708][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.10.29-08.10.48:730][919]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_277E1F2FE4F5A30BF55A5828E8325C5B0.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.10.48:758][919]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.10.48:758][919]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.10.50:405][  7]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.10.50:416][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.10.50:416][  7]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:10:50 am)
+[2021.10.29-08.10.50:416][  7]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.10.50:422][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006481s)
+[2021.10.29-08.10.50:423][  7]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.10.50:424][  7]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2021.10.29-08.10.50:424][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.007968s)
+[2021.10.29-08.10.50:451][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.10.29-08.10.50:452][  7]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.10.50:452][  7]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.10.50:452][  7]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.10.50:452][  7]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.10.50:454][  7]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.10.50:454][  7]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.10.50:505][  7]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.10.50:506][  7]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.10.50:527][  7]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.10.50:527][  7]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.10.50:527][  7]LogInit: FAudioDevice initialized.
+[2021.10.29-08.10.50:527][  7]LogAudio: Display: Audio Device (ID: 35) registered with world 'POH_2'.
+[2021.10.29-08.10.50:534][  7]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.10.50:564][  7]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.40.50
+[2021.10.29-08.10.50:566][  7]LogWorld: Bringing up level for play took: 0.031757
+[2021.10.29-08.10.50:567][  7]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.10.29-08.10.50:578][  7]PIE: Server logged in
+[2021.10.29-08.10.50:580][  7]PIE: Play in editor total start time 0.166 seconds.
+[2021.10.29-08.10.54:861][238]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.55:151][254]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.10.59:408][491]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.11.17:825][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.11.17:825][517]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.11.17:828][517]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.11.17:835][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.11.17:870][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.11.17:894][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.11.17:919][517]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.11.17:919][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.11.17:920][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.11.17:942][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.11.17:946][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.10.29-08.11.17:995][518]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.10.29-08.11.19:840][607]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.11.19:852][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.11.19:852][607]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:11:19 am)
+[2021.10.29-08.11.19:852][607]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.11.19:858][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006103s)
+[2021.10.29-08.11.19:859][607]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.11.19:859][607]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2021.10.29-08.11.19:859][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.007458s)
+[2021.10.29-08.11.19:886][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.10.29-08.11.19:886][607]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2021.10.29-08.11.19:886][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.11.19:886][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.11.19:886][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.11.19:887][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.11.19:887][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.11.19:887][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.11.19:887][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.11.19:887][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.11.19:887][607]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.11.19:887][607]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.11.19:888][607]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.11.19:888][607]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.11.19:939][607]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.11.19:939][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.11.19:939][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.11.19:939][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.11.19:940][607]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.11.19:940][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.11.19:940][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.11.19:960][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.11.19:960][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.11.19:960][607]LogInit: FAudioDevice initialized.
+[2021.10.29-08.11.19:960][607]LogAudio: Display: Audio Device (ID: 36) registered with world 'POH_2'.
+[2021.10.29-08.11.19:969][607]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.11.19:994][607]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.41.19
+[2021.10.29-08.11.19:996][607]LogWorld: Bringing up level for play took: 0.026979
+[2021.10.29-08.11.19:997][607]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.10.29-08.11.20:010][607]PIE: Server logged in
+[2021.10.29-08.11.20:012][607]PIE: Play in editor total start time 0.162 seconds.
+[2021.10.29-08.11.39:763][739]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.11.42:996][933]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.11.43:879][986]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.11.46:913][168]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.11.49:230][307]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.12.05:603][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.12.05:603][250]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.12.05:605][250]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.12.05:613][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.12.05:646][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.12.05:684][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.12.05:715][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.12.05:715][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.12.05:716][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.12.05:740][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.12.05:743][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.10.29-08.12.05:792][251]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.10.29-08.12.06:606][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.10.29-08.12.06:626][288]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2443BADF34BE38BACEE2F93BAB494F5A7.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.12.06:652][288]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.12.06:652][288]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.12.07:205][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.10.29-08.12.07:225][318]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2AA9678F04CB0D77BE8312CA57BCC203F.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.12.07:247][318]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.12.07:247][318]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.12.08:774][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.29-08.12.08:794][403]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2EFFA600A41B5628849324B96711C6FC9.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.12.08:880][403]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.12.08:880][403]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.12.11:291][535]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.29-08.12.11:365][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.29-08.12.11:365][535]PIE: New page: PIE session: POH_2 (30 Oct 2021, 5:12:11 am)
+[2021.10.29-08.12.11:366][535]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.12.11:394][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027468s)
+[2021.10.29-08.12.11:398][535]LogAIModule: Creating AISystem for world POH_2
+[2021.10.29-08.12.11:399][535]LogPlayLevel: PIE: World Init took: (0.004835s)
+[2021.10.29-08.12.11:399][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_2.POH_2 to /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 (0.032955s)
+[2021.10.29-08.12.11:451][535]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.10.29-08.12.11:452][535]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2021.10.29-08.12.11:452][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.29-08.12.11:452][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.29-08.12.11:452][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.29-08.12.11:452][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.29-08.12.11:453][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.29-08.12.11:453][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.29-08.12.11:453][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.29-08.12.11:453][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.29-08.12.11:453][535]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.29-08.12.11:453][535]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.29-08.12.11:454][535]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.29-08.12.11:454][535]LogAudioMixer: Display: 1: FrontRight
+[2021.10.29-08.12.11:507][535]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.10.29-08.12.11:507][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.29-08.12.11:507][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.29-08.12.11:507][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.29-08.12.11:508][535]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.29-08.12.11:508][535]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.29-08.12.11:508][535]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.29-08.12.11:528][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.29-08.12.11:528][535]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.29-08.12.11:528][535]LogInit: FAudioDevice initialized.
+[2021.10.29-08.12.11:528][535]LogAudio: Display: Audio Device (ID: 37) registered with world 'POH_2'.
+[2021.10.29-08.12.11:539][535]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.29-08.12.11:570][535]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.10.29-18.42.11
+[2021.10.29-08.12.11:572][535]LogWorld: Bringing up level for play took: 0.032838
+[2021.10.29-08.12.11:573][535]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2021.10.29-08.12.11:583][535]PIE: Server logged in
+[2021.10.29-08.12.11:585][535]PIE: Play in editor total start time 0.224 seconds.
+[2021.10.29-08.13.22:505][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.13.25:041][708]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.13.37:282][393]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.13.38:421][456]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.13.50:523][131]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.29-08.13.52:333][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.13.52:333][229]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.29-08.13.52:336][229]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-08.13.52:343][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.13.52:381][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.29-08.13.52:407][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-08.13.52:434][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.29-08.13.52:434][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.13.52:435][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-08.13.52:458][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.29-08.13.52:461][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.10.29-08.13.52:508][230]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2021.10.29-08.13.53:684][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.10.29-08.13.53:705][286]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2E3A81F6349599B320FB8CBAFF75CBA1E.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.13.53:731][286]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.13.53:731][286]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
+[2021.10.29-08.13.54:152][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.29-08.13.54:176][307]LogSavePackage: Moving '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_2A84994004107CE4079C4829BE5A571E3.tmp' to '../../../../../../Users/isse1/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_2.umap'
+[2021.10.29-08.13.54:199][307]AssetCheck: New page: Asset Save: POH_2
+[2021.10.29-08.13.54:200][307]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_2.POH_2
