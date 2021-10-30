@@ -2703,3 +2703,763 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.30-10.46.38:371][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/SoulPawn]
 [2021.10.30-10.46.38:429][562]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/SoulPawn_Auto1BFF115584376AF6D1DEEEFA78F69AC40.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Autosaves/Game/Character/SoulPawn_Auto1.uasset'
 [2021.10.30-10.46.38:430][562]LogFileHelpers: Auto-saving content packages took 0.060
+[2021.10.30-10.47.00:454][748]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.47.00:465][748]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.47.28:975][638]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.47.28:991][638]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.30-10.47.29:032][638]LogPlayLevel: [PlayLevel] Compiling SoulPawn before play...
+[2021.10.30-10.47.29:262][638]LogUObjectHash: Compacting FUObjectHashTables data took   8.09ms
+[2021.10.30-10.47.29:263][638]LogPlayLevel: PlayLevel: Blueprint regeneration took 271 ms (1 blueprints)
+[2021.10.30-10.47.29:263][638]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:47:29 am)
+[2021.10.30-10.47.29:264][638]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.47.29:275][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011811s)
+[2021.10.30-10.47.29:277][638]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.47.29:278][638]LogPlayLevel: PIE: World Init took: (0.002091s)
+[2021.10.30-10.47.29:278][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.014146s)
+[2021.10.30-10.47.29:397][638]LogUObjectHash: Compacting FUObjectHashTables data took  37.45ms
+[2021.10.30-10.47.29:399][638]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.10.30-10.47.29:399][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.47.29:400][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.47.29:400][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.47.29:400][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.47.29:400][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.47.29:400][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.47.29:401][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.47.29:401][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.47.29:404][638]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.47.29:404][638]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.47.29:468][638]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.47.29:468][638]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.47.29:511][638]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.47.29:512][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.47.29:512][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.47.29:512][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.47.29:513][638]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.47.29:513][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.47.29:513][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.47.29:539][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.47.29:539][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.47.29:539][638]LogInit: FAudioDevice initialized.
+[2021.10.30-10.47.29:539][638]LogAudio: Display: Audio Device (ID: 21) registered with world 'POH_1'.
+[2021.10.30-10.47.29:603][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.47.29:603][638]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.47.29:648][638]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.17.29
+[2021.10.30-10.47.29:653][638]LogWorld: Bringing up level for play took: 0.048456
+[2021.10.30-10.47.29:654][638]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.10.30-10.47.29:690][638]PIE: Server logged in
+[2021.10.30-10.47.29:697][638]PIE: Play in editor total start time 0.711 seconds.
+[2021.10.30-10.47.44:205][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.47.44:205][280]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.47.44:208][280]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.47.44:218][280]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.47.44:303][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.47.44:320][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.47.44:333][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.47.44:416][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.47.44:418][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.47.44:466][280]LogUObjectHash: Compacting FUObjectHashTables data took   7.42ms
+[2021.10.30-10.47.44:514][281]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.10.30-10.47.58:304][396]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/EarlyLevelMusicCue483AC0CC4D526CDBD85FDD92F95AF613.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/EarlyLevelMusicCue.uasset'
+[2021.10.30-10.47.58:334][396]AssetCheck: New page: Asset Save: EarlyLevelMusicCue
+[2021.10.30-10.47.58:334][396]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/EarlyLevelMusicCue.EarlyLevelMusicCue
+[2021.10.30-10.48.02:440][703]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.48.02:487][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.48.02:488][703]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:48:02 am)
+[2021.10.30-10.48.02:488][703]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.48.02:506][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017542s)
+[2021.10.30-10.48.02:508][703]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.48.02:509][703]LogPlayLevel: PIE: World Init took: (0.002973s)
+[2021.10.30-10.48.02:509][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.020839s)
+[2021.10.30-10.48.02:575][703]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2021.10.30-10.48.02:578][703]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.10.30-10.48.02:578][703]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.48.02:579][703]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.48.02:579][703]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.48.02:579][703]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.48.02:597][703]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.48.02:597][703]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.48.02:623][703]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.48.02:624][703]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.48.02:624][703]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.48.02:624][703]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.48.02:625][703]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.48.02:625][703]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.48.02:625][703]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.48.02:652][703]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.48.02:652][703]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.48.02:652][703]LogInit: FAudioDevice initialized.
+[2021.10.30-10.48.02:652][703]LogAudio: Display: Audio Device (ID: 22) registered with world 'POH_1'.
+[2021.10.30-10.48.02:747][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.48.02:747][703]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.48.02:824][703]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.18.02
+[2021.10.30-10.48.02:827][703]LogWorld: Bringing up level for play took: 0.075850
+[2021.10.30-10.48.02:827][703]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.10.30-10.48.02:855][703]PIE: Server logged in
+[2021.10.30-10.48.02:863][703]PIE: Play in editor total start time 0.388 seconds.
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:119F
+[2021.10.30-10.48.17:041][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1206
+[2021.10.30-10.48.17:041][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1269
+[2021.10.30-10.48.17:041][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.48.17:041][404]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:12C8
+[2021.10.30-10.48.17:042][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.49.03:418][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.49.03:419][781]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.49.03:422][781]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.49.03:434][781]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.49.03:507][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.49.03:520][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.49.03:534][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.49.03:604][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.49.03:606][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.49.03:642][781]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2021.10.30-10.49.03:808][782]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.10.30-10.49.05:775][889]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.49.05:783][889]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.49.38:863][ 93]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/TestingAI/ChasePlayer.ChasePlayer
+[2021.10.30-10.49.47:999][897]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.49.48:000][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.49.50:978][ 60]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/TestingAI/FIndPlayerLoc.FIndPlayerLoc
+[2021.10.30-10.49.53:952][260]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.49.53:952][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.49.57:315][465]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2021.10.30-10.49.57:344][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Maps/POH_1" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.30-10.49.57:418][465]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2021.10.30-10.49.57:498][465]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/POH_18F870A594D3EC7CAC5BFFD96FF97B271.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap'
+[2021.10.30-10.49.57:523][465]LogFileHelpers: Saving map 'POH_1' took 0.180
+[2021.10.30-10.49.57:523][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SoulPawn" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Character/SoulPawn.uasset" SILENT=true
+[2021.10.30-10.49.57:622][465]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/SoulPawn8749932A4E83C13B522BFB96D3FF32E9.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Character/SoulPawn.uasset'
+[2021.10.30-10.49.57:649][465]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.30-10.49.57:649][465]LogContentValidation: Display: Validating Blueprint /Game/Character/SoulPawn.SoulPawn
+[2021.10.30-10.49.57:649][465]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_1.POH_1
+[2021.10.30-10.50.20:328][ 42]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Level/Objects/Lever/Cell_lever/Cell_leverPulled.Cell_leverPulled
+[2021.10.30-10.51.17:901][186]BlueprintLog: New page: Compile Cell_leverPulled
+[2021.10.30-10.51.18:017][186]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2021.10.30-10.51.19:319][289]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Cell_leverPulled2BEFFEEC49A1E54FE5514D8BBE70AF3C.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/Cell_lever/Cell_leverPulled.uasset'
+[2021.10.30-10.51.19:361][289]AssetCheck: New page: Asset Save: Cell_leverPulled
+[2021.10.30-10.51.19:361][289]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/Cell_lever/Cell_leverPulled.Cell_leverPulled
+[2021.10.30-10.51.20:148][356]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.51.20:163][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.51.20:163][356]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:51:20 am)
+[2021.10.30-10.51.20:164][356]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.51.20:173][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009787s)
+[2021.10.30-10.51.20:175][356]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.51.20:175][356]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2021.10.30-10.51.20:175][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.011609s)
+[2021.10.30-10.51.20:237][356]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2021.10.30-10.51.20:239][356]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.51.20:239][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.51.20:239][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.51.20:240][356]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.51.20:240][356]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.51.20:258][356]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.51.20:258][356]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.51.20:284][356]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.51.20:285][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.51.20:285][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.51.20:285][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.51.20:285][356]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.51.20:285][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.51.20:285][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.51.20:305][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.51.20:305][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.51.20:305][356]LogInit: FAudioDevice initialized.
+[2021.10.30-10.51.20:305][356]LogAudio: Display: Audio Device (ID: 23) registered with world 'POH_1'.
+[2021.10.30-10.51.20:361][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.51.20:361][356]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.51.20:412][356]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.21.20
+[2021.10.30-10.51.20:415][356]LogWorld: Bringing up level for play took: 0.053006
+[2021.10.30-10.51.20:416][356]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.10.30-10.51.20:442][356]PIE: Server logged in
+[2021.10.30-10.51.20:445][356]PIE: Play in editor total start time 0.286 seconds.
+[2021.10.30-10.51.42:351][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.51.42:351][684]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.51.42:355][684]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.51.42:376][684]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.51.42:447][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.51.42:460][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.51.42:470][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.51.42:546][684]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.51.42:547][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.51.42:549][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.51.42:590][684]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2021.10.30-10.51.42:634][685]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.10.30-10.51.55:394][613]LogUObjectHash: Compacting FUObjectHashTables data took   8.11ms
+[2021.10.30-10.52.06:222][586]BlueprintLog: New page: Compile Cell_leverPulled
+[2021.10.30-10.52.06:326][586]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2021.10.30-10.52.06:775][624]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Cell_leverPulledAE4B57D94605DAF940A808B451AD6890.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/Cell_lever/Cell_leverPulled.uasset'
+[2021.10.30-10.52.06:932][624]AssetCheck: New page: Asset Save: Cell_leverPulled
+[2021.10.30-10.52.06:933][624]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/Cell_lever/Cell_leverPulled.Cell_leverPulled
+[2021.10.30-10.52.07:349][665]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.52.07:364][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.52.07:364][665]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:52:07 am)
+[2021.10.30-10.52.07:369][665]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.52.07:379][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010333s)
+[2021.10.30-10.52.07:380][665]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.52.07:381][665]LogPlayLevel: PIE: World Init took: (0.001782s)
+[2021.10.30-10.52.07:381][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.012344s)
+[2021.10.30-10.52.07:456][665]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
+[2021.10.30-10.52.07:457][665]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.52.07:457][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.52.07:457][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.52.07:458][665]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.52.07:458][665]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.52.07:478][665]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.52.07:478][665]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.52.07:506][665]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.52.07:507][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.52.07:507][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.52.07:507][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.52.07:508][665]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.52.07:508][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.52.07:508][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.52.07:530][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.52.07:530][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.52.07:530][665]LogInit: FAudioDevice initialized.
+[2021.10.30-10.52.07:530][665]LogAudio: Display: Audio Device (ID: 24) registered with world 'POH_1'.
+[2021.10.30-10.52.07:579][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.52.07:580][665]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.52.07:627][665]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.22.07
+[2021.10.30-10.52.07:629][665]LogWorld: Bringing up level for play took: 0.048744
+[2021.10.30-10.52.07:630][665]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.10.30-10.52.07:650][665]PIE: Server logged in
+[2021.10.30-10.52.07:652][665]PIE: Play in editor total start time 0.294 seconds.
+[2021.10.30-10.52.36:288][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.52.36:288][410]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:119F
+[2021.10.30-10.52.36:289][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1206
+[2021.10.30-10.52.36:289][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1269
+[2021.10.30-10.52.36:289][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.52.36:289][410]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:12C8
+[2021.10.30-10.52.36:289][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.52.46:574][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.52.46:574][ 15]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.52.46:579][ 15]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.52.46:595][ 15]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.52.46:674][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.52.46:686][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.52.46:697][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.52.46:763][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.52.46:763][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.52.46:765][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.52.46:796][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2021.10.30-10.52.46:944][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.10.30-10.52.48:450][ 83]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.52.48:468][ 83]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.52.53:153][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Level/Objects/Lever/DoorLever/Lever_pulled.Lever_pulled
+[2021.10.30-10.53.32:708][300]BlueprintLog: New page: Compile Lever_pulled
+[2021.10.30-10.53.32:872][300]LogUObjectHash: Compacting FUObjectHashTables data took   8.96ms
+[2021.10.30-10.53.33:445][332]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Lever_pulled0EEBE1A14D81BCE1A854ADBFABB70F7B.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/DoorLever/Lever_pulled.uasset'
+[2021.10.30-10.53.33:486][332]AssetCheck: New page: Asset Save: Lever_pulled
+[2021.10.30-10.53.33:486][332]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/DoorLever/Lever_pulled.Lever_pulled
+[2021.10.30-10.53.34:115][383]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.53.34:139][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.53.34:139][383]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:53:34 am)
+[2021.10.30-10.53.34:140][383]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.53.34:156][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016291s)
+[2021.10.30-10.53.34:159][383]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.53.34:159][383]LogPlayLevel: PIE: World Init took: (0.002952s)
+[2021.10.30-10.53.34:159][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.019546s)
+[2021.10.30-10.53.34:248][383]LogUObjectHash: Compacting FUObjectHashTables data took   9.08ms
+[2021.10.30-10.53.34:249][383]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.10.30-10.53.34:249][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.53.34:249][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.53.34:249][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.53.34:249][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.53.34:249][383]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.53.34:250][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.53.34:250][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.53.34:250][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.53.34:250][383]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.53.34:250][383]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.53.34:274][383]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.53.34:274][383]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.53.34:303][383]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.53.34:304][383]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.53.34:304][383]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.53.34:304][383]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.53.34:305][383]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.53.34:305][383]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.53.34:305][383]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.53.34:327][383]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.53.34:327][383]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.53.34:327][383]LogInit: FAudioDevice initialized.
+[2021.10.30-10.53.34:327][383]LogAudio: Display: Audio Device (ID: 25) registered with world 'POH_1'.
+[2021.10.30-10.53.34:386][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.53.34:387][383]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.53.34:464][383]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.23.34
+[2021.10.30-10.53.34:467][383]LogWorld: Bringing up level for play took: 0.077285
+[2021.10.30-10.53.34:467][383]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.10.30-10.53.34:488][383]PIE: Server logged in
+[2021.10.30-10.53.34:490][383]PIE: Play in editor total start time 0.359 seconds.
+[2021.10.30-10.54.19:864][957]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.19:865][957]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:119F
+[2021.10.30-10.54.19:865][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.19:865][957]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.19:865][957]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1206
+[2021.10.30-10.54.19:865][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.19:865][957]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.19:865][957]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1269
+[2021.10.30-10.54.19:865][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.19:866][957]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.19:866][957]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:12C8
+[2021.10.30-10.54.19:866][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.21:018][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.21:018][ 27]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:119F
+[2021.10.30-10.54.21:019][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1206
+[2021.10.30-10.54.21:019][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:1269
+[2021.10.30-10.54.21:019][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.21:019][ 27]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_11
+	SoulChangeController_C /Game/Level/Maps/UEDPIE_0_POH_1.POH_1:PersistentLevel.SoulChangeController_C_0
+	Function /Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController:12C8
+[2021.10.30-10.54.21:019][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.22:349][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.22:349][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.22:349][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.22:350][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.22:350][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.22:350][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.22:350][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-10.54.22:350][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-10.54.39:247][ 68]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.10.30-10.54.39:247][ 68]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.10.30-10.54.39:247][ 68]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.54.39:249][ 68]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.54.39:310][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.54.39:421][ 68]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.54.39:429][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2021.10.30-10.54.40:346][ 68]LogAudio: Display: Audio Device (ID: 25) registered with world 'POH_2'.
+[2021.10.30-10.54.40:349][ 68]LogAIModule: Creating AISystem for world POH_2
+[2021.10.30-10.54.40:350][ 68]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.54.40:416][ 68]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.30-21.24.40
+[2021.10.30-10.54.40:417][ 68]LogWorld: Bringing up level for play took: 0.065874
+[2021.10.30-10.54.40:427][ 68]LogLoad: Took 1.179601 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.10.30-10.54.48:603][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.54.48:603][542]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.30-10.54.48:607][542]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.54.48:633][542]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.54.48:637][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.54.48:648][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.54.48:658][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.54.48:732][542]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.54.48:732][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.54.48:734][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.54.48:881][542]LogUObjectHash: Compacting FUObjectHashTables data took  39.69ms
+[2021.10.30-10.54.49:124][543]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.10.30-10.54.50:916][625]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.54.50:926][625]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.54.57:219][974]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.54.57:229][974]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-10.55.14:089][ 64]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue
+[2021.10.30-10.55.23:543][ 52]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/MidLevelMusicCue6ED1E8E64426763DFFD77CB2C764E66C.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Sound_Design/Music/MidLevelMusicCue.uasset'
+[2021.10.30-10.55.23:567][ 52]AssetCheck: New page: Asset Save: MidLevelMusicCue
+[2021.10.30-10.55.23:567][ 52]LogContentValidation: Display: Validating SoundCue /Game/Sound_Design/Music/MidLevelMusicCue.MidLevelMusicCue
+[2021.10.30-10.55.43:683][326]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Demon_Ambient_Noise...
+[2021.10.30-10.55.43:822][326]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Background/Demon_Ambient_Noise.Demon_Ambient_Noise will be modified from 40 to 40.
+[2021.10.30-10.55.46:060][326]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 15363060 while cooking SoundWave /Game/Sound_Design/Background/Demon_Ambient_Noise.Demon_Ambient_Noise.
+[2021.10.30-10.56.35:141][858]BlueprintLog: New page: Compile Lever_pulled
+[2021.10.30-10.56.35:301][858]LogUObjectHash: Compacting FUObjectHashTables data took  10.13ms
+[2021.10.30-10.56.36:873][980]BlueprintLog: New page: Compile Cell_leverPulled
+[2021.10.30-10.56.37:055][980]LogUObjectHash: Compacting FUObjectHashTables data took  13.13ms
+[2021.10.30-10.56.37:532][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.56.37:551][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.56.37:551][ 19]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:56:37 am)
+[2021.10.30-10.56.37:551][ 19]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.56.37:563][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011166s)
+[2021.10.30-10.56.37:564][ 19]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.56.37:565][ 19]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2021.10.30-10.56.37:565][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.013270s)
+[2021.10.30-10.56.37:644][ 19]LogUObjectHash: Compacting FUObjectHashTables data took  10.14ms
+[2021.10.30-10.56.37:645][ 19]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.56.37:645][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.56.37:645][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.56.37:646][ 19]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.56.37:646][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.56.37:672][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.56.37:672][ 19]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.56.37:705][ 19]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.56.37:706][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.56.37:706][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.56.37:706][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.56.37:707][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.56.37:707][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.56.37:707][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.56.37:733][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.56.37:733][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.56.37:733][ 19]LogInit: FAudioDevice initialized.
+[2021.10.30-10.56.37:733][ 19]LogAudio: Display: Audio Device (ID: 26) registered with world 'POH_1'.
+[2021.10.30-10.56.37:788][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.56.37:788][ 19]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.56.37:836][ 19]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.26.37
+[2021.10.30-10.56.37:839][ 19]LogWorld: Bringing up level for play took: 0.049930
+[2021.10.30-10.56.37:840][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.10.30-10.56.37:862][ 19]PIE: Server logged in
+[2021.10.30-10.56.37:864][ 19]PIE: Play in editor total start time 0.319 seconds.
+[2021.10.30-10.57.04:725][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.57.04:725][629]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.57.04:727][629]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.57.04:737][629]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.57.04:915][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.57.04:937][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.57.04:960][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.57.05:145][629]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.57.05:146][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.57.05:147][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.57.05:183][629]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2021.10.30-10.57.05:217][630]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.10.30-10.57.20:628][923]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Level/Objects/Gate/Gate_opened.Gate_opened
+[2021.10.30-10.57.40:070][406]BlueprintLog: New page: Compile Gate_opened
+[2021.10.30-10.57.40:294][406]LogUObjectHash: Compacting FUObjectHashTables data took   9.52ms
+[2021.10.30-10.57.40:742][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Objects/Gate/Gate_opened" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Gate/Gate_opened.uasset" SILENT=true
+[2021.10.30-10.57.40:763][430]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Gate_opened86A40AC642E23FDCEF65AA911C8026BB.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Gate/Gate_opened.uasset'
+[2021.10.30-10.57.40:792][430]AssetCheck: New page: Asset Save: Gate_opened
+[2021.10.30-10.57.40:792][430]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Gate/Gate_opened.Gate_opened
+[2021.10.30-10.57.46:540][879]BlueprintLog: New page: Compile Lever_pulled
+[2021.10.30-10.57.46:715][879]LogUObjectHash: Compacting FUObjectHashTables data took   8.87ms
+[2021.10.30-10.57.47:058][897]BlueprintLog: New page: Compile Lever_pulled
+[2021.10.30-10.57.47:221][897]LogUObjectHash: Compacting FUObjectHashTables data took   9.74ms
+[2021.10.30-10.57.50:507][171]BlueprintLog: New page: Compile Cell_leverPulled
+[2021.10.30-10.57.50:661][171]LogUObjectHash: Compacting FUObjectHashTables data took   9.00ms
+[2021.10.30-10.57.51:083][190]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Cell_leverPulled1F9F1530411B3302051355A26C16CE92.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/Cell_lever/Cell_leverPulled.uasset'
+[2021.10.30-10.57.51:116][190]AssetCheck: New page: Asset Save: Cell_leverPulled
+[2021.10.30-10.57.51:117][190]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/Cell_lever/Cell_leverPulled.Cell_leverPulled
+[2021.10.30-10.57.51:606][239]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.57.51:624][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.57.51:624][239]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:57:51 am)
+[2021.10.30-10.57.51:624][239]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.57.51:634][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009902s)
+[2021.10.30-10.57.51:635][239]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.57.51:636][239]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2021.10.30-10.57.51:636][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.011657s)
+[2021.10.30-10.57.51:712][239]LogUObjectHash: Compacting FUObjectHashTables data took   7.49ms
+[2021.10.30-10.57.51:716][239]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.57.51:716][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.57.51:716][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.57.51:717][239]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.57.51:717][239]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.57.51:739][239]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.57.51:739][239]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.57.51:771][239]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.57.51:772][239]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.57.51:772][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.57.51:772][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.57.51:773][239]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.57.51:773][239]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.57.51:773][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.57.51:797][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.57.51:797][239]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.57.51:797][239]LogInit: FAudioDevice initialized.
+[2021.10.30-10.57.51:797][239]LogAudio: Display: Audio Device (ID: 27) registered with world 'POH_1'.
+[2021.10.30-10.57.51:856][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.57.51:856][239]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.57.51:907][239]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.27.51
+[2021.10.30-10.57.51:910][239]LogWorld: Bringing up level for play took: 0.052488
+[2021.10.30-10.57.51:911][239]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.10.30-10.57.51:936][239]PIE: Server logged in
+[2021.10.30-10.57.51:938][239]PIE: Play in editor total start time 0.32 seconds.
+[2021.10.30-10.58.14:991][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.58.14:991][716]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.58.14:995][716]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-10.58.15:007][716]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-10.58.15:087][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.58.15:104][716]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-10.58.15:116][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-10.58.15:203][716]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-10.58.15:204][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.58.15:206][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-10.58.15:252][716]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2021.10.30-10.58.15:289][717]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.10.30-10.59.02:086][991]Cmd: TRANSACTION UNDO
+[2021.10.30-10.59.02:086][991]LogEditorTransaction: Undo Delete current selection
+[2021.10.30-10.59.03:224][ 76]Cmd: TRANSACTION UNDO
+[2021.10.30-10.59.03:224][ 76]LogEditorTransaction: Undo Delete current selection
+[2021.10.30-10.59.03:751][138]Cmd: TRANSACTION UNDO
+[2021.10.30-10.59.03:751][138]LogEditorTransaction: Undo Delete current selection
+[2021.10.30-10.59.11:904][719]BlueprintLog: New page: Compile Gate_opened
+[2021.10.30-10.59.12:228][719]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2021.10.30-10.59.12:645][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Objects/Gate/Gate_opened" FILE="../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Gate/Gate_opened.uasset" SILENT=true
+[2021.10.30-10.59.12:680][733]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Gate_openedDD41331E4D5A7F7B15E12C9A2D106B30.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Gate/Gate_opened.uasset'
+[2021.10.30-10.59.12:719][733]AssetCheck: New page: Asset Save: Gate_opened
+[2021.10.30-10.59.12:719][733]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Gate/Gate_opened.Gate_opened
+[2021.10.30-10.59.16:692][  8]BlueprintLog: New page: Compile Lever_pulled
+[2021.10.30-10.59.16:852][  8]LogUObjectHash: Compacting FUObjectHashTables data took  10.83ms
+[2021.10.30-10.59.17:297][ 41]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Lever_pulled3A4D89094079EB7ADF8F49BA0FBD7E9D.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/DoorLever/Lever_pulled.uasset'
+[2021.10.30-10.59.17:321][ 41]AssetCheck: New page: Asset Save: Lever_pulled
+[2021.10.30-10.59.17:321][ 41]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/DoorLever/Lever_pulled.Lever_pulled
+[2021.10.30-10.59.18:689][107]BlueprintLog: New page: Compile Cell_leverPulled
+[2021.10.30-10.59.18:839][107]LogUObjectHash: Compacting FUObjectHashTables data took   9.43ms
+[2021.10.30-10.59.19:323][121]LogSavePackage: Moving '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Saved/Cell_leverPulled8AC46CBA44F9B20E785D58B3344837BE.tmp' to '../../../../../../Users/Brodie/Documents/GitHub/ICT/PrisonOfHell/Content/Level/Objects/Lever/Cell_lever/Cell_leverPulled.uasset'
+[2021.10.30-10.59.19:351][121]AssetCheck: New page: Asset Save: Cell_leverPulled
+[2021.10.30-10.59.19:351][121]LogContentValidation: Display: Validating Blueprint /Game/Level/Objects/Lever/Cell_lever/Cell_leverPulled.Cell_leverPulled
+[2021.10.30-10.59.19:967][158]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-10.59.19:985][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-10.59.19:985][158]PIE: New page: PIE session: POH_1 (31 Oct 2021, 7:59:19 am)
+[2021.10.30-10.59.19:985][158]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-10.59.19:996][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010608s)
+[2021.10.30-10.59.19:998][158]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-10.59.19:998][158]LogPlayLevel: PIE: World Init took: (0.001754s)
+[2021.10.30-10.59.19:998][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.012562s)
+[2021.10.30-10.59.20:090][158]LogUObjectHash: Compacting FUObjectHashTables data took   9.60ms
+[2021.10.30-10.59.20:090][158]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.10.30-10.59.20:090][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-10.59.20:091][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-10.59.20:091][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-10.59.20:092][158]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-10.59.20:092][158]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-10.59.20:132][158]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-10.59.20:133][158]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-10.59.20:190][158]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-10.59.20:191][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-10.59.20:191][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-10.59.20:191][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-10.59.20:192][158]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-10.59.20:192][158]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-10.59.20:193][158]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-10.59.20:224][158]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-10.59.20:224][158]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-10.59.20:224][158]LogInit: FAudioDevice initialized.
+[2021.10.30-10.59.20:224][158]LogAudio: Display: Audio Device (ID: 28) registered with world 'POH_1'.
+[2021.10.30-10.59.20:282][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-10.59.20:282][158]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-10.59.20:345][158]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.29.20
+[2021.10.30-10.59.20:348][158]LogWorld: Bringing up level for play took: 0.063504
+[2021.10.30-10.59.20:349][158]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.10.30-10.59.20:374][158]PIE: Server logged in
+[2021.10.30-10.59.20:376][158]PIE: Play in editor total start time 0.397 seconds.
+[2021.10.30-11.00.00:447][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.00.00:447][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.00.00:447][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.00.00:447][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.00.00:447][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.00.00:447][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.00.00:448][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.00.00:448][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.00.35:386][584]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.10.30-11.00.35:386][584]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.10.30-11.00.35:386][584]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-11.00.35:389][584]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.00.35:452][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.00.35:593][584]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-11.00.35:603][584]LogUObjectHash: Compacting FUObjectHashTables data took   8.12ms
+[2021.10.30-11.00.35:635][584]LogAudio: Display: Audio Device (ID: 28) registered with world 'POH_2'.
+[2021.10.30-11.00.35:636][584]LogAIModule: Creating AISystem for world POH_2
+[2021.10.30-11.00.35:637][584]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-11.00.35:691][584]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.30-21.30.35
+[2021.10.30-11.00.35:693][584]LogWorld: Bringing up level for play took: 0.055516
+[2021.10.30-11.00.35:705][584]LogLoad: Took 0.318394 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.10.30-11.01.20:956][159]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.01.20:957][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.01.20:957][159]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.01.20:957][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.01.20:957][159]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.01.20:957][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.01.20:957][159]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.01.20:957][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.01.51:278][750]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.30-11.02.48:616][914]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.10.30-11.02.48:616][914]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.10.30-11.02.48:616][914]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.30-11.02.48:618][914]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.02.48:622][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.02.48:846][914]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-11.02.48:856][914]LogUObjectHash: Compacting FUObjectHashTables data took   8.14ms
+[2021.10.30-11.02.48:877][914]LogAudio: Display: Audio Device (ID: 28) registered with world 'POH_2'.
+[2021.10.30-11.02.48:879][914]LogAIModule: Creating AISystem for world POH_2
+[2021.10.30-11.02.48:880][914]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-11.02.48:932][914]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.30-21.32.48
+[2021.10.30-11.02.48:933][914]LogWorld: Bringing up level for play took: 0.052343
+[2021.10.30-11.02.48:942][914]LogLoad: Took 0.326373 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.10.30-11.02.50:190][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-11.02.50:190][983]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.30-11.02.50:200][983]LogSlate: Window 'PrisonOfHell Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.30-11.02.50:231][983]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.02.50:241][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.02.50:282][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-11.02.50:301][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.02.50:396][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-11.02.50:398][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-11.02.50:434][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2021.10.30-11.02.50:588][984]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.10.30-11.02.52:100][ 59]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-11.02.52:133][ 59]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-11.02.55:891][321]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.02.55:891][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.02.57:334][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.02.57:334][432]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.02.57:334][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.02.58:883][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.02.58:883][500]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.02.58:883][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.00:530][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.03.00:530][536]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.03.00:530][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.01:756][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.03.01:756][577]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.03.01:756][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.03:962][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.03.03:962][714]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.03.03:962][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.04:810][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.03.04:810][731]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.03.04:810][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.05:679][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-11.03.05:679][772]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.03.05:680][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.03.36:915][866]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Text_Sound...
+[2021.10.30-11.03.36:915][866]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sound_Design/Speech/Text_Sound.Text_Sound will be modified from 40 to 40.
+[2021.10.30-11.03.37:048][866]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 29084 while cooking SoundWave /Game/Sound_Design/Speech/Text_Sound.Text_Sound.
+[2021.10.30-11.03.56:909][450]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.30-11.03.56:937][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.30-11.03.56:937][450]PIE: New page: PIE session: POH_1 (31 Oct 2021, 8:03:56 am)
+[2021.10.30-11.03.56:938][450]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-11.03.56:955][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017119s)
+[2021.10.30-11.03.56:957][450]LogAIModule: Creating AISystem for world POH_1
+[2021.10.30-11.03.56:958][450]LogPlayLevel: PIE: World Init took: (0.002729s)
+[2021.10.30-11.03.56:958][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.020164s)
+[2021.10.30-11.03.57:123][450]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2021.10.30-11.03.57:139][450]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.30-11.03.57:139][450]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.30-11.03.57:139][450]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.30-11.03.57:140][450]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.30-11.03.57:140][450]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.30-11.03.57:164][450]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.30-11.03.57:164][450]LogAudioMixer: Display: 1: FrontRight
+[2021.10.30-11.03.57:202][450]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.30-11.03.57:203][450]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.30-11.03.57:203][450]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.30-11.03.57:203][450]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.30-11.03.57:206][450]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.30-11.03.57:207][450]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.30-11.03.57:207][450]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.30-11.03.57:238][450]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.30-11.03.57:238][450]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.30-11.03.57:238][450]LogInit: FAudioDevice initialized.
+[2021.10.30-11.03.57:238][450]LogAudio: Display: Audio Device (ID: 29) registered with world 'POH_1'.
+[2021.10.30-11.03.57:267][450]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-11.03.57:330][450]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 0) at 2021.10.30-21.33.57
+[2021.10.30-11.03.57:333][450]LogWorld: Bringing up level for play took: 0.064105
+[2021.10.30-11.03.57:334][450]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.10.30-11.03.57:372][450]PIE: Server logged in
+[2021.10.30-11.03.57:377][450]PIE: Play in editor total start time 0.448 seconds.
+[2021.10.30-11.04.30:196][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.04.30:197][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.04.30:197][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.04.30:197][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.04.30:197][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.04.30:197][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.04.30:197][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_11' of length 0 in '/Game/Blueprints/SoulChangeController.SoulChangeController_C:ExecuteUbergraph_SoulChangeController'!
+[2021.10.30-11.04.30:197][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_11". Blueprint:  SoulChangeController Function:  Execute Ubergraph Soul Change Controller Graph:  EventGraph Node:  Branch
+[2021.10.30-11.04.42:059][557]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.10.30-11.04.42:059][557]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.10.30-11.04.42:059][557]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.10.30-11.04.42:061][557]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.04.42:136][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.04.42:224][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.30-11.04.42:238][557]LogUObjectHash: Compacting FUObjectHashTables data took  10.98ms
+[2021.10.30-11.04.42:264][557]LogAudio: Display: Audio Device (ID: 29) registered with world 'POH_2'.
+[2021.10.30-11.04.42:266][557]LogAIModule: Creating AISystem for world POH_2
+[2021.10.30-11.04.42:266][557]LogLoad: Game class is 'GameLevel01_C'
+[2021.10.30-11.04.42:322][557]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 0) at 2021.10.30-21.34.42
+[2021.10.30-11.04.42:324][557]LogWorld: Bringing up level for play took: 0.055398
+[2021.10.30-11.04.42:332][557]LogLoad: Took 0.272976 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.10.30-11.05.28:360][647]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.30-11.05.36:497][176]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/Level/Assets/Button/buttonBP.buttonBP_C:ExecuteUbergraph_buttonBP'!
+[2021.10.30-11.05.50:488][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-11.05.50:488][147]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.10.30-11.05.50:490][147]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-11.05.50:496][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.05.50:511][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.30-11.05.50:520][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-11.05.50:560][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.30-11.05.50:561][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-11.05.50:562][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.30-11.05.50:605][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.10.30-11.05.50:831][148]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.10.30-11.05.52:599][240]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-11.05.52:623][240]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-11.05.54:767][327]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
