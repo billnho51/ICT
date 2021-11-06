@@ -1,21 +1,40 @@
+<<<<<<< HEAD
 ﻿Log file open, 11/06/21 16:46:23
+=======
+﻿Log file open, 11/06/21 16:09:04
+>>>>>>> Isse2
 LogInit: LLM is enabled
 LogInit: LLM CsvWriter: off TraceWriter: off
 LogInit: Display: Running engine for game: PrisonOfHell
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.300875
+=======
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.833207
+>>>>>>> Isse2
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:30, Platform Override: ''
 LogPluginManager: Mounting plugin MeshPainting
 LogPluginManager: Mounting plugin XGEController
+<<<<<<< HEAD
+=======
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin EnvironmentQueryEditor
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CameraShakePreviewer
 LogPluginManager: Mounting plugin AnimationSharing
+=======
+LogPluginManager: Mounting plugin CameraShakePreviewer
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
 LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
@@ -23,14 +42,37 @@ LogPluginManager: Mounting plugin NullSourceCodeAccess
 LogPluginManager: Mounting plugin PerforceSourceControl
 LogPluginManager: Mounting plugin PlasticSourceControl
 LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
 LogPluginManager: Mounting plugin RiderSourceCodeAccess
 LogPluginManager: Mounting plugin PluginUtils
 LogPluginManager: Mounting plugin SubversionSourceControl
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin UObjectPlugin
 LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
 LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+=======
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin Niagara
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin BackChannel
@@ -38,6 +80,7 @@ LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
 LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin ChaosCloth
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin GeometryMode
 LogPluginManager: Mounting plugin CryptoKeys
@@ -46,12 +89,15 @@ LogPluginManager: Mounting plugin ChaosClothEditor
 LogPluginManager: Mounting plugin MaterialAnalyzer
 LogPluginManager: Mounting plugin ChaosEditor
 LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+=======
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin ChaosNiagara
 LogPluginManager: Mounting plugin PluginBrowser
 LogPluginManager: Mounting plugin ChaosSolverPlugin
 LogPluginManager: Mounting plugin SpeedTreeImporter
 LogPluginManager: Mounting plugin CharacterAI
-LogPluginManager: Mounting plugin Niagara
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin GeometryCollectionPlugin
 LogPluginManager: Mounting plugin GeometryProcessing
@@ -59,6 +105,7 @@ LogPluginManager: Mounting plugin MotoSynth
 LogPluginManager: Mounting plugin PlanarCut
 LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin ProxyLODPlugin
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin SkeletalReduction
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
@@ -68,23 +115,43 @@ LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin LuminPlatformFeatures
 LogPluginManager: Mounting plugin WmfMedia
 LogPluginManager: Mounting plugin MagicLeap
+=======
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin SkeletalReduction
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin MagicLeapLightEstimation
 LogPluginManager: Mounting plugin MagicLeapMedia
 LogPluginManager: Mounting plugin MagicLeapPassableWorld
 LogPluginManager: Mounting plugin MLSDK
+<<<<<<< HEAD
+=======
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin ActorSequence
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin TemplateSequence
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin MatineeToLevelSequence
+=======
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
 LogPluginManager: Mounting plugin OnlineSubsystemUtils
-LogPluginManager: Mounting plugin LauncherChunkInstaller
 LogPluginManager: Mounting plugin ActorLayerUtilities
-LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidPermission
 LogPluginManager: Mounting plugin AppleMoviePlayer
 LogPluginManager: Mounting plugin AppleImageUtils
@@ -96,17 +163,26 @@ LogPluginManager: Mounting plugin CableComponent
 LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin GoogleCloudMessaging
 LogPluginManager: Mounting plugin GooglePAD
 LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin ScreenshotTools
+=======
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 LogPluginManager: Mounting plugin MobilePatchingUtils
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin PhysXVehicles
+=======
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin PropertyAccessEditor
 LogPluginManager: Mounting plugin RuntimePhysXCooking
@@ -115,8 +191,12 @@ LogPluginManager: Mounting plugin SoundFields
 LogPluginManager: Mounting plugin Synthesis
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin VariantManagerContent
+=======
+LogPluginManager: Mounting plugin ScreenshotTools
+>>>>>>> Isse2
 LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 LogPluginManager: Mounting plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
@@ -210,6 +290,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2021.11.06-06.16.25:216][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.11.06-06.16.25:216][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.11.06-06.16.25:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Study/ICT/project/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
@@ -1957,3 +2038,1090 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.06-06.24.45:454][284]LogD3D11RHI: CleanupD3DDevice
 [2021.11.06-06.24.45:477][284]LogExit: Exiting.
 [2021.11.06-06.24.45:486][284]Log file closed, 11/06/21 16:54:45
+=======
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:433][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.11.06-05.39.06:433][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.11.06-05.39.06:434][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:434][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:442][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.06-05.39.06:442][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.11.06-05.39.06:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.11.06-05.39.06:444][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.06-05.39.06:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.06-05.39.06:444][  0]LogHAL: Display: Platform has ~ 8 GB [8475541504 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.06-05.39.06:444][  0]LogInit: Going up to parent DeviceProfile []
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.06-05.39.06:444][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.06-05.39.06:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.11.06-05.39.06:446][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.11.06-05.39.06:454][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.11.06-05.39.06:454][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.11.06-05.39.06:454][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.11.06-05.39.06:454][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Engine.ini]
+[2021.11.06-05.39.06:454][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Config/Windows/Editor.ini]
+[2021.11.06-05.39.06:454][  0]LogInit: Computer: LAPTOP-CVF46OLD
+[2021.11.06-05.39.06:454][  0]LogInit: User: Haris
+[2021.11.06-05.39.06:454][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.11.06-05.39.06:454][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.06-05.39.06:454][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.11.06-05.39.06:454][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.06-05.39.06:454][  0]LogMemory: Process Physical Memory: 132.27 MB used, 132.27 MB peak
+[2021.11.06-05.39.06:454][  0]LogMemory: Process Virtual Memory: 116.28 MB used, 116.28 MB peak
+[2021.11.06-05.39.06:454][  0]LogMemory: Physical Memory: 2700.57 MB used,  5382.34 MB free, 8082.91 MB total
+[2021.11.06-05.39.06:454][  0]LogMemory: Virtual Memory: 134205464.00 MB used,  12264.02 MB free, 134217728.00 MB total
+[2021.11.06-05.39.06:462][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.11.06-05.39.06:494][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.11.06-05.39.06:495][  0]LogInit: Using OS detected language (en-US).
+[2021.11.06-05.39.06:495][  0]LogInit: Using OS detected locale (en-AU).
+[2021.11.06-05.39.06:503][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.11.06-05.39.06:841][  0]LogInit: Setting process to per monitor DPI aware
+[2021.11.06-05.39.06:872][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.11.06-05.39.07:057][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.06-05.39.07:057][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.11.06-05.39.09:541][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.06-05.39.09:541][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.11.06-05.39.09:541][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.11.06-05.39.09:541][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.06-05.39.09:572][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2021.11.06-05.39.09:572][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.11.06-05.39.09:575][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.06-05.39.09:575][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.06-05.39.09:578][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.06-05.39.09:578][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.06-05.39.09:578][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.06-05.39.09:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.06-05.39.09:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2021.11.06-05.39.09:586][  0]LogWindows: EnumDisplayDevices:
+[2021.11.06-05.39.09:586][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2021.11.06-05.39.09:586][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2021.11.06-05.39.09:587][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2021.11.06-05.39.09:587][  0]LogWindows:    3. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:587][  0]LogWindows:    4. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:588][  0]LogWindows:    5. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:588][  0]LogWindows:    6. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:588][  0]LogWindows:    7. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:589][  0]LogWindows:    8. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:589][  0]LogWindows:    9. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:590][  0]LogWindows:    10. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.11.06-05.39.09:590][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2021.11.06-05.39.09:590][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2021.11.06-05.39.09:590][  0]LogD3D11RHI:   Driver Version: 25.20.100.6518 (internal:25.20.100.6518, unified:25.20.100.6518)
+[2021.11.06-05.39.09:590][  0]LogD3D11RHI:      Driver Date: 1-9-2019
+[2021.11.06-05.39.09:590][  0]LogRHI: Texture pool is 1504 MB (70% of 2148 MB)
+[2021.11.06-05.39.09:716][  0]LogD3D11RHI: [IntelMetricsDiscovery] Failed to initialize context. Result=00000002
+[2021.11.06-05.39.09:806][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.11.06-05.39.09:884][  0]LogD3D11RHI: Intel Extensions support version Full=67108864, Major=4, Minor=0, Revision=0
+[2021.11.06-05.39.09:884][  0]LogD3D11RHI: Intel Extensions support version Full=67174400, Major=4, Minor=1, Revision=0
+[2021.11.06-05.39.09:884][  0]LogD3D11RHI: Intel Extensions Framework version required is not supported
+[2021.11.06-05.39.09:884][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.06-05.39.09:884][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.11.06-05.39.09:905][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.11.06-05.39.10:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.11.06-05.39.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.11.06-05.39.10:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.11.06-05.39.10:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.11.06-05.39.10:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.11.06-05.39.11:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.11.06-05.39.11:043][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.11.06-05.39.11:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.11.06-05.39.11:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.11.06-05.39.11:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.11.06-05.39.11:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.11.06-05.39.11:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.11.06-05.39.11:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.11.06-05.39.11:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.11.06-05.39.11:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.11.06-05.39.11:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.11.06-05.39.11:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.11.06-05.39.11:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.11.06-05.39.11:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.11.06-05.39.11:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.11.06-05.39.11:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.11.06-05.39.11:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.11.06-05.39.11:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.11.06-05.39.11:580][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.06-05.39.11:689][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.11.06-05.39.12:147][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.11.06-05.39.12:147][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Intermediate/Shaders/WorkingDirectory/15488/).
+[2021.11.06-05.39.12:148][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Haris/AppData/Local/Temp/UnrealShaderWorkingDir/30DBAC1746F141F4E372ED90CAF325C5/'.
+[2021.11.06-05.39.12:148][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.11.06-05.39.12:148][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.06-05.39.14:443][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: Loaded boot cache 0.44s 78MB C:/Users/Haris/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Haris/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.06-05.39.14:886][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.06-05.39.14:902][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.06-05.39.14:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.06-05.39.14:902][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.11.06-05.39.15:078][  0]LogDerivedDataCache: Speed tests for C:/Users/Haris/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.18 seconds
+[2021.11.06-05.39.15:078][  0]LogDerivedDataCache: Display: Performance to C:/Users/Haris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.07ms. RandomReadSpeed=6.45MBs, RandomWriteSpeed=30.47MBs. Assigned SpeedClass 'Local'
+[2021.11.06-05.39.15:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Haris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.06-05.39.15:080][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.11.06-05.39.15:080][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.11.06-05.39.15:169][  0]LogSlate: Using FreeType 2.10.0
+[2021.11.06-05.39.15:196][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.06-05.39.16:362][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2021.11.06-05.39.16:700][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.06-05.39.16:700][  0]LogInit: Active device profile: [000001C09B89EB00][000001C09C059B00 49] Windows
+[2021.11.06-05.39.16:700][  0]LogInit: Profiles: [000001C09B89EB00][000001C09C059B00 49] Windows, [000001C09B88D700][000001C09C061C80 49] WindowsNoEditor, [000001C09B89D700][000001C09C064140 49] WindowsServer, [000001C09B88EB00][000001C09C0682C0 49] WindowsClient, [000001C09B89ED00][000001C09C06C440 49] IOS, [000001C09B88F700][000001C09C0705C0 49] iPadAir, [000001C09B89D400][000001C09C074740 49] iPadAir2, [000001C09B843E00][000001C09C07CA00 49] IPadPro, [000001C09B843F00][000001C09C078A40 49] iPadAir3, [000001C09B89EC00][000001C09C080BC0 49] iPadAir4, [000001C09B841C00][000001C09C084D40 49] iPadMini2, [000001C09B89D600][000001C09C088EC0 49] iPadMini3, [000001C09B843A00][000001C09C08D040 49] iPadMini4, [000001C09B89CB00][000001C09C0911C0 49] iPadMini5, [000001C09B85B700][000001C09C099480 49] iPhone6, [000001C09B85B800][000001C09C0954C0 49] iPodTouch6, [000001C09B841B00][000001C09C0A1780 49] iPhone7, [000001C09B841A00][000001C09C09D7C0 49] iPodTouch7, [000001C09B859B00][000001C09C05D900 49] iPhone5S, [000001C09B842000][000001C09C0A5A40 49] iPhone6Plus, [000001C09B85BD00][000001C09C0A9B80 49] iPhone6S, [000001C09B841600][000001C09C0B1D00 49] iPhone6SPlus, [000001C09B859700][000001C09C0B41C0 49] iPhone7Plus, [000001C09B840500][000001C09C0B8340 49] iPhoneSE, [000001C09B85A000][000001C09C0BC4C0 49] iPhone8, [000001C09B843D00][000001C09C0C0640 49] iPhone8Plus, [000001C09B85BB00][000001C09C0C47C0 49] iPhoneX, [000001C09B842200][000001C09C0C8940 49] iPhoneXS, [000001C09B85A200][000001C09C0CCAC0 49] iPhoneXSMax, [000001C09B841F00][000001C09C0D0C40 49] iPhoneXR, [000001C09B85AA00][000001C09C0D4DC0 49] iPhone11, [000001C09B843B00][000001C09C0D8F40 49] iPhone11Pro, [000001C09B859300][000001C09C0DD0C0 49] iPhone11ProMax, [000001C09B841700][000001C09C0E1240 49] iPhoneSE2, [000001C09B85AB00][000001C09C0E53C0 49] iPhone12Mini, [000001C09B841100][000001C09C0E9540 49] iPhone12, [000001C09B858900][000001C09C0ED6C0 49] iPhone12Pro, [000001C09B843900][000001C09C0F1840 49] iPhone12ProMax, [000001C09B85AD00][000001C09C0AD980 49] iPadPro105, [000001C09B840A00][000001C09C0F5AC0 49] iPadPro129, [000001C09B859C00][000001C09C0F9C00 49] iPadPro97, [000001C09B841800][000001C09C1000C0 49] iPadPro2_129, [000001C09B85BE00][000001C09C104240 49] iPad5, [000001C09B840400][000001C09C1083C0 49] iPad6, [000001C09B85A700][000001C09C10C540 49] iPad7, [000001C09B841900][000001C09C1106C0 49] iPad8, [000001C09B85B600][000001C09C114840 49] iPadPro11, [000001C09B842E00][000001C09C1189C0 49] iPadPro2_11, [000001C09B85BC00][000001C09C11CB40 49] iPadPro3_129, [000001C09B842900][000001C09C120CC0 49] iPadPro4_129, [000001C09B842F00][000001C09C124E40 49] AppleTV, [000001C09B88F400][000001C09C128FC0 49] AppleTV4K, [000001C09B91C400][000001C09C12D140 49] TVOS, [000001C09B88EF00][000001C09C1312C0 49] Mac, [000001C09B859800][000001C09C135440 49] MacClient, [000001C09B88F000][000001C09C1395C0 49] MacNoEditor, [000001C09B859200][000001C09C13D740 49] MacServer, [000001C09B88CF00][000001C09C1418C0 49] Linux, [000001C09B858100][000001C09C0FDA00 49] LinuxAArch64, [000001C09B88C300][000001C09C145B40 49] LinuxNoEditor, [000001C09B859600][000001C09C149C80 49] LinuxAArch64NoEditor, [000001C09B88FB00][000001C09C14C100 49] LinuxClient, [000001C09B85AC00][000001C08D6F8280 49] LinuxAArch64Client, [000001C09B88D300][000001C08D6FC400 49] LinuxServer, [000001C09B859100][000001C08D700580 49] LinuxAArch64Server, [000001C09B88C100][000001C08D704700 49] Android, [000001C09B858600][000001C08D708880 49] Android_Low, [000001C09B88CD00][000001C08D70CA00 49] Android_Mid, [000001C09B858700][000001C08D710B80 49] Android_High, [000001C09B88CB00][000001C08D714D00 49] Android_Default, [000001C09B85BA00][000001C08D718E80 49] Android_Adreno4xx, [000001C09B88D900][000001C08D71D000 49] Android_Adreno5xx_Low, [000001C09B858F00][000001C0FEB71180 49] Android_Adreno5xx, [000001C09B88F200][000001C0FEB75300 49] Android_Adreno6xx, [000001C09B85A300][000001C0FEB79480 49] Android_Adreno6xx_Vulkan, [000001C09B88E800][000001C0FEB7D600 49] Android_Mali_T6xx, [000001C09B859400][000001C0FEB81780 49] Android_Mali_T7xx, [000001C09B88F800][000001C0FEB85900 49] Android_Mali_T8xx, [000001C09B858B00][000001C08D6F5A40 49] Android_Mali_G71, [000001C09B88DF00][000001C0FEB89B80 49] Android_Mali_G72, [000001C09B85A500][000001C0FEB8DCC0 49] Android_Mali_G72_Vulkan, [000001C09B88E200][000001C0FEB90140 49] Android_Mali_G76, [000001C09B858E00][000001C0FEB982C0 49] Android_Mali_G76_Vulkan, [000001C09B88F500][000001C0FEB9C440 49] Android_Mali_G77, [000001C09B859500][000001C0FEBA05C0 49] Android_Mali_G77_Vulkan, [000001C09B88FA00][000001C0FEBA4740 49] Android_Vulkan_SM5, [000001C09B85AF00][000001C0FEBA88C0 49] Android_PowerVR_G6xxx, [000001C09B88D800][000001C0FEBACA40 49] Android_PowerVR_GT7xxx, [000001C09B859A00][000001C0FEBB0BC0 49] Android_PowerVR_GE8xxx, [000001C09B88D100][000001C0FEBB4D40 49] Android_PowerVR_GM9xxx, [000001C09B85AE00][000001C0FEBB8EC0 49] Android_PowerVR_GM9xxx_Vulkan, [000001C09B88F100][000001C0FEBBD040 49] Android_TegraK1, [000001C09B842800][000001C09C1611C0 49] Android_Unknown_Vulkan, [000001C09B89D100][000001C09C165340 49] Lumin, [000001C09B840600][000001C09C1694C0 49] Lumin_Desktop, [000001C09B89FA00][000001C09C16D640 49] HoloLens, 
+[2021.11.06-05.39.17:260][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.06-05.39.17:260][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.11.06-05.39.17:260][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.11.06-05.39.17:260][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.11.06-05.39.17:260][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.11.06-05.39.17:323][  0]LogNetVersion: PrisonOfHell 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1446835089)
+[2021.11.06-05.40.00:556][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.11.06-05.40.00:817][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.133888 seconds
+[2021.11.06-05.40.00:996][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.11.06-05.40.00:996][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.11.06-05.40.00:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.06-05.40.21:133][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.06-05.40.21:182][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.06-05.40.24:291][  0]SourceControl: Source control is disabled
+[2021.11.06-05.40.24:297][  0]SourceControl: Source control is disabled
+[2021.11.06-05.40.24:440][  0]SourceControl: Source control is disabled
+[2021.11.06-05.40.24:497][  0]SourceControl: Source control is disabled
+[2021.11.06-05.40.25:638][  0]SourceControl: Source control is disabled
+[2021.11.06-05.40.25:661][  0]LogUProjectInfo: Found projects:
+[2021.11.06-05.40.25:710][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.11.06-05.40.25:714][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.11.06-05.40.30:847][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.06-05.40.31:027][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-05.40.31:028][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-05.40.32:142][  0]LogCollectionManager: Loaded 0 collections in 0.004711 seconds
+[2021.11.06-05.40.32:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Collections/' took 0.01s
+[2021.11.06-05.40.32:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Developers/Haris/Collections/' took 0.00s
+[2021.11.06-05.40.32:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Collections/' took 0.00s
+[2021.11.06-05.40.32:275][  0]LogOcInput: OculusInput pre-init called
+[2021.11.06-05.40.32:325][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.11.06-05.40.32:325][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.11.06-05.40.34:110][  0]LogEngine: Initializing Engine...
+[2021.11.06-05.40.34:143][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.06-05.40.34:143][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.11.06-05.40.34:167][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.11.06-05.40.35:019][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.11.06-05.40.35:549][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.06-05.40.35:642][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.11.06-05.40.35:710][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.11.06-05.40.35:710][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-05.40.35:727][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-05.40.35:738][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-05.40.35:744][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-05.40.35:744][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-05.40.35:971][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-05.40.35:972][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-05.40.36:332][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.06-05.40.36:353][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-05.40.36:386][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-05.40.36:386][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-05.40.36:388][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-05.40.36:388][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.06-05.40.36:388][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.06-05.40.36:390][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.06-05.40.36:390][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.06-05.40.36:390][  0]LogInit: FAudioDevice initialized.
+[2021.11.06-05.40.36:406][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.11.06-05.40.36:417][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.11.06-05.40.55:220][  0]LogDerivedDataCache: Saved boot cache 18.80s 77MB C:/Users/Haris/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.11.06-05.40.55:256][  0]LogInit: Texture streaming: Enabled
+[2021.11.06-05.40.55:747][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.11.06-05.40.55:802][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.06-05.40.56:217][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.11.06-05.40.56:232][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.11.06-05.40.58:107][  0]LogInit: Transaction tracking system initialized
+[2021.11.06-05.41.00:947][  0]BlueprintLog: New page: Editor Load
+[2021.11.06-05.41.10:492][  0]LocalizationService: Localization service is disabled
+[2021.11.06-05.41.12:572][  0]TimingProfiler: Initialize
+[2021.11.06-05.41.12:596][  0]TimingProfiler: OnSessionChanged
+[2021.11.06-05.41.12:598][  0]LoadingProfiler: Initialize
+[2021.11.06-05.41.12:599][  0]LoadingProfiler: OnSessionChanged
+[2021.11.06-05.41.12:600][  0]NetworkingProfiler: Initialize
+[2021.11.06-05.41.12:600][  0]NetworkingProfiler: OnSessionChanged
+[2021.11.06-05.41.12:600][  0]MemoryProfiler: Initialize
+[2021.11.06-05.41.12:600][  0]MemoryProfiler: OnSessionChanged
+[2021.11.06-05.41.14:357][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.11.06-05.41.14:359][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.11.06-05.41.17:543][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/ as it will conflict with another watching ../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/.
+[2021.11.06-05.41.17:545][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.11.06-05.41.17:545][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.06-05.41.17:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/' took 0.04s
+[2021.11.06-05.41.44:531][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.11.06-05.41.44:627][  0]SourceControl: Source control is disabled
+[2021.11.06-05.41.44:640][  0]LogUnrealEdMisc: Loading editor; pre map load, took 162.068
+[2021.11.06-05.41.44:651][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.06-05.41.44:675][  0]LightingResults: New page: Lighting Build
+[2021.11.06-05.41.45:047][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.41.45:203][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.41.45:533][  0]MapCheck: New page: Map Check
+[2021.11.06-05.41.45:533][  0]LightingResults: New page: Lighting Build
+[2021.11.06-05.41.46:988][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.11.06-05.41.49:955][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_1'.
+[2021.11.06-05.41.49:967][  0]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.41.52:218][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.06-05.41.52:602][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.11.06-05.41.52:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.06-05.41.52:659][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.897ms to complete.
+[2021.11.06-05.41.52:659][  0]LogFileHelpers: Loading map 'POH_1' took 8.009
+[2021.11.06-05.41.55:181][  0]LogUnrealEdMisc: Total Editor Startup Time, took 172.609
+[2021.11.06-05.41.56:886][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.41.56:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.41.56:940][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.41.56:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.41.57:193][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0175 seconds. Added 3601 classes and 859 folders.
+[2021.11.06-05.41.57:421][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.11.06-05.41.57:508][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.06-05.41.57:508][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:508][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.06-05.41.57:509][  0]LogPakFile: OnPakFileMounted2Time == 0.000682
+[2021.11.06-05.41.57:542][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.11.06-05.41.57:542][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:542][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.11.06-05.41.57:542][  0]LogPakFile: OnPakFileMounted2Time == 0.000702
+[2021.11.06-05.41.57:555][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.11.06-05.41.57:555][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:555][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.11.06-05.41.57:555][  0]LogPakFile: OnPakFileMounted2Time == 0.000707
+[2021.11.06-05.41.57:567][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.06-05.41.57:567][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:567][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.06-05.41.57:567][  0]LogPakFile: OnPakFileMounted2Time == 0.000712
+[2021.11.06-05.41.57:591][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.11.06-05.41.57:592][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:592][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.11.06-05.41.57:592][  0]LogPakFile: OnPakFileMounted2Time == 0.000717
+[2021.11.06-05.41.57:604][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.11.06-05.41.57:604][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:604][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.11.06-05.41.57:604][  0]LogPakFile: OnPakFileMounted2Time == 0.000722
+[2021.11.06-05.41.57:615][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.11.06-05.41.57:615][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:615][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.11.06-05.41.57:615][  0]LogPakFile: OnPakFileMounted2Time == 0.000729
+[2021.11.06-05.41.57:641][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.11.06-05.41.57:641][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:641][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.11.06-05.41.57:641][  0]LogPakFile: OnPakFileMounted2Time == 0.000734
+[2021.11.06-05.41.57:749][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.06-05.41.57:750][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:750][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.06-05.41.57:750][  0]LogPakFile: OnPakFileMounted2Time == 0.000738
+[2021.11.06-05.41.57:806][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.11.06-05.41.57:806][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:806][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.11.06-05.41.57:806][  0]LogPakFile: OnPakFileMounted2Time == 0.000745
+[2021.11.06-05.41.57:823][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.11.06-05.41.57:823][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:823][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.11.06-05.41.57:824][  0]LogPakFile: OnPakFileMounted2Time == 0.000759
+[2021.11.06-05.41.57:853][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.06-05.41.57:853][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:853][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.06-05.41.57:853][  0]LogPakFile: OnPakFileMounted2Time == 0.000765
+[2021.11.06-05.41.57:861][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.06-05.41.57:862][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:862][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.06-05.41.57:862][  0]LogPakFile: OnPakFileMounted2Time == 0.000769
+[2021.11.06-05.41.57:865][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.06-05.41.57:865][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:865][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.06-05.41.57:865][  0]LogPakFile: OnPakFileMounted2Time == 0.000774
+[2021.11.06-05.41.57:870][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.11.06-05.41.57:870][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:870][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.11.06-05.41.57:870][  0]LogPakFile: OnPakFileMounted2Time == 0.000781
+[2021.11.06-05.41.57:872][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.06-05.41.57:872][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:872][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.06-05.41.57:872][  0]LogPakFile: OnPakFileMounted2Time == 0.000786
+[2021.11.06-05.41.57:876][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.11.06-05.41.57:876][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:876][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.11.06-05.41.57:876][  0]LogPakFile: OnPakFileMounted2Time == 0.000790
+[2021.11.06-05.41.57:929][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.06-05.41.57:929][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:929][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.06-05.41.57:929][  0]LogPakFile: OnPakFileMounted2Time == 0.000795
+[2021.11.06-05.41.57:936][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.06-05.41.57:936][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:936][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.06-05.41.57:936][  0]LogPakFile: OnPakFileMounted2Time == 0.000801
+[2021.11.06-05.41.57:938][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.06-05.41.57:938][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:938][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.06-05.41.57:938][  0]LogPakFile: OnPakFileMounted2Time == 0.000805
+[2021.11.06-05.41.57:940][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.06-05.41.57:941][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:941][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.06-05.41.57:941][  0]LogPakFile: OnPakFileMounted2Time == 0.000809
+[2021.11.06-05.41.57:988][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.06-05.41.57:988][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.57:988][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.06-05.41.57:988][  0]LogPakFile: OnPakFileMounted2Time == 0.000814
+[2021.11.06-05.41.58:065][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.11.06-05.41.58:065][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.58:065][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.11.06-05.41.58:065][  0]LogPakFile: OnPakFileMounted2Time == 0.000819
+[2021.11.06-05.41.58:211][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.06-05.41.58:211][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.58:211][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.06-05.41.58:211][  0]LogPakFile: OnPakFileMounted2Time == 0.000824
+[2021.11.06-05.41.58:217][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.06-05.41.58:217][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.58:217][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.06-05.41.58:217][  0]LogPakFile: OnPakFileMounted2Time == 0.000830
+[2021.11.06-05.41.58:222][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.11.06-05.41.58:222][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.06-05.41.58:222][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.11.06-05.41.58:222][  0]LogPakFile: OnPakFileMounted2Time == 0.000837
+[2021.11.06-05.42.00:519][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2021.11.06-05.42.00:643][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 2 classes and 0 folders.
+[2021.11.06-05.42.01:019][  0]LogSlate: Took 0.022161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.06-05.42.01:066][  0]LogSlate: Took 0.042838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.06-05.42.01:137][  0]LogSlate: Took 0.024347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.06-05.42.02:044][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2021.11.06-05.42.03:545][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.11.06-05.42.03:545][  0]LogLoad: (Engine Initialization) Total time: 180.97 seconds
+[2021.11.06-05.42.03:545][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.06-05.42.03:547][  0]LogInit: First time updating LLM stats...
+[2021.11.06-05.42.03:886][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.06-05.42.04:305][  1]LogAssetRegistry: Asset discovery search completed in 167.9434 seconds
+[2021.11.06-05.42.04:335][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011605 seconds (updated 0 objects)
+[2021.11.06-05.42.04:631][  2]LogSlate: Took 0.025170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.06-05.42.07:257][ 86]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.06-05.42.07:317][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.11.06-05.42.07:456][ 86]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_131D9202347AAA7C65ECB378B6EC30241.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap'
+[2021.11.06-05.42.07:648][ 86]AssetCheck: New page: Asset Save: POH_1
+[2021.11.06-05.42.07:648][ 86]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_1.POH_1
+[2021.11.06-05.42.09:271][152]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.06-05.42.09:281][152]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/' took 5.56s
+[2021.11.06-05.42.09:363][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-05.42.09:447][152]PIE: New page: PIE session: POH_1 (7 Nov 2021, 2:42:09 am)
+[2021.11.06-05.42.09:452][152]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.11.06-05.42.09:457][152]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.11.06-05.42.09:485][152]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.42.09:540][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054594s)
+[2021.11.06-05.42.09:549][152]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.42.09:569][152]LogPlayLevel: PIE: World Init took: (0.028601s)
+[2021.11.06-05.42.09:569][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.083700s)
+[2021.11.06-05.42.09:589][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.11.06-05.42.09:635][152]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-05.42.09:635][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-05.42.09:635][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-05.42.09:636][152]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-05.42.09:636][152]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-05.42.09:664][152]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-05.42.09:664][152]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-05.42.09:743][152]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.06-05.42.09:744][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-05.42.09:744][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-05.42.09:744][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-05.42.09:744][152]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-05.42.09:744][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.06-05.42.09:744][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.06-05.42.09:770][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.06-05.42.09:770][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.06-05.42.09:770][152]LogInit: FAudioDevice initialized.
+[2021.11.06-05.42.09:770][152]LogAudio: Display: Audio Device (ID: 2) registered with world 'POH_1'.
+[2021.11.06-05.42.09:922][152]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.42.10:008][152]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.11.06-16.12.10
+[2021.11.06-05.42.10:132][152]LogWorld: Bringing up level for play took: 0.166085
+[2021.11.06-05.42.10:135][152]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.11.06-05.42.10:226][152]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2021.11.06-05.42.10:315][152]PIE: Server logged in
+[2021.11.06-05.42.10:317][152]PIE: Play in editor total start time 1.035 seconds.
+[2021.11.06-05.42.52:593][  8]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.11.06-05.42.52:600][  8]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.11.06-05.42.52:600][  8]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.42.52:640][  8]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.42.52:716][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.42.52:815][  8]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.42.52:891][  8]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.11.06-05.42.53:605][  8]LogAudio: Display: Audio Device (ID: 2) registered with world 'POH_2'.
+[2021.11.06-05.42.53:606][  8]LogAIModule: Creating AISystem for world POH_2
+[2021.11.06-05.42.53:606][  8]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.42.53:719][  8]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.11.06-16.12.53
+[2021.11.06-05.42.53:721][  8]LogWorld: Bringing up level for play took: 0.114320
+[2021.11.06-05.42.53:745][  8]LogLoad: Took 1.146025 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.11.06-05.44.18:432][841]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-05.44.18:433][841]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-05.44.18:434][841]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.11.06-05.44.18:437][841]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.44.18:462][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.44.18:507][841]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.44.18:511][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.11.06-05.44.19:094][841]LogAudio: Display: Audio Device (ID: 2) registered with world 'POH_3'.
+[2021.11.06-05.44.19:095][841]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-05.44.19:096][841]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.44.19:126][841]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.14.19
+[2021.11.06-05.44.19:127][841]LogWorld: Bringing up level for play took: 0.030754
+[2021.11.06-05.44.19:132][841]LogLoad: Took 0.697996 seconds to LoadMap(/Game/Level/Maps/POH_3)
+[2021.11.06-05.46.39:272][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.46.39:272][480]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-05.46.39:326][480]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.46.39:329][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.46.39:354][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-05.46.39:359][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.46.39:392][480]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.46.39:496][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-05.46.39:498][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-05.46.39:586][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.46.39:644][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.11.06-05.46.39:686][481]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.11.06-05.47.20:739][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.06-05.47.20:806][713]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_16D6362F847C87E664A1450AF1962A237.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_1.umap'
+[2021.11.06-05.47.20:829][713]AssetCheck: New page: Asset Save: POH_1
+[2021.11.06-05.47.20:830][713]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_1.POH_1
+[2021.11.06-05.47.23:015][791]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.06-05.47.23:030][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-05.47.23:030][791]PIE: New page: PIE session: POH_1 (7 Nov 2021, 2:47:23 am)
+[2021.11.06-05.47.23:031][791]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.47.23:042][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010358s)
+[2021.11.06-05.47.23:043][791]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.47.23:043][791]LogPlayLevel: PIE: World Init took: (0.001599s)
+[2021.11.06-05.47.23:043][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.012176s)
+[2021.11.06-05.47.23:057][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.11.06-05.47.23:058][791]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-05.47.23:058][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-05.47.23:058][791]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-05.47.23:058][791]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-05.47.23:063][791]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-05.47.23:063][791]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-05.47.23:090][791]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.06-05.47.23:090][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-05.47.23:090][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-05.47.23:090][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-05.47.23:091][791]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-05.47.23:091][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.06-05.47.23:091][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.06-05.47.23:116][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.06-05.47.23:116][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.06-05.47.23:116][791]LogInit: FAudioDevice initialized.
+[2021.11.06-05.47.23:116][791]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_1'.
+[2021.11.06-05.47.23:129][791]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.47.23:164][791]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.11.06-16.17.23
+[2021.11.06-05.47.23:167][791]LogWorld: Bringing up level for play took: 0.036736
+[2021.11.06-05.47.23:167][791]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.11.06-05.47.23:182][791]PIE: Server logged in
+[2021.11.06-05.47.23:183][791]PIE: Play in editor total start time 0.154 seconds.
+[2021.11.06-05.48.01:498][537]LogNet: Browse: /Game/Level/Maps/POH_1
+[2021.11.06-05.48.01:498][537]LogLoad: LoadMap: /Game/Level/Maps/POH_1
+[2021.11.06-05.48.01:498][537]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.48.01:500][537]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.48.01:538][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.48.01:579][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.48.01:583][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.11.06-05.48.01:588][537]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.48.01:604][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015120s)
+[2021.11.06-05.48.01:605][537]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.48.01:605][537]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2021.11.06-05.48.01:605][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.016851s)
+[2021.11.06-05.48.01:605][537]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_1'.
+[2021.11.06-05.48.01:605][537]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.48.01:614][537]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.11.06-16.18.01
+[2021.11.06-05.48.01:616][537]LogWorld: Bringing up level for play took: 0.010117
+[2021.11.06-05.48.01:659][537]LogLoad: Took 0.160328 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_1)
+[2021.11.06-05.48.40:726][324]LogNet: Browse: /Game/Level/Maps/POH_1
+[2021.11.06-05.48.40:726][324]LogLoad: LoadMap: /Game/Level/Maps/POH_1
+[2021.11.06-05.48.40:726][324]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.48.40:731][324]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.48.40:788][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.48.40:828][324]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.48.40:831][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.11.06-05.48.40:835][324]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.48.40:845][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010106s)
+[2021.11.06-05.48.40:846][324]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.48.40:847][324]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2021.11.06-05.48.40:847][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.011856s)
+[2021.11.06-05.48.40:847][324]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_1'.
+[2021.11.06-05.48.40:847][324]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.48.40:855][324]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.11.06-16.18.40
+[2021.11.06-05.48.40:857][324]LogWorld: Bringing up level for play took: 0.009914
+[2021.11.06-05.48.40:900][324]LogLoad: Took 0.173155 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_1)
+[2021.11.06-05.49.25:532][384]LogNet: Browse: /Game/Level/Maps/POH_1
+[2021.11.06-05.49.25:532][384]LogLoad: LoadMap: /Game/Level/Maps/POH_1
+[2021.11.06-05.49.25:532][384]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.49.25:536][384]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.49.25:598][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.49.25:649][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.49.25:652][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.11.06-05.49.25:656][384]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.49.25:666][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010031s)
+[2021.11.06-05.49.25:667][384]LogAIModule: Creating AISystem for world POH_1
+[2021.11.06-05.49.25:667][384]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2021.11.06-05.49.25:667][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_1.POH_1 to /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 (0.011661s)
+[2021.11.06-05.49.25:667][384]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_1'.
+[2021.11.06-05.49.25:667][384]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.49.25:676][384]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_1.POH_1 up for play (max tick rate 60) at 2021.11.06-16.19.25
+[2021.11.06-05.49.25:678][384]LogWorld: Bringing up level for play took: 0.010337
+[2021.11.06-05.49.25:716][384]LogLoad: Took 0.183734 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_1)
+[2021.11.06-05.50.06:131][262]LogNet: Browse: /Game/Level/Maps/POH_2
+[2021.11.06-05.50.06:131][262]LogLoad: LoadMap: /Game/Level/Maps/POH_2
+[2021.11.06-05.50.06:131][262]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_1
+[2021.11.06-05.50.06:135][262]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.50.06:195][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.50.06:248][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.50.06:250][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.11.06-05.50.06:271][262]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_2'.
+[2021.11.06-05.50.06:273][262]LogAIModule: Creating AISystem for world POH_2
+[2021.11.06-05.50.06:273][262]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.50.06:321][262]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_2.POH_2 up for play (max tick rate 60) at 2021.11.06-16.20.06
+[2021.11.06-05.50.06:323][262]LogWorld: Bringing up level for play took: 0.049517
+[2021.11.06-05.50.06:332][262]LogLoad: Took 0.200390 seconds to LoadMap(/Game/Level/Maps/POH_2)
+[2021.11.06-05.51.23:629][802]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-05.51.23:629][802]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-05.51.23:629][802]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_2
+[2021.11.06-05.51.23:633][802]LogWorld: UWorld::CleanupWorld for POH_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.51.23:638][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.51.23:690][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.51.23:693][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.11.06-05.51.23:713][802]LogAudio: Display: Audio Device (ID: 3) registered with world 'POH_3'.
+[2021.11.06-05.51.23:715][802]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-05.51.23:715][802]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-05.51.23:750][802]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.21.23
+[2021.11.06-05.51.23:752][802]LogWorld: Bringing up level for play took: 0.036105
+[2021.11.06-05.51.23:759][802]LogLoad: Took 0.129985 seconds to LoadMap(/Game/Level/Maps/POH_3)
+[2021.11.06-05.51.37:076][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.51.37:076][429]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-05.51.37:077][429]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.51.37:080][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.51.37:106][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-05.51.37:109][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.51.37:128][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-05.51.37:128][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-05.51.37:129][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-05.51.37:166][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.11.06-05.51.37:200][430]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.11.06-05.58.32:269][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.11.06-05.58.32:352][508]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-05.58.32:352][508]Cmd: MAP LOAD FILE="../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.06-05.58.32:352][508]LightingResults: New page: Lighting Build
+[2021.11.06-05.58.32:352][508]LoadErrors: New page: Loading map: POH_3.umap
+[2021.11.06-05.58.32:358][508]LogWorld: UWorld::CleanupWorld for POH_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-05.58.32:358][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-05.58.32:358][508]MapCheck: New page: Map Check
+[2021.11.06-05.58.32:358][508]LightingResults: New page: Lighting Build
+[2021.11.06-05.58.32:377][508]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-05.58.32:406][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.11.06-05.58.32:412][508]LogAudio: Display: Audio Device (ID: 1) registered with world 'POH_3'.
+[2021.11.06-05.58.32:450][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.06-05.58.32:450][508]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-05.58.32:572][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.11.06-05.58.32:603][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.06-05.58.32:603][508]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.167ms to complete.
+[2021.11.06-05.58.32:603][508]LogFileHelpers: Loading map 'POH_3' took 0.252
+[2021.11.06-05.58.39:015][763]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap3.Medieval_tiles_free2_TileMap3
+[2021.11.06-05.58.39:515][763]LogSlate: Took 0.014781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.06-05.58.39:646][763]LogRenderer: Reallocating scene render targets to support 856x608 Format 10 NumSamples 1 (Frame:1).
+[2021.11.06-06.01.06:778][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.11.06-06.01.06:831][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.11.06-06.01.06:856][420]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_352ECD62141E5B6DEA99A19966918DA16.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.01.06:872][420]LogFileHelpers: Saving map 'POH_3' took 0.057
+[2021.11.06-06.01.06:884][420]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.01.06:884][420]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.02.36:980][341]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.11.06-06.02.50:017][768]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.02.50:017][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.02.52:015][841]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.11.06-06.02.56:096][964]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.02.56:096][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.04.30:697][861]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.11.06-06.04.35:831][ 26]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.11.06-06.04.43:438][320]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.04.43:438][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.04.45:420][398]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.04.45:421][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.06.35:828][678]Cmd: TRANSACTION UNDO
+[2021.11.06-06.06.35:828][678]LogEditorTransaction: Undo Tile Painting
+[2021.11.06-06.06.36:652][692]Cmd: TRANSACTION UNDO
+[2021.11.06-06.06.36:652][692]LogEditorTransaction: Undo Tile Painting
+[2021.11.06-06.06.37:176][704]Cmd: TRANSACTION UNDO
+[2021.11.06-06.06.37:176][704]LogEditorTransaction: Undo Tile Painting
+[2021.11.06-06.06.40:316][800]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.11.06-06.08.46:961][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.11.06-06.08.47:051][424]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3BFA88B744E78427DBC412C9C84439B75.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.08.47:075][424]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.08.47:075][424]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.09.32:387][808]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMapEB74C0534C7F15372891EC916DD55577.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap.uasset'
+[2021.11.06-06.09.32:435][808]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap
+[2021.11.06-06.09.32:436][808]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.11.06-06.10.15:441][ 77]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMapEA01943148382F6A11E9958D2F954CE0.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap.uasset'
+[2021.11.06-06.10.15:468][ 77]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap
+[2021.11.06-06.10.15:469][ 77]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap.Medieval_tiles_free2_TileMap
+[2021.11.06-06.10.18:499][189]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.11.06-06.10.27:694][309]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap285C1DD1B41A7B856E537C8BAF0F66D81.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap2.uasset'
+[2021.11.06-06.10.27:720][309]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap2
+[2021.11.06-06.10.27:720][309]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap2.Medieval_tiles_free2_TileMap2
+[2021.11.06-06.10.28:477][340]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.10.28:477][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.10.29:499][380]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.10.29:499][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.11.03:934][457]Cmd: TRANSACTION UNDO
+[2021.11.06-06.11.03:935][457]LogEditorTransaction: Undo Tile Painting
+[2021.11.06-06.15.06:633][ 38]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap30512C077445A5C83A82DA58B96F6003D.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap3.uasset'
+[2021.11.06-06.15.06:658][ 38]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap3
+[2021.11.06-06.15.06:658][ 38]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap3.Medieval_tiles_free2_TileMap3
+[2021.11.06-06.16.22:975][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.11.06-06.16.23:022][790]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_38C9F5D2E400BA661AC031DB91E93C436.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.16.23:048][790]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.16.23:048][790]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.16.48:957][305]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.18.11:508][388]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.18.17:066][587]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.18.19:331][665]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.18.40:165][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.11.06-06.18.40:206][437]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3B7B0C05F42A5A29F6002339A22F37748.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.18.40:233][437]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.18.40:233][437]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.18.49:013][755]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.06-06.18.50:460][800]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.18.51:689][845]LogEditorViewport: Clicking on Actor (CTRL LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.20.52:079][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.11.06-06.20.52:113][225]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3415970F04004E71862E8DAA04D105E54.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.20.52:141][225]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.20.52:141][225]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.20.52:636][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.11.06-06.20.52:670][241]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_34CCCC1F04EFCDB20BA8954866D383ACD.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.20.52:699][241]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.20.52:699][241]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.20.54:662][311]LogEditorViewport: Clicking Background
+[2021.11.06-06.20.59:322][494]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.21.29:469][588]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.21.51:589][413]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.21.52:663][452]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.21.57:973][653]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap2)
+[2021.11.06-06.22.16:958][338]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.06-06.22.18:180][382]LogEditorViewport: Clicking on Actor (LMB): SPikeTrap_C (SPikeTrap)
+[2021.11.06-06.22.22:176][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.11.06-06.22.22:209][525]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3A19C7E694841BA89288B7A8124301E13.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.22:238][525]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.22:238][525]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.22:638][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.11.06-06.22.22:669][538]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_31F14F0774F8083B441C374956D2343BC.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.22:699][538]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.22:699][538]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.27:072][699]LogEditorViewport: Clicking Background
+[2021.11.06-06.22.27:693][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.11.06-06.22.27:722][721]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_39F8B2D054FE69E1F9951A0B6119D4A71.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.27:746][721]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.27:746][721]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.29:620][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.11.06-06.22.29:647][798]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3EC4BFAE6434CF5350FC802B7A2DB8BB2.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.29:671][798]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.29:671][798]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.32:072][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.11.06-06.22.32:100][894]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_30C7206B54AD4EAACB14FDD96F638005F.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.32:126][894]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.32:126][894]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.39:675][964]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap3E2EADCA740AF2CD1791529B32E6C9351.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap3.uasset'
+[2021.11.06-06.22.39:707][964]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap3
+[2021.11.06-06.22.39:707][964]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap3.Medieval_tiles_free2_TileMap3
+[2021.11.06-06.22.42:070][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.11.06-06.22.42:095][ 54]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3C9A218A34936636320AA1E9CD373DDCB.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.22.42:119][ 54]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.22.42:119][ 54]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.22.49:490][118]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/Medieval_tiles_free2_TileMap3B70DBE6644D6E04EB3A306936EB86C17.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Assets/Medieval_tiles_free2_TileMap3.uasset'
+[2021.11.06-06.22.49:505][118]AssetCheck: New page: Asset Save: Medieval_tiles_free2_TileMap3
+[2021.11.06-06.22.49:505][118]LogContentValidation: Display: Validating PaperTileMap /Game/Level/Assets/Medieval_tiles_free2_TileMap3.Medieval_tiles_free2_TileMap3
+[2021.11.06-06.23.01:696][593]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.06-06.23.01:715][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-06.23.01:715][593]PIE: New page: PIE session: POH_3 (7 Nov 2021, 3:23:01 am)
+[2021.11.06-06.23.01:716][593]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.01:726][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009945s)
+[2021.11.06-06.23.01:728][593]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.01:728][593]LogPlayLevel: PIE: World Init took: (0.002179s)
+[2021.11.06-06.23.01:728][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.012441s)
+[2021.11.06-06.23.01:751][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.11.06-06.23.01:753][593]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-06.23.01:753][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-06.23.01:753][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-06.23.01:754][593]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-06.23.01:754][593]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-06.23.01:765][593]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-06.23.01:765][593]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-06.23.01:807][593]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.06-06.23.01:808][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-06.23.01:808][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-06.23.01:808][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-06.23.01:809][593]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-06.23.01:809][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.06-06.23.01:809][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.06-06.23.01:843][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.06-06.23.01:843][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.06-06.23.01:843][593]LogInit: FAudioDevice initialized.
+[2021.11.06-06.23.01:843][593]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.01:863][593]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.01:895][593]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.01
+[2021.11.06-06.23.01:897][593]LogWorld: Bringing up level for play took: 0.033889
+[2021.11.06-06.23.01:898][593]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.11.06-06.23.01:910][593]PIE: Server logged in
+[2021.11.06-06.23.01:911][593]PIE: Play in editor total start time 0.197 seconds.
+[2021.11.06-06.23.06:247][767]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.06:247][767]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.06:247][767]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.06:252][767]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.06:258][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.06:315][767]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-06.23.06:318][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.11.06-06.23.06:326][767]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.06:334][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007327s)
+[2021.11.06-06.23.06:336][767]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.06:336][767]LogPlayLevel: PIE: World Init took: (0.002053s)
+[2021.11.06-06.23.06:336][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.009722s)
+[2021.11.06-06.23.06:336][767]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.06:336][767]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.06:342][767]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.06
+[2021.11.06-06.23.06:343][767]LogWorld: Bringing up level for play took: 0.007111
+[2021.11.06-06.23.06:381][767]LogLoad: Took 0.133894 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_3)
+[2021.11.06-06.23.10:774][934]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.10:774][934]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.10:774][934]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.10:780][934]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.10:785][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.10:843][934]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-06.23.10:847][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.11.06-06.23.10:858][934]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.10:868][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009780s)
+[2021.11.06-06.23.10:869][934]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.10:870][934]LogPlayLevel: PIE: World Init took: (0.002166s)
+[2021.11.06-06.23.10:870][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.012304s)
+[2021.11.06-06.23.10:870][934]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.10:870][934]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.10:876][934]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.10
+[2021.11.06-06.23.10:878][934]LogWorld: Bringing up level for play took: 0.006856
+[2021.11.06-06.23.10:916][934]LogLoad: Took 0.141312 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_3)
+[2021.11.06-06.23.14:577][ 80]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.14:577][ 80]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.14:578][ 80]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.14:581][ 80]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.14:587][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.14:634][ 80]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-06.23.14:637][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.11.06-06.23.14:645][ 80]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.14:654][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008925s)
+[2021.11.06-06.23.14:656][ 80]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.14:656][ 80]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2021.11.06-06.23.14:656][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.011071s)
+[2021.11.06-06.23.14:656][ 80]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.14:657][ 80]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.14:662][ 80]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.14
+[2021.11.06-06.23.14:665][ 80]LogWorld: Bringing up level for play took: 0.007564
+[2021.11.06-06.23.14:699][ 80]LogLoad: Took 0.121396 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_3)
+[2021.11.06-06.23.35:430][912]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.35:431][912]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.35:431][912]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.35:433][912]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.35:439][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.35:501][912]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-06.23.35:505][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.11.06-06.23.35:509][912]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.35:517][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007892s)
+[2021.11.06-06.23.35:518][912]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.35:519][912]LogPlayLevel: PIE: World Init took: (0.001690s)
+[2021.11.06-06.23.35:519][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.009864s)
+[2021.11.06-06.23.35:519][912]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.35:519][912]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.35:525][912]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.35
+[2021.11.06-06.23.35:526][912]LogWorld: Bringing up level for play took: 0.006377
+[2021.11.06-06.23.35:562][912]LogLoad: Took 0.131510 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_3)
+[2021.11.06-06.23.41:608][153]LogNet: Browse: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.41:608][153]LogLoad: LoadMap: /Game/Level/Maps/POH_3
+[2021.11.06-06.23.41:608][153]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.41:614][153]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.41:619][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.41:682][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.06-06.23.41:685][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.11.06-06.23.41:692][153]LogPlayLevel: Creating play world package: /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.41:700][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007450s)
+[2021.11.06-06.23.41:701][153]LogAIModule: Creating AISystem for world POH_3
+[2021.11.06-06.23.41:701][153]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2021.11.06-06.23.41:701][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Maps/POH_3.POH_3 to /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 (0.009292s)
+[2021.11.06-06.23.41:701][153]LogAudio: Display: Audio Device (ID: 4) registered with world 'POH_3'.
+[2021.11.06-06.23.41:701][153]LogLoad: Game class is 'GameLevel01_C'
+[2021.11.06-06.23.41:706][153]LogWorld: Bringing World /Game/Level/Maps/UEDPIE_0_POH_3.POH_3 up for play (max tick rate 60) at 2021.11.06-16.53.41
+[2021.11.06-06.23.41:709][153]LogWorld: Bringing up level for play took: 0.006509
+[2021.11.06-06.23.41:742][153]LogLoad: Took 0.133686 seconds to LoadMap(/Game/Level/Maps/UEDPIE_0_POH_3)
+[2021.11.06-06.23.47:006][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-06.23.47:006][358]LogWorld: BeginTearingDown for /Game/Level/Maps/UEDPIE_0_POH_3
+[2021.11.06-06.23.47:007][358]LogWorld: UWorld::CleanupWorld for POH_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-06.23.47:009][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.47:020][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-06.23.47:023][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-06.23.47:041][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-06.23.47:041][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-06.23.47:043][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.06-06.23.47:081][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.11.06-06.23.47:397][359]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.11.06-06.23.48:689][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.11.06-06.23.48:720][406]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_3D4A221334F9CEFDC18BD8482C1152420.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.23.48:747][406]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.23.48:747][406]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+[2021.11.06-06.23.49:323][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.11.06-06.23.49:349][428]LogSavePackage: Moving '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Saved/POH_31982A09D4596EF137D8EE58AC95F96F5.tmp' to '../../../../../../Users/Haris/Documents/Unreal Projects/ICT/PrisonOfHell/Content/Level/Maps/POH_3.umap'
+[2021.11.06-06.23.49:374][428]AssetCheck: New page: Asset Save: POH_3
+[2021.11.06-06.23.49:374][428]LogContentValidation: Display: Validating World /Game/Level/Maps/POH_3.POH_3
+>>>>>>> Isse2
